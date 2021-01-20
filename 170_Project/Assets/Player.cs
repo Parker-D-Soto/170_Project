@@ -33,6 +33,7 @@ public class Player : MonoBehaviour
         Vector3 mouse_pos = Camera.ScreenToWorldPoint(Input.mousePosition); //makes position the same range as player position
         mouse_pos.z = 0;
 
+        //checking if mouse is clicked
         if(Input.GetMouseButtonDown(0)){
             bool close_enough = false;
 
@@ -46,6 +47,7 @@ public class Player : MonoBehaviour
                 close_enough = true;
             }
 
+            //if close enough then call grappling function
             if(close_enough == true){
                 grappling(mouse_pos, transform.position);
             }
@@ -54,6 +56,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    //grappling effect
     void grappling(Vector2 mouse_pos, Vector3 position){
         float x_pos = mouse_pos.x;
         float y_pos = mouse_pos.y;
