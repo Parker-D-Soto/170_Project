@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd4144723402c7418c80619945042bf, type: 3}
+  m_Name: test effect
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: ef655197-b12c-46ea-9060-787c34b5734d
+    PortName: Next
+    TargetNodeGuid: 2bc259d0-95da-43b3-87f0-bba274569e10
+  - BaseNodeGuid: 2bc259d0-95da-43b3-87f0-bba274569e10
+    PortName: schloopydoopoo
+    TargetNodeGuid: 96a4ed9e-cda0-48bf-a5d2-89fe513bb678
+  - BaseNodeGuid: 2bc259d0-95da-43b3-87f0-bba274569e10
+    PortName: dongus
+    TargetNodeGuid: c90174dc-763f-446a-b011-4bded29da939
+  - BaseNodeGuid: 2bc259d0-95da-43b3-87f0-bba274569e10
+    PortName: The Right choice
+    TargetNodeGuid: 966b87fd-5db4-4e39-a1c3-727413d121e1
+  - BaseNodeGuid: 966b87fd-5db4-4e39-a1c3-727413d121e1
+    PortName: shakaka
+    TargetNodeGuid: 17e7f136-c434-457c-b47f-1507a7e756ff
+  - BaseNodeGuid: 966b87fd-5db4-4e39-a1c3-727413d121e1
+    PortName: Crazy Ivan
+    TargetNodeGuid: 6ad64f6f-0823-48f6-b0e5-3eb7506204f6
+  - BaseNodeGuid: c90174dc-763f-446a-b011-4bded29da939
+    PortName: Choice 1
+    TargetNodeGuid: 2447df9f-3749-4d4e-a66c-8b3795627220
+  - BaseNodeGuid: 96a4ed9e-cda0-48bf-a5d2-89fe513bb678
+    PortName: Choice 1
+    TargetNodeGuid: 9788ade0-5c2f-466e-8759-679ad5ebd747
+  - BaseNodeGuid: 17e7f136-c434-457c-b47f-1507a7e756ff
+    PortName: Choice 1
+    TargetNodeGuid: 695bdecb-9837-4fd1-8a74-42e3b15c4d86
+  - BaseNodeGuid: 6ad64f6f-0823-48f6-b0e5-3eb7506204f6
+    PortName: Choice 1
+    TargetNodeGuid: 5dedc865-8a41-4a5a-a0d5-51fef597742e
+  DialogueNodeData:
+  - GUID: 2bc259d0-95da-43b3-87f0-bba274569e10
+    DialogueText: 'Nodulus 1: Hi!'
+    Position: {x: 237, y: 196}
+    Mutation: I'm an effect
+    ExitPoint: 0
+  - GUID: 96a4ed9e-cda0-48bf-a5d2-89fe513bb678
+    DialogueText: Came from schloopydoopo
+    Position: {x: 567, y: 47}
+    Mutation: What is that even
+    ExitPoint: 0
+  - GUID: 966b87fd-5db4-4e39-a1c3-727413d121e1
+    DialogueText: Came from the Right choice
+    Position: {x: 593, y: 364}
+    Mutation: +10 health
+    ExitPoint: 0
+  - GUID: c90174dc-763f-446a-b011-4bded29da939
+    DialogueText: Came from dongus
+    Position: {x: 593, y: 219}
+    Mutation: -5 charisma
+    ExitPoint: 0
+  - GUID: 2447df9f-3749-4d4e-a66c-8b3795627220
+    DialogueText: Dialogue Node
+    Position: {x: 905, y: 209}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 9788ade0-5c2f-466e-8759-679ad5ebd747
+    DialogueText: Dialogue Node
+    Position: {x: 941, y: 8}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 17e7f136-c434-457c-b47f-1507a7e756ff
+    DialogueText: I'm a bat
+    Position: {x: 970, y: 337}
+    Mutation: Ace Ventura Reference
+    ExitPoint: 0
+  - GUID: 695bdecb-9837-4fd1-8a74-42e3b15c4d86
+    DialogueText: Dialogue Node
+    Position: {x: 1233, y: 321}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 5dedc865-8a41-4a5a-a0d5-51fef597742e
+    DialogueText: Dialogue Node
+    Position: {x: 1337, y: 481}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 6ad64f6f-0823-48f6-b0e5-3eb7506204f6
+    DialogueText: Non-existent airplane maneuver
+    Position: {x: 959, y: 470}
+    Mutation: It could also be a con
+    ExitPoint: 0
+  ExposedProperties: []
