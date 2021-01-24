@@ -26,18 +26,45 @@ public class Dialogue_Graph : EditorWindow
         ConstructGraphView();
         GenerateToolbar();
         GenerateMiniMap();
+        GenerateBlackBoard();
+    }
+
+    private void GenerateBlackBoard()
+    {
+        var blackboard = new Blackboard(_graphView);
+        blackboard.Add(new BlackboardSection { title = "Exposed Properties" });
+        blackboard.addItemRequested = _blackboard => { _graphView.AddPropertyToBlackBoard(ExposedProperty.CreateInstance(), false); };
+        blackboard.editTextRequested = (blackboard1, element, newValue) =>
+        {
+            var oldPropertyName = ((BlackboardField) element).text;
+            if (_graphView.ExposedProperties.Any(x => x.PropertyName == newValue))
+            {
+                EditorUtility.DisplayDialog("Error", "This property name already exists, please choose another one!", "OK");
+                return;
+            }
+
+            var propertyIndex = _graphView.ExposedProperties.FindIndex(x => x.PropertyName == oldPropertyName);
+            _graphView.ExposedProperties[propertyIndex].PropertyName = newValue;
+            ((BlackboardField) element).text = newValue;
+        };
+        blackboard.SetPosition(new Rect(10, 30, 200, 300));
+        _graphView.Add(blackboard);
+        _graphView.Blackboard = blackboard;
     }
 
     private void GenerateMiniMap()
     {
         var miniMap = new MiniMap { anchored = true };
-        miniMap.SetPosition(new Rect(10, 30, 200, 140));
+
+        var cords = _graphView.contentViewContainer.WorldToLocal(new Vector2(this.maxSize.x - 10, 30));
+
+        miniMap.SetPosition(new Rect(cords.x, cords.y, 200, 140));
         _graphView.Add(miniMap);
     }
 
     private void ConstructGraphView()
     {
-        _graphView = new Dialogue_Graphview
+        _graphView = new Dialogue_Graphview(this)
         {
             name = "Dialogue Graph"
         };
@@ -62,11 +89,6 @@ public class Dialogue_Graph : EditorWindow
         toolbar.Add(child: new Button(clickEvent: () => RequestDataOperation(save: false)) { text = "Load Data" });
 
 
-        var nodeCreateButton = new Button(clickEvent: () => { _graphView.CreateNode("Dialogue Node");});
-        nodeCreateButton.text = "Create Node";
-
-        toolbar.Add(nodeCreateButton);
-
         rootVisualElement.Add(toolbar);
     }
 
@@ -87,16 +109,6 @@ public class Dialogue_Graph : EditorWindow
         {
             saveUtility.LoadGraph(_fileName);
         }
-    }
-
-    private void LoadData()
-    {
-        throw new NotImplementedException();
-    }
-
-    private void SaveData()
-    {
-        throw new NotImplementedException();
     }
 
     private void OnDisable()

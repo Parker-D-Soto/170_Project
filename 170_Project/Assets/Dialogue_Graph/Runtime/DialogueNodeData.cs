@@ -7,4 +7,6 @@ public class DialogueNodeData
     public string GUID;
     public string DialogueText;
     public Vector2 Position;
+    public string Mutation;
+    public bool ExitPoint;
 }

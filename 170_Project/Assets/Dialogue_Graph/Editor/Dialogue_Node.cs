@@ -12,5 +12,9 @@ public class Dialogue_Node : Node
 
     public bool EntryPoint = false;
 
+    public bool ExitPoint = false;
+
+    public string Mutation;
+
 
 }

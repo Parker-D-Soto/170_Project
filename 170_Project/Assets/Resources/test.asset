@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd4144723402c7418c80619945042bf, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: d93a5a74-51c5-42fe-a5f8-548676fedc32
+    PortName: Next
+    TargetNodeGuid: dab77049-3fd2-4778-82ac-c65e39c5ab96
+  - BaseNodeGuid: dab77049-3fd2-4778-82ac-c65e39c5ab96
+    PortName: loo
+    TargetNodeGuid: 0ce66a5b-28d8-4851-a237-d85449271a96
+  - BaseNodeGuid: 0ce66a5b-28d8-4851-a237-d85449271a96
+    PortName: joo
+    TargetNodeGuid: 8982910b-02d0-4c66-8fa7-18e9273425ff
+  DialogueNodeData:
+  - GUID: dab77049-3fd2-4778-82ac-c65e39c5ab96
+    DialogueText: shakaka
+    Position: {x: 210, y: 9}
+    Mutation: none
+  - GUID: 0ce66a5b-28d8-4851-a237-d85449271a96
+    DialogueText: kookookaa
+    Position: {x: 495, y: 209}
+    Mutation: none
+  - GUID: 8982910b-02d0-4c66-8fa7-18e9273425ff
+    DialogueText: soo
+    Position: {x: 811, y: 312}
+    Mutation: none
+  ExposedProperties:
+  - PropertyName: poo
+    PropertyValue: doo
+  - PropertyName: soo
+    PropertyValue: goo
