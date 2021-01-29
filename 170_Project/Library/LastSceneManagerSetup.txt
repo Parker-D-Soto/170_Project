@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MovementCamera.unity
+- path: Assets/Scenes/enemy_charging_attack.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
