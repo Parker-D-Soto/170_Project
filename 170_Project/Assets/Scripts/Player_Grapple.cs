@@ -102,10 +102,12 @@ public class Player_Grapple : MonoBehaviour
 
     }
 
-    // if player touches enemy, then it goes into damage state
+    
     void OnCollisionEnter2D(Collision2D collider){
+        // if player touches enemy, then it goes into damage state
         if(collider.gameObject.CompareTag("EnemyTag")){
             damaged = true;
         }
+
     }
 }
