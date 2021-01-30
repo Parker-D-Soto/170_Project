@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MovementCamera.unity
+- path: Assets/Scenes/Goblin_Chase_Attack.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
