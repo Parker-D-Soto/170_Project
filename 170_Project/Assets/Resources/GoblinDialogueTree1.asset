@@ -22,30 +22,33 @@ MonoBehaviour:
   - BaseNodeGuid: 63a1c075-1087-47d6-97de-b90e533f8d9d
     PortName: Yea the boss ain't treating us right.
     TargetNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
-  - BaseNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
-    PortName: (Bluff) "Uhhh   Actually  *necromancer's name* wanted me to go run
-      an errand"
-    TargetNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
-  - BaseNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
-    PortName: '*confidently*  "Top Secret you can''t know. The boss would kill me
-      if he found out I told someone like you."'
-    TargetNodeGuid: fbdba3f1-25a2-4e34-80a2-ed4670ce36e4
   - BaseNodeGuid: fbdba3f1-25a2-4e34-80a2-ed4670ce36e4
     PortName: Start Fight
     TargetNodeGuid: 7a3da313-c192-4e44-907f-7b2a88081401
   - BaseNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
+    PortName: '*confidently*  "Top Secret you can''t know. The boss would kill me
+      if he found out I told someone like you."'
+    TargetNodeGuid: fbdba3f1-25a2-4e34-80a2-ed4670ce36e4
+  - BaseNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
     PortName: '"Uhhh    *looks at tools*    I actually came here to get a tool for
       the errand"'
     TargetNodeGuid: 3e10cf21-8287-428f-9096-0ee2890d2697
-  - BaseNodeGuid: 3e10cf21-8287-428f-9096-0ee2890d2697
-    PortName: '*shocked*  "8 HOURS!?! I don''t got time for that."'
-    TargetNodeGuid: c097fe63-b1fa-4d91-8614-2e89becad53a
   - BaseNodeGuid: c097fe63-b1fa-4d91-8614-2e89becad53a
     PortName: Start Fight
     TargetNodeGuid: 3fe15fcf-33b0-4a5b-bba7-a4ef9ea8094f
+  - BaseNodeGuid: 3e10cf21-8287-428f-9096-0ee2890d2697
+    PortName: '*shocked*  "8 HOURS!?! I don''t got time for that."'
+    TargetNodeGuid: c097fe63-b1fa-4d91-8614-2e89becad53a
+  - BaseNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
+    PortName: (Bluff) "Uhhh   Actually  *necromancer's name* wanted me to go run
+      an errand"
+    TargetNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
   - BaseNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
     PortName: (Passive) "Hey man I don't have time for this"
     TargetNodeGuid: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
+  - BaseNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
+    PortName: '*confident*  "I think you guys got it. I need to get going"'
+    TargetNodeGuid: 65de62ca-9a51-407b-ab97-4e867a8611d6
   - BaseNodeGuid: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
     PortName: '*confused*  Many have tried?'
     TargetNodeGuid: a8bc399f-9013-4aae-a6e6-d31ff32831bb
@@ -56,9 +59,6 @@ MonoBehaviour:
   - BaseNodeGuid: 2aa1f034-1d05-42e2-9df9-1a6636c3ba8b
     PortName: Start Fight
     TargetNodeGuid: 04ac8cb1-242a-4b44-b386-f2baa054b3f5
-  - BaseNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
-    PortName: '*confident*  "I think you guys got it. I need to get going"'
-    TargetNodeGuid: 65de62ca-9a51-407b-ab97-4e867a8611d6
   - BaseNodeGuid: 65de62ca-9a51-407b-ab97-4e867a8611d6
     PortName: '*nonchalant*  "Oh this? Nah it can''t even break wood"'
     TargetNodeGuid: ded22bca-d2c1-48f9-a931-6dcc1deb86c5
@@ -68,18 +68,57 @@ MonoBehaviour:
   - BaseNodeGuid: af481201-d326-4576-a4a3-dd9309997425
     PortName: Start Fight
     TargetNodeGuid: 5335a77d-2e50-4f8b-8ec2-c9942a7f3dbb
+  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+    PortName: (bluff) "I've had enough of this bullshit, let me pass or I will leak
+      the secret mines to the necromancer."
+    TargetNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
+  - BaseNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
+    PortName: '*Stare confidently into the goblin''s eyes and just wait*'
+    TargetNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+  - BaseNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
+    PortName: '"While mining, I stole some gold and bribed one of your friends for
+      some information."'
+    TargetNodeGuid: 290cae0c-f385-44c8-bb33-5384c3e1f761
+  - BaseNodeGuid: 290cae0c-f385-44c8-bb33-5384c3e1f761
+    PortName: ...
+    TargetNodeGuid: 73d20750-7bce-4a72-a3fd-e3d21d1e9cb7
+  - BaseNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+    PortName: '*Straight Faced* "You don''t need to know. Let me escape and I vow
+      none of this information will make it to the necromancer."'
+    TargetNodeGuid: c6c6c973-0da5-42ec-8a56-8a0934632723
+  - BaseNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+    PortName: '*Smile Cheekily* "I''m not just any skeleton. I''m running an errand
+      personally for the necromancer."'
+    TargetNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
+  - BaseNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+    PortName: '*Smile Confidently* "Let me escape."'
+    TargetNodeGuid: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
+  - BaseNodeGuid: c6c6c973-0da5-42ec-8a56-8a0934632723
+    PortName: '*Agree and form a temporary pact*'
+    TargetNodeGuid: a00d1e03-e61a-4948-bc70-9548e2fcc353
+  - BaseNodeGuid: c6c6c973-0da5-42ec-8a56-8a0934632723
+    PortName: '*Disagree*'
+    TargetNodeGuid: 0f539c98-d219-48da-86e3-823c4d93c194
+  - BaseNodeGuid: 0f539c98-d219-48da-86e3-823c4d93c194
+    PortName: ...
+    TargetNodeGuid: 0f4f20ff-0a04-47a5-b981-4a2b113ec974
+  - BaseNodeGuid: a00d1e03-e61a-4948-bc70-9548e2fcc353
+    PortName: '"I swear."'
+    TargetNodeGuid: 6cbe4dd9-bfe0-4116-a2bf-35880fe8fe5c
+  - BaseNodeGuid: 6cbe4dd9-bfe0-4116-a2bf-35880fe8fe5c
+    PortName: '*Stare nonchalantly at him*'
+    TargetNodeGuid: b4dafaa6-e936-4cde-84f1-ee6456887408
+  - BaseNodeGuid: 6cbe4dd9-bfe0-4116-a2bf-35880fe8fe5c
+    PortName: '"Surely you know I have a  complex network of spies. Me revealing
+      my sources would not reveal all of them."'
+    TargetNodeGuid: 597b2f95-b0e7-437b-8e56-e024ce3381a4
+  - BaseNodeGuid: b4dafaa6-e936-4cde-84f1-ee6456887408
+    PortName: ...
+    TargetNodeGuid: 3440710e-8bf6-4470-bdd0-7d7bec79e61d
+  - BaseNodeGuid: 597b2f95-b0e7-437b-8e56-e024ce3381a4
+    PortName: ...
+    TargetNodeGuid: d76a635c-b94f-415b-bbce-a821d9a1fbc4
   DialogueNodeData:
-  - GUID: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
-    DialogueText: '*Player crosses into Goblin territory*    "What the fuck are you
-      doing here? Get back to work before I brew you in a pot of gold!"'
-    Position: {x: 316, y: 200}
-    Mutation: none
-    ExitPoint: 0
-  - GUID: 63a1c075-1087-47d6-97de-b90e533f8d9d
-    DialogueText: Whoa you're trying to leave *world name*
-    Position: {x: 1488, y: 200}
-    Mutation: none
-    ExitPoint: 0
   - GUID: 7a3da313-c192-4e44-907f-7b2a88081401
     DialogueText: Dialogue Node
     Position: {x: 5531, y: -69}
@@ -90,12 +129,6 @@ MonoBehaviour:
       GATHER THE RESOURCES TO MAKE ALL THESE WEAPONS YOU PUNY HENCHMEN USE! BOYS
       LETS SHOW THIS SKELETON WHAT WERE MADE OF!!!"'
     Position: {x: 3933, y: -70}
-    Mutation: none
-    ExitPoint: 0
-  - GUID: 050039a5-3c64-4adb-b437-83dc17cbea92
-    DialogueText: '"Oh really and what errand does he got you doing that makes you
-      come through here?"'
-    Position: {x: 3006, y: 78}
     Mutation: none
     ExitPoint: 0
   - GUID: c097fe63-b1fa-4d91-8614-2e89becad53a
@@ -115,28 +148,10 @@ MonoBehaviour:
     Position: {x: 5816, y: 155}
     Mutation: none
     ExitPoint: 1
-  - GUID: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
-    DialogueText: Well before you leave come help me and the boys meet our quota
-      for today.
-    Position: {x: 2056, y: 200}
-    Mutation: none
-    ExitPoint: 0
-  - GUID: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
-    DialogueText: '"Look you''re not going to be able to escape many have tried.
-      Just give up and be useful."'
-    Position: {x: 2918, y: 365}
-    Mutation: none
-    ExitPoint: 0
   - GUID: a8bc399f-9013-4aae-a6e6-d31ff32831bb
     DialogueText: '"Yes... Look I don''t have time to explain all this. Hurry up
       and pick up a shovel we got a quota to meet."'
     Position: {x: 3774, y: 362}
-    Mutation: none
-    ExitPoint: 0
-  - GUID: 2aa1f034-1d05-42e2-9df9-1a6636c3ba8b
-    DialogueText: '"Alright look I''ll tell you more about what I know, IF you can
-      prove to me you are capable to complete such a harsh journey"'
-    Position: {x: 4715, y: 366}
     Mutation: none
     ExitPoint: 0
   - GUID: 04ac8cb1-242a-4b44-b386-f2baa054b3f5
@@ -150,11 +165,6 @@ MonoBehaviour:
     Position: {x: 2941, y: 588}
     Mutation: none
     ExitPoint: 0
-  - GUID: ded22bca-d2c1-48f9-a931-6dcc1deb86c5
-    DialogueText: '"Prove it! Show me it can''t "'
-    Position: {x: 3875, y: 586}
-    Mutation: none
-    ExitPoint: 0
   - GUID: af481201-d326-4576-a4a3-dd9309997425
     DialogueText: '"ANGRY TONE:  "Alright you refusing to help us  increase production
       with your tool, has cost me a lot of profit!  Looks like the boys and I will
@@ -165,6 +175,118 @@ MonoBehaviour:
   - GUID: 5335a77d-2e50-4f8b-8ec2-c9942a7f3dbb
     DialogueText: Dialogue Node
     Position: {x: 6007, y: 584}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: ded22bca-d2c1-48f9-a931-6dcc1deb86c5
+    DialogueText: '"Prove it! Show me it can''t "'
+    Position: {x: 3875, y: 586}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 63a1c075-1087-47d6-97de-b90e533f8d9d
+    DialogueText: Whoa you're trying to leave *world name*
+    Position: {x: 1488, y: 200}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+    DialogueText: '*Player crosses into Goblin territory*    "What the fuck are you
+      doing here? Get back to work before I brew you in a pot of gold!"'
+    Position: {x: 294, y: 201}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
+    DialogueText: Well before you leave come help me and the boys meet our quota
+      for today.
+    Position: {x: 2056, y: 200}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 2aa1f034-1d05-42e2-9df9-1a6636c3ba8b
+    DialogueText: '"Alright look I''ll tell you more about what I know, IF you can
+      prove to me you are capable to complete such a harsh journey"'
+    Position: {x: 4715, y: 366}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
+    DialogueText: '"Look you''re not going to be able to escape many have tried.
+      Just give up and be useful."'
+    Position: {x: 2918, y: 365}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
+    DialogueText: '"Secret mines you say? How would you know about something that
+      doesn''t exist?"'
+    Position: {x: 1158, y: 1171}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 290cae0c-f385-44c8-bb33-5384c3e1f761
+    DialogueText: '*Smiles viciously*  "I''ve caught your bluff,  if I had secret
+      mines I would not be so foolish to reveal the location to others."'
+    Position: {x: 2003, y: 1900}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 73d20750-7bce-4a72-a3fd-e3d21d1e9cb7
+    DialogueText: Dialogue Node
+    Position: {x: 3116, y: 1896}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 050039a5-3c64-4adb-b437-83dc17cbea92
+    DialogueText: '"Oh really and what errand does he got you doing that makes you
+      come through here?"'
+    Position: {x: 3006, y: 78}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+    DialogueText: '*Looks nervously at you with his beady eyes*  "Who else knows?"'
+    Position: {x: 2031, y: 1196}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: c6c6c973-0da5-42ec-8a56-8a0934632723
+    DialogueText: '"Form a temporary blood pact with me and swear on it."'
+    Position: {x: 3274, y: 1192}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: a00d1e03-e61a-4948-bc70-9548e2fcc353
+    DialogueText: '*Forms pact* "Do you swear that you will not reveal my info to
+      the necromancer if you escape?*'
+    Position: {x: 3976, y: 1092}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 0f539c98-d219-48da-86e3-823c4d93c194
+    DialogueText: '"Surely you are bluffing then. Your bluff will be your undoing,
+      you mere skeleton.'
+    Position: {x: 3980, y: 1441}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 0f4f20ff-0a04-47a5-b981-4a2b113ec974
+    DialogueText: Dialogue Node
+    Position: {x: 4858, y: 1438}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 597b2f95-b0e7-437b-8e56-e024ce3381a4
+    DialogueText: '"The blood pact reveals you''ve told a lie. You won''t get away
+      with your bluff."'
+    Position: {x: 6271, y: 1242}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 6cbe4dd9-bfe0-4116-a2bf-35880fe8fe5c
+    DialogueText: '*Snaps and a handful of goblins surround you* "I see you are telling
+      the truth. But surely you know I now must torture you and make you reveal everything."'
+    Position: {x: 4922, y: 1095}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: b4dafaa6-e936-4cde-84f1-ee6456887408
+    DialogueText: '"A smart man you are. Surely you''ve come prepared. I''d let you
+      pass, but I can''t make it seem like I didn''t at least try to stop you."'
+    Position: {x: 6256, y: 1030}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 3440710e-8bf6-4470-bdd0-7d7bec79e61d
+    DialogueText: Dialogue Node
+    Position: {x: 7439, y: 1024}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: d76a635c-b94f-415b-bbce-a821d9a1fbc4
+    DialogueText: Dialogue Node
+    Position: {x: 7431, y: 1236}
     Mutation: none
     ExitPoint: 1
   ExposedProperties: []
