@@ -404,7 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e361d7bcc55f76479875c7173fb6fe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue: {fileID: 11400000, guid: 45dcd8b74a0bf31469cac988e04f38fb, type: 2}
+  dialogue: {fileID: 11400000, guid: 6c68aad47fafd674a8ed28e1fac73506, type: 2}
   dialogueText: {fileID: 154551901}
   currentButton: {fileID: 1999392975}
   buttonContainer: {fileID: 879754914}
