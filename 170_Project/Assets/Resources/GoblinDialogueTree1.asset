@@ -41,13 +41,6 @@ MonoBehaviour:
   - BaseNodeGuid: 63a1c075-1087-47d6-97de-b90e533f8d9d
     PortName: Yea the boss ain't treating us right.
     TargetNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
-  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
-    PortName: Whoa whoa I don't mean no harm. I'm just trying to leave *world name*
-    TargetNodeGuid: 63a1c075-1087-47d6-97de-b90e533f8d9d
-  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
-    PortName: (bluff) "I've had enough of this bullshit, let me pass or I will leak
-      the secret mines to the necromancer."
-    TargetNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
   - BaseNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
     PortName: (Bluff) "Uhhh   Actually  *necromancer's name* wanted me to go run
       an errand"
@@ -64,16 +57,6 @@ MonoBehaviour:
   - BaseNodeGuid: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
     PortName: '*confused*  Many have tried?'
     TargetNodeGuid: a8bc399f-9013-4aae-a6e6-d31ff32831bb
-  - BaseNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
-    PortName: '*Stare confidently into the goblin''s eyes and just wait*'
-    TargetNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
-  - BaseNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
-    PortName: '"While mining, I stole some gold and bribed one of your friends for
-      some information."'
-    TargetNodeGuid: 290cae0c-f385-44c8-bb33-5384c3e1f761
-  - BaseNodeGuid: 290cae0c-f385-44c8-bb33-5384c3e1f761
-    PortName: ...
-    TargetNodeGuid: 73d20750-7bce-4a72-a3fd-e3d21d1e9cb7
   - BaseNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
     PortName: '*confidently*  "Top Secret you can''t know. The boss would kill me
       if he found out I told someone like you."'
@@ -82,6 +65,9 @@ MonoBehaviour:
     PortName: '"Uhhh    *looks at tools*    I actually came here to get a tool for
       the errand"'
     TargetNodeGuid: 3e10cf21-8287-428f-9096-0ee2890d2697
+  - BaseNodeGuid: 290cae0c-f385-44c8-bb33-5384c3e1f761
+    PortName: ...
+    TargetNodeGuid: 73d20750-7bce-4a72-a3fd-e3d21d1e9cb7
   - BaseNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
     PortName: '*Straight Faced* "You don''t need to know. Let me escape and I vow
       none of this information will make it to the necromancer."'
@@ -119,6 +105,13 @@ MonoBehaviour:
     PortName: ...
     TargetNodeGuid: 3440710e-8bf6-4470-bdd0-7d7bec79e61d
   - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+    PortName: Whoa whoa I don't mean no harm. I'm just trying to leave *world name*
+    TargetNodeGuid: 63a1c075-1087-47d6-97de-b90e533f8d9d
+  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+    PortName: (bluff) "I've had enough of this bullshit, let me pass or I will leak
+      the secret mines to the necromancer."
+    TargetNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
+  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
     PortName: Relax... I'm not here to intrude. I just happen to come across your
       territory.
     TargetNodeGuid: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
@@ -138,6 +131,10 @@ MonoBehaviour:
     PortName: '"You don''t serve for free? How about a deal? You goblins do enjoy
       making deals that are in your favor."'
     TargetNodeGuid: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
+  - BaseNodeGuid: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
+    PortName: '"You see... While mining, I stole some gold and bribed one of your
+      friends for some information."'
+    TargetNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
   - BaseNodeGuid: a7e2e833-f406-4d3b-97d2-985eb45431ef
     PortName: '"What if I can make you an even better offer? You see if you let me
       leave.. I can ensure you that I can bring back double the fortune the necromancer
@@ -148,38 +145,87 @@ MonoBehaviour:
       to him. He is only using you. If anything he benefits more from that deal than
       you.'
     TargetNodeGuid: 951efe8c-dbd5-4466-bcf5-535dba125b6f
-  - BaseNodeGuid: 8d8b39d6-67e4-4735-95e7-1c74bd77c224
-    PortName: '"You see... I heard outside this world you can seek many fortunes,
-      including mountains of gold."'
-    TargetNodeGuid: 2ab4b37d-6ca9-4cf4-ada8-0eff91b321df
   - BaseNodeGuid: 951efe8c-dbd5-4466-bcf5-535dba125b6f
     PortName: '"What''s the point of gold if you can''t use it. We''ve been stuck
       here forever... not knowing what''s in the outside world."'
     TargetNodeGuid: e8231505-efb6-4da0-9446-f7974df3fc87
-  - BaseNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
-    PortName: '"I have my sources and it would be dumb for me to reveal them. Now
-      let me pass."'
-    TargetNodeGuid: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
-  - BaseNodeGuid: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
-    PortName: '"You see... While mining, I stole some gold and bribed one of your
-      friends for some information."'
-    TargetNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
-  - BaseNodeGuid: 2ab4b37d-6ca9-4cf4-ada8-0eff91b321df
-    PortName: Start Fight
-    TargetNodeGuid: 7a8c8deb-f292-4ad2-8ceb-a5b3bb1a23eb
+  - BaseNodeGuid: 8d8b39d6-67e4-4735-95e7-1c74bd77c224
+    PortName: '"You see... I heard outside this world you can seek many fortunes,
+      including mountains of gold."'
+    TargetNodeGuid: 2ab4b37d-6ca9-4cf4-ada8-0eff91b321df
   - BaseNodeGuid: e8231505-efb6-4da0-9446-f7974df3fc87
     PortName: Start Fight
     TargetNodeGuid: 02acddc0-319f-4da7-ad03-aa67bfd5a130
+  - BaseNodeGuid: 2ab4b37d-6ca9-4cf4-ada8-0eff91b321df
+    PortName: Start Fight
+    TargetNodeGuid: 7a8c8deb-f292-4ad2-8ceb-a5b3bb1a23eb
   - BaseNodeGuid: 6e20b74f-8a9d-428c-a204-9896d44ea84c
     PortName: '"Power? How about you show me what type of power gold can give you."
       (Start Fight)'
     TargetNodeGuid: 205372f0-ee13-4f1c-a82a-99b11c511dda
+  - BaseNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
+    PortName: '*Stare confidently into the goblin''s eyes and just wait*'
+    TargetNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+  - BaseNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
+    PortName: '"While mining, I stole some gold and bribed one of your friends for
+      some information."'
+    TargetNodeGuid: 290cae0c-f385-44c8-bb33-5384c3e1f761
+  - BaseNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
+    PortName: '"I have my sources and it would be dumb for me to reveal them. Now
+      let me pass."'
+    TargetNodeGuid: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
+  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+    PortName: '"Sorry! I''m lost and am just trying to get back to *insert skeleton
+      territory name here*"'
+    TargetNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
+  - BaseNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
+    PortName: '*nervously looks at the ground trying to avoid eye contact* " I don''t
+      think the skeleton boss would like that"'
+    TargetNodeGuid: beaccc72-e5bd-40a4-800a-318490cc672a
+  - BaseNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
+    PortName: '"I don''t think I will be a good fit for you."'
+    TargetNodeGuid: 41e981e5-54f1-485c-bb08-3b5a34a2c325
+  - BaseNodeGuid: beaccc72-e5bd-40a4-800a-318490cc672a
+    PortName: '*gets on your knees*" SORRY! I didn''t mean to offend you! I just
+      didn''t want you to get into a fight with the *skeleton boss*"'
+    TargetNodeGuid: fe9222bb-a5a1-4e5e-8375-bfc7c073f327
+  - BaseNodeGuid: beaccc72-e5bd-40a4-800a-318490cc672a
+    PortName: '"But wouldn''t it be rude not to ask? "'
+    TargetNodeGuid: 771f7609-e251-42c8-b4a4-c875421a9eb5
+  - BaseNodeGuid: fe9222bb-a5a1-4e5e-8375-bfc7c073f327
+    PortName: Start Fight
+    TargetNodeGuid: 09427df7-f8fa-4d71-b666-263233e0974a
+  - BaseNodeGuid: 771f7609-e251-42c8-b4a4-c875421a9eb5
+    PortName: ' Start Fight'
+    TargetNodeGuid: fb26ecd7-32b1-4392-ac99-e76d9e1a2e11
+  - BaseNodeGuid: 41e981e5-54f1-485c-bb08-3b5a34a2c325
+    PortName: '*starts sweating a bit* " Sir, I think you should reconsider! I''m
+      super weak! I will only bring you trouble"'
+    TargetNodeGuid: 76a92e2a-148b-4bc5-b7da-e70cda7ddf33
+  - BaseNodeGuid: 76a92e2a-148b-4bc5-b7da-e70cda7ddf33
+    PortName: Start Fight
+    TargetNodeGuid: 909eeaf0-c2f7-4337-8bc1-3b55e4f70316
+  - BaseNodeGuid: 41e981e5-54f1-485c-bb08-3b5a34a2c325
+    PortName: '*confidently stand your ground*" I can not work for you because I''m
+      working under the skeleton boss. I still have to finish my errand for the him.
+      Please understand"'
+    TargetNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
+  - BaseNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
+    PortName: (Bluff) "Uhhh   Actually  *necromancer's name* wanted me to go run
+      an errand"
+    TargetNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
+  - BaseNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
+    PortName: (Passive) "Hey man I don't have time for this"
+    TargetNodeGuid: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
+  - BaseNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
+    PortName: '*confident*  "I think you guys got it. I need to get going"'
+    TargetNodeGuid: 65de62ca-9a51-407b-ab97-4e867a8611d6
   - BaseNodeGuid: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
     PortName: (confident) "A challenge... if I am able to beat you, you must let
       me pass. However, if I lose I shall serve in your territory. Should benefit
       you right? I mean how can a weak skeleton like me possibly beat someone the
       likes of you?
-    TargetNodeGuid: f85f20ed-e87e-4f18-87c0-329649b6219e
+    TargetNodeGuid: 76a92e2a-148b-4bc5-b7da-e70cda7ddf33
   DialogueNodeData:
   - GUID: 7a3da313-c192-4e44-907f-7b2a88081401
     DialogueText: Dialogue Node
@@ -357,12 +403,6 @@ MonoBehaviour:
     Position: {x: 2593, y: -874}
     Mutation: none
     ExitPoint: 0
-  - GUID: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
-    DialogueText: '"And what kind of deal would a weak skeleton like you have to
-      offer?"'
-    Position: {x: 3942, y: -813}
-    Mutation: none
-    ExitPoint: 0
   - GUID: a7e2e833-f406-4d3b-97d2-985eb45431ef
     DialogueText: '"Disobeying the orders of the necromancer... fearless of you.
       However, the necromancer pays us goblins a valuable fortune to run his errands.
@@ -423,9 +463,61 @@ MonoBehaviour:
     Position: {x: 4855, y: -1050}
     Mutation: none
     ExitPoint: 1
-  - GUID: f85f20ed-e87e-4f18-87c0-329649b6219e
+  - GUID: e35fbfd9-2cdd-468a-9fda-e8b521113aee
+    DialogueText: '"Since you''re here anyways, you might as well work for me instead"'
+    Position: {x: 828, y: -1089}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
+    DialogueText: '"And what kind of deal would a weak skeleton like you have to
+      offer?"'
+    Position: {x: 3896, y: -808}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: beaccc72-e5bd-40a4-800a-318490cc672a
+    DialogueText: '"WHAT? DO I LOOK LIKE I CARE ABOUT WHAT HE THINKS?"'
+    Position: {x: 1796, y: -1691}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: fe9222bb-a5a1-4e5e-8375-bfc7c073f327
+    DialogueText: '"DO YOU THINK THAT YOU''RE THAT IMPORTANT FOR TWO BOSSES TO FIGHT
+      OVER YOU? PATHETIC!  I DON''T WANT YOU ANYMORE!"'
+    Position: {x: 2872, y: -1714}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 09427df7-f8fa-4d71-b666-263233e0974a
     DialogueText: Dialogue Node
-    Position: {x: 5572, y: -881}
+    Position: {x: 4110, y: -1799}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: fb26ecd7-32b1-4392-ac99-e76d9e1a2e11
+    DialogueText: Dialogue Node
+    Position: {x: 4695, y: -1603}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 771f7609-e251-42c8-b4a4-c875421a9eb5
+    DialogueText: '"do you think people ask to die when they get into a fight? NO!
+      THEY JUST DIE BECAUSE THEY''RE WEAK! PERMISSION DOESNT EXIST IN MY DICTIONARY!
+      LET ME SHOW YOU FIRST HANDED BY WHAT I MEAN"'
+    Position: {x: 3140, y: -1492}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 76a92e2a-148b-4bc5-b7da-e70cda7ddf33
+    DialogueText: '"you say you''re weak eh? well lets see your skills. If you are
+      as weak as you say then you''ll die, but if you can survive then you will work
+      under me"'
+    Position: {x: 3117, y: -1342}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 41e981e5-54f1-485c-bb08-3b5a34a2c325
+    DialogueText: '"haha, at least you know your place. I like you! I''ve decided!
+      you will now work for me"'
+    Position: {x: 1805, y: -1306}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 909eeaf0-c2f7-4337-8bc1-3b55e4f70316
+    DialogueText: Dialogue Node
+    Position: {x: 4290, y: -1323}
     Mutation: none
     ExitPoint: 1
   ExposedProperties: []
