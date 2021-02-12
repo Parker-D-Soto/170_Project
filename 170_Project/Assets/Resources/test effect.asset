@@ -25,50 +25,49 @@ MonoBehaviour:
   - BaseNodeGuid: 2bc259d0-95da-43b3-87f0-bba274569e10
     PortName: The Right choice
     TargetNodeGuid: 966b87fd-5db4-4e39-a1c3-727413d121e1
+  - BaseNodeGuid: 96a4ed9e-cda0-48bf-a5d2-89fe513bb678
+    PortName: Choice 1
+    TargetNodeGuid: 9788ade0-5c2f-466e-8759-679ad5ebd747
   - BaseNodeGuid: 966b87fd-5db4-4e39-a1c3-727413d121e1
     PortName: shakaka
     TargetNodeGuid: 17e7f136-c434-457c-b47f-1507a7e756ff
   - BaseNodeGuid: 966b87fd-5db4-4e39-a1c3-727413d121e1
     PortName: Crazy Ivan
     TargetNodeGuid: 6ad64f6f-0823-48f6-b0e5-3eb7506204f6
-  - BaseNodeGuid: c90174dc-763f-446a-b011-4bded29da939
-    PortName: Choice 1
-    TargetNodeGuid: 2447df9f-3749-4d4e-a66c-8b3795627220
-  - BaseNodeGuid: 96a4ed9e-cda0-48bf-a5d2-89fe513bb678
-    PortName: Choice 1
-    TargetNodeGuid: 9788ade0-5c2f-466e-8759-679ad5ebd747
   - BaseNodeGuid: 17e7f136-c434-457c-b47f-1507a7e756ff
     PortName: Choice 1
     TargetNodeGuid: 695bdecb-9837-4fd1-8a74-42e3b15c4d86
   - BaseNodeGuid: 6ad64f6f-0823-48f6-b0e5-3eb7506204f6
     PortName: Choice 1
     TargetNodeGuid: 5dedc865-8a41-4a5a-a0d5-51fef597742e
+  - BaseNodeGuid: c90174dc-763f-446a-b011-4bded29da939
+    PortName: Choice 1
+    TargetNodeGuid: 2447df9f-3749-4d4e-a66c-8b3795627220
+  - BaseNodeGuid: 2447df9f-3749-4d4e-a66c-8b3795627220
+    PortName: Choice 1
+    TargetNodeGuid: 44fbb6f0-93a6-437b-97d9-a6f423b036c8
+  - BaseNodeGuid: 0d3e1755-876c-4815-aa77-afd67a5621c3
+    PortName: Choice 1
+    TargetNodeGuid: cd864207-78ce-4b3c-aeb9-f09c7aa9f9c6
+  - BaseNodeGuid: 44fbb6f0-93a6-437b-97d9-a6f423b036c8
+    PortName: Choice 1
+    TargetNodeGuid: 0d3e1755-876c-4815-aa77-afd67a5621c3
   DialogueNodeData:
   - GUID: 2bc259d0-95da-43b3-87f0-bba274569e10
     DialogueText: 'Nodulus 1: Hi!'
     Position: {x: 237, y: 196}
-    Mutation: I'm an effect
+    Mutation: 'health: +10'
     ExitPoint: 0
   - GUID: 96a4ed9e-cda0-48bf-a5d2-89fe513bb678
     DialogueText: Came from schloopydoopo
     Position: {x: 567, y: 47}
-    Mutation: What is that even
+    Mutation: startup
     ExitPoint: 0
   - GUID: 966b87fd-5db4-4e39-a1c3-727413d121e1
     DialogueText: Came from the Right choice
     Position: {x: 593, y: 364}
     Mutation: +10 health
     ExitPoint: 0
-  - GUID: c90174dc-763f-446a-b011-4bded29da939
-    DialogueText: Came from dongus
-    Position: {x: 593, y: 219}
-    Mutation: -5 charisma
-    ExitPoint: 0
-  - GUID: 2447df9f-3749-4d4e-a66c-8b3795627220
-    DialogueText: Dialogue Node
-    Position: {x: 905, y: 209}
-    Mutation: none
-    ExitPoint: 1
   - GUID: 9788ade0-5c2f-466e-8759-679ad5ebd747
     DialogueText: Dialogue Node
     Position: {x: 941, y: 8}
@@ -93,5 +92,30 @@ MonoBehaviour:
     DialogueText: Non-existent airplane maneuver
     Position: {x: 959, y: 470}
     Mutation: It could also be a con
+    ExitPoint: 0
+  - GUID: c90174dc-763f-446a-b011-4bded29da939
+    DialogueText: Came from dongus
+    Position: {x: 593, y: 219}
+    Mutation: 'surroundem: enable'
+    ExitPoint: 0
+  - GUID: 2447df9f-3749-4d4e-a66c-8b3795627220
+    DialogueText: Dialogue Node
+    Position: {x: 978, y: 150}
+    Mutation: 'getemboys: enable'
+    ExitPoint: 0
+  - GUID: 0d3e1755-876c-4815-aa77-afd67a5621c3
+    DialogueText: Dialogue Node
+    Position: {x: 1651, y: 155}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: cd864207-78ce-4b3c-aeb9-f09c7aa9f9c6
+    DialogueText: Dialogue Node
+    Position: {x: 2040, y: 137}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 44fbb6f0-93a6-437b-97d9-a6f423b036c8
+    DialogueText: Dialogue Node
+    Position: {x: 1335, y: 155}
+    Mutation: 'steadyaimfire: enable'
     ExitPoint: 0
   ExposedProperties: []

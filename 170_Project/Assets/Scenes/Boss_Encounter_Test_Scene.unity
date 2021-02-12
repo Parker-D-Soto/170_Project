@@ -1700,6 +1700,11 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8296215564540489117, guid: 08afd0d5463a27e48ac112e15160896f,
+        type: 3}
+      propertyPath: m_UseFullKinematicContacts
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08afd0d5463a27e48ac112e15160896f, type: 3}
 --- !u!4 &5064347583101340550 stripped

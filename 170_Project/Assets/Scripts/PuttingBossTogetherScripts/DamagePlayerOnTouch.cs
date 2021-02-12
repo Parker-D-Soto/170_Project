@@ -8,9 +8,12 @@ public class DamagePlayerOnTouch : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-
+        Debug.Log("collision");
+        Debug.Log(collision.gameObject.name);
+        
         if (collision.gameObject.name == "Player")
         {
+            Debug.Log("collision");
             //May have to put this into an enemy script later.
             collision.gameObject.GetComponent<Updated_Player_Stats>().gotHit(damage);
 

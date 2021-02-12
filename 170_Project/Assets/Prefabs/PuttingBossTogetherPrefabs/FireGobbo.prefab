@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startTimeBtwShots: 2
-  projectile: {fileID: 8086197120391244651, guid: fb7883a4453395248a2e3d09a12a7a37,
+  projectile: {fileID: 8086197120391244651, guid: 0fec5c6822f70074ba7b1c9a80bd068b,
     type: 3}
 --- !u!114 &8696781107748805736
 MonoBehaviour:
