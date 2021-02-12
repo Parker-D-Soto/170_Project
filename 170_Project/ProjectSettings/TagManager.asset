@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - EnemyTag
+  - SpawnPoint
+  - boss
+  - grapple
+  - player
+  - clone
   layers:
   - Default
   - TransparentFX
