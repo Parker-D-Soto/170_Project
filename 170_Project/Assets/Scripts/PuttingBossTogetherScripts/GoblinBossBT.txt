@@ -1,0 +1,53 @@
+tree("Root")
+	while IsAlive
+		while CheckDialogueStatus
+			while IsCooldownOver
+				random
+					tree("Melee")
+					tree("SteadyAimFire")
+					tree("GetEmBoys")
+					tree("SurroundEm")
+
+tree("SurroundEm")
+	sequence
+		CheckAttacks("surroundEm")
+		SameAsLastAttack("surroundEm")
+		mute
+			while CheckStartup
+				IncrementStartup
+		SurroundEm
+		ResetStartup
+		ResetCooldown
+				
+tree("GetEmBoys")
+	sequence
+		CheckAttacks("getEmBoys")
+		SameAsLastAttack("getEmBoys")
+		mute
+			while CheckStartup
+				IncrementStartup
+		GetEmBoys
+		ResetStartup
+		ResetCooldown
+
+tree("SteadyAimFire")
+	sequence
+		CheckAttacks("steadyAimFire")
+		SameAsLastAttack("steadyAimFire")
+		mute
+			while CheckStartup
+				IncrementStartup
+		SteadyAimFire
+		ResetStartup
+		ResetCooldown
+
+tree("Melee")
+	sequence
+		CheckAttacks("melee")
+		SameAsLastAttack("melee")
+		mute
+			while CheckStartup
+				IncrementStartup
+		Melee
+		ResetStartup
+		ResetCooldown
