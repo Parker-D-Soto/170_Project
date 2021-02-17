@@ -39,7 +39,20 @@ public class GoblinBossStats : Updated_Boss_Stats
         }
     }
     
+    [Task]
+    public void PickaxeThrow()
+    {
+        gameObject.GetComponent<PTBTPickaxeThrow>().ThrowPickaxe();
+        Task.current.Succeed();
+    }
     
+    [Task]
+    public void GoblinCharge()
+    {
+        gameObject.GetComponent<SteadyAimFireSpawn>().SpawnFireSquadNearPlayer();
+        Task.current.Succeed();
+    }
+
     [Task]
     public void SurroundEm()
     {

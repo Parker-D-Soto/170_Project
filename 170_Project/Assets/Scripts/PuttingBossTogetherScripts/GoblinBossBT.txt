@@ -7,6 +7,7 @@ tree("Root")
 					tree("SteadyAimFire")
 					tree("GetEmBoys")
 					tree("SurroundEm")
+					tree("PickaxeThrow")
 
 tree("SurroundEm")
 	sequence
@@ -49,5 +50,27 @@ tree("Melee")
 			while CheckStartup
 				IncrementStartup
 		Melee
+		ResetStartup
+		ResetCooldown
+
+tree("PickaxeThrow")
+	sequence
+		CheckAttacks("pickaxeThrow")
+		SameAsLastAttack("pickaxeThrow")
+		mute
+			while CheckStartup
+				IncrementStartup
+		PickaxeThrow
+		ResetStartup
+		ResetCooldown
+
+tree("GoblinCharge")
+	sequence
+		CheckAttacks("goblinCharge")
+		SameAsLastAttack("goblinCharge")
+		mute
+			while CheckStartup
+				IncrementStartup
+		GoblinCharge
 		ResetStartup
 		ResetCooldown
