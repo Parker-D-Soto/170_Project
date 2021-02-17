@@ -24,9 +24,13 @@ public class MouseCameraMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector2 lookDirection = mousePosition - rb.position;
-        float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
+        if (!gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status())
+        {
+            Vector2 lookDirection = mousePosition - rb.position;
+            float angle = Mathf.Atan2(lookDirection.y, lookDirection.x) * Mathf.Rad2Deg - 90f;
+            rb.rotation = angle;
+        }
+
     }
     void Aim()
     {

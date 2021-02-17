@@ -462,20 +462,6 @@ MonoBehaviour:
   bulletForce: 200
   bulletSpawn: {fileID: 0}
   hitEffect: {fileID: 0}
---- !u!114 &265044410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265044408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eb2b14b605759446a3411c8724ecfe9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dashSpeed: 300000000
-  rg: {fileID: 265044417}
 --- !u!114 &265044411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2163,6 +2149,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1523611845277534555, guid: 08afd0d5463a27e48ac112e15160896f,
+        type: 3}
+      propertyPath: dashSpeed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3231584774266863712, guid: 08afd0d5463a27e48ac112e15160896f,
         type: 3}
       propertyPath: rb
@@ -2243,7 +2234,8 @@ PrefabInstance:
       propertyPath: m_UseFullKinematicContacts
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3231584774266863712, guid: 08afd0d5463a27e48ac112e15160896f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 08afd0d5463a27e48ac112e15160896f, type: 3}
 --- !u!4 &5064347583101340550 stripped
 Transform:

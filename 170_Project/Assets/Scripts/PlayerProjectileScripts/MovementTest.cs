@@ -21,7 +21,10 @@ public class MovementTest : MonoBehaviour
     void FixedUpdate()
     {
         //player movement
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (!gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status())
+        {
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        }
 
     }
 }

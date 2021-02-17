@@ -25,21 +25,25 @@ public class PlayerProjectileAttack : MonoBehaviour
     }
     void Update()
     {
-        if (findProjectile == false)
+        if (!gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status())
         {
-            if (Input.GetButtonDown("Fire1"))
+            if (findProjectile == false)
             {
-                DetectObject();
+                if (Input.GetButtonDown("Fire1"))
+                {
+                    DetectObject();
+
+                }
+            }
+            if (holdobject && Input.GetButtonDown("Fire2"))
+            {
+
+                Debug.Log("you are clicking me");
+                foundObject();
 
             }
         }
-        if (holdobject && Input.GetButtonDown("Fire2"))
-        {
-
-            Debug.Log("you are clicking me");
-            foundObject();
-
-        }
+        
         //Debug.Log(findProjectile);
     }
 
