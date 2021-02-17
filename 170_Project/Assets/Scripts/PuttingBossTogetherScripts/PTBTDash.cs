@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PTBTDash : MonoBehaviour
 {
-   public float dashSpeed = 300000; //set dash speed
-
+    public float dashSpeed = 300000; //set dash speed
+    public float dashDistance = 1000;
     public Rigidbody2D rg;
 
     bool dash = true;
@@ -30,8 +30,8 @@ public class PTBTDash : MonoBehaviour
             //Vector2 mouseDirection = (Input.mousePosition - new Vector3(Screen.width / 2, Screen.height / 2)).normalized;
             Vector2 mouseDirection = (Input.mousePosition - new Vector3(gameObject.transform.position.x, gameObject.transform.position.y)).normalized;
             //rg.AddForce(mouseDirection * dashSpeed * Time.fixedDeltaTime);
-            Vector2 newPosition = ((Vector2)gameObject.transform.position + mouseDirection * dashSpeed);
-            gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, newPosition, dashSpeed);
+            Vector2 newPosition = ((Vector2)gameObject.transform.position + mouseDirection * dashDistance);
+            gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, newPosition, dashDistance); //need to find someway to update: might need to use states
             dash = false;
             dashCooldown = 60; //update cooldown
         }

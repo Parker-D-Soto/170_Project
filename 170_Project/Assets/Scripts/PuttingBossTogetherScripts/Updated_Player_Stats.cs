@@ -30,6 +30,7 @@ public class Updated_Player_Stats : MonoBehaviour
         if (alive && health <= 0)
         {
             alive = false;
+            Destroy(gameObject);
         }
 
         //damage state effect
