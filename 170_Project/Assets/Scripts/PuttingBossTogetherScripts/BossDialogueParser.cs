@@ -15,7 +15,8 @@ public class BossDialogueParser : MonoBehaviour
     [SerializeField] private Button currentButton;
     [SerializeField] private Transform buttonContainer;
     //[SerializeField] private TextMeshProUGUI effectTest;
-    //[SerializeField] private TextMeshProUGUI bossEffect;
+    [SerializeField] private TextMeshProUGUI bossStats;
+    [SerializeField] private TextMeshProUGUI bossAttacks;
     public GameObject Boss;
     //public GameObject UI;
 
@@ -44,17 +45,18 @@ public class BossDialogueParser : MonoBehaviour
         dialogueText.text = ProcessProperties(text);
         /*For Debug Start
         effectTest.text = dialogue.DialogueNodeData.Find(x => x.GUID == narrativeDataGUID).Mutation;
-        For Debug End*/
+        //For Debug End*/
         MutateBoss(dialogue.DialogueNodeData.Find(x => x.GUID == narrativeDataGUID).Mutation);
-        /*For Debug Start
+        //For Debug Start
         string attackString= "";
         foreach (KeyValuePair<string, bool> attack in Boss.GetComponent<GoblinBossStats>().attacks)
         {
             attackString += "\n" + attack.Key + ": " + attack.Value;
         }
-        bossEffect.text = "health: " + Boss.GetComponent<Updated_Boss_Stats>().health + "\ncooldown: " + Boss.GetComponent<Updated_Boss_Stats>().cooldown
-                            + "\nstartup: " + Boss.GetComponent<Updated_Boss_Stats>().startup + "\nattacks: " + attackString;
-        For Debug End*/
+        bossStats.text = "Stats:"+"\nhealth: " + Boss.GetComponent<Updated_Boss_Stats>().health + "\ncooldown: " + Boss.GetComponent<Updated_Boss_Stats>().cooldown
+                            + "\nstartup: " + Boss.GetComponent<Updated_Boss_Stats>().startup;
+        bossAttacks.text = "attacks: " + attackString;
+        //For Debug End*/
         var buttons = buttonContainer.GetComponentsInChildren<Button>();
 
         for (int i = 0; i < buttons.Length; i++)
