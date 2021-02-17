@@ -49,7 +49,7 @@ public class PlayerProjectileAttack : MonoBehaviour
         bulletSpawn = Instantiate(grapple, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bulletSpawn.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
-        Destroy(bulletSpawn, 5f);
+        Destroy(bulletSpawn, 500f);
         //Debug.Log(grapple.name + " hittest1");
         // Debug.Log(findProjectile);
 
@@ -61,7 +61,7 @@ public class PlayerProjectileAttack : MonoBehaviour
         Rigidbody2D rb = newProjectiles.AddComponent<Rigidbody2D>(); //add Rigidbody2D when ready to shoot.
         rb.gravityScale = 0;
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
-        Destroy(newProjectiles, 3f);
+        Destroy(newProjectiles, 300f);
         findProjectile = false;
         holdobject = false;
     }
