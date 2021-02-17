@@ -46,6 +46,8 @@ GameObject:
   - component: {fileID: 706123357544056687}
   - component: {fileID: 1519446309045509432}
   - component: {fileID: 8408360117016535399}
+  - component: {fileID: 5418711317019456759}
+  - component: {fileID: 5315317586582862167}
   m_Layer: 0
   m_Name: Goblin Boss
   m_TagString: EnemyTag
@@ -187,7 +189,7 @@ MonoBehaviour:
   fireSquad: {fileID: 8696781107748805737, guid: 7c691346dd0306d4a9d2dc86cb58b5fb,
     type: 3}
   gobbosInFireSquad: 3
-  playerPosition: {fileID: 0}
+  player: {fileID: 0}
 --- !u!114 &1519446309045509432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,3 +224,34 @@ MonoBehaviour:
     m_Bits: 1
   attackPos: {fileID: 706123357414959703}
   damage: 1
+--- !u!114 &5418711317019456759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706123357544056663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 655fd54a6365006499227d64a45740f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickaxe: {fileID: 3947319951779296192, guid: c4953bc513b7bbd44a1c0329b2b63663, type: 3}
+  howManyThrows: 2
+  durationOfAttack: 1
+--- !u!114 &5315317586582862167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 706123357544056663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc419efd7b0a34541a771554e4ff4d00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireSquad: {fileID: 7855484180759994495, guid: 5c46771c01ad8864397f8ac1542dc9d0,
+    type: 3}
+  gobbosInFireSquad: 3
+  player: {fileID: 0}

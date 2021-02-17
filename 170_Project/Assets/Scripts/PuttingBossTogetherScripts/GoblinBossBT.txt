@@ -8,6 +8,7 @@ tree("Root")
 					tree("GetEmBoys")
 					tree("SurroundEm")
 					tree("PickaxeThrow")
+					tree("GoblinCharge")
 
 tree("SurroundEm")
 	sequence
