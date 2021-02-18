@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Boss_Encounter_Test_Scene.unity
+- path: Assets/Scenes/GoblinBossUI.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
