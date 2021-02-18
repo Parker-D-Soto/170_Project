@@ -15,8 +15,8 @@ public class BossDialogueParser : MonoBehaviour
     [SerializeField] private Button currentButton;
     [SerializeField] private Transform buttonContainer;
     //[SerializeField] private TextMeshProUGUI effectTest;
-    [SerializeField] private TextMeshProUGUI bossStats;
-    [SerializeField] private TextMeshProUGUI bossAttacks;
+    //[SerializeField] private TextMeshProUGUI bossStats;
+    //[SerializeField] private TextMeshProUGUI bossAttacks;
     public GameObject Boss;
     //public GameObject UI;
 
@@ -47,7 +47,7 @@ public class BossDialogueParser : MonoBehaviour
         effectTest.text = dialogue.DialogueNodeData.Find(x => x.GUID == narrativeDataGUID).Mutation;
         //For Debug End*/
         MutateBoss(dialogue.DialogueNodeData.Find(x => x.GUID == narrativeDataGUID).Mutation);
-        //For Debug Start
+        /*For Debug Start
         string attackString= "";
         foreach (KeyValuePair<string, bool> attack in Boss.GetComponent<GoblinBossStats>().attacks)
         {

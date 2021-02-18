@@ -1313,7 +1313,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 895622531}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baed2a9b54e89464c8da9fc48ed92f9f, type: 3}
+  m_Script: {fileID: 11500000, guid: b11adaea96c96944587216c3532e2186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 11400000, guid: 45dcd8b74a0bf31469cac988e04f38fb, type: 2}

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Goblin_Boss_Debug_Dialogue.unity
+- path: Assets/Scenes/Goblin_Boss.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
