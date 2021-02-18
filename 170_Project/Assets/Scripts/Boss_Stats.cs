@@ -10,6 +10,7 @@ public class Boss_Stats : MonoBehaviour
 
     private bool alive;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,7 @@ public class Boss_Stats : MonoBehaviour
         {
             alive = false;
         }
+
     }
 
     public void Minus_Health(int damage)

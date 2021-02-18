@@ -2,9 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine .UI;
 using Panda;
 public class GoblinBossStats : Updated_Boss_Stats
 {
+    public Slider myhealthBar;
+
+    void Start(){
+        myhealthBar .value = health;
+    }
+
+    void Update(){
+        myhealthBar .value = health;
+    }
 
     public Dictionary<string, bool> attacks = new Dictionary<string, bool>(StringComparer.OrdinalIgnoreCase) {
         {"melee", true},
