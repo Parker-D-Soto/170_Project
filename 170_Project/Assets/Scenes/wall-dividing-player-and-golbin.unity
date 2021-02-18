@@ -1239,7 +1239,7 @@ GameObject:
   - component: {fileID: 1188828527}
   - component: {fileID: 1188828526}
   - component: {fileID: 1188828525}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: dividing wall
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2105,6 +2105,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3414949551727699176, guid: 36cb3f3c82ca5dc40a60de4ebe3f710c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7578568394808143580, guid: 36cb3f3c82ca5dc40a60de4ebe3f710c,
         type: 3}
