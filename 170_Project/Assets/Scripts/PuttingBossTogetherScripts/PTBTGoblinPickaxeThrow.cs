@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PTBTGoblinPickaxeThrow : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class PTBTGoblinPickaxeThrow : MonoBehaviour
 
     public void ThrowPickaxe()
     {
+        GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Have a Pickaxe";
         timeForNextThrow = durationOfAttack / (float)howManyThrows;
         Debug.Log("timeForNextThrow: "+timeForNextThrow);
         while (pickaxeThrown < howManyThrows)
