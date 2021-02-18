@@ -69,6 +69,11 @@ public class Updated_Player_Stats : MonoBehaviour
         }
     }
 
+    public int Check_Health()
+    {
+        return health;
+    }
+
     public void Minus_Health(int damage)
     {
         health = health - damage;

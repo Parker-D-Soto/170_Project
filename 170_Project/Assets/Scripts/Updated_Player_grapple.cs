@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Player_Grapple : MonoBehaviour
+public class Updated_Player_Grapple : MonoBehaviour
 {
 
     public float speed;

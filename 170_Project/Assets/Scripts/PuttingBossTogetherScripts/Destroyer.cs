@@ -30,6 +30,11 @@ public class Destroyer : MonoBehaviour
 
     }
 
+    public float AnnounceSelfDestruct()
+    {
+        return timeTillSelfDestruct;
+    }
+
     private void OnBecameInvisible()
     {
         Destroy(gameObject);
