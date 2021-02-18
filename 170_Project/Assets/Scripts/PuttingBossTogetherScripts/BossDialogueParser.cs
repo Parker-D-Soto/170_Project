@@ -53,9 +53,9 @@ public class BossDialogueParser : MonoBehaviour
         {
             attackString += "\n" + attack.Key + ": " + attack.Value;
         }
-        bossStats.text = "Stats:"+"\nhealth: " + Boss.GetComponent<Updated_Boss_Stats>().health + "\ncooldown: " + Boss.GetComponent<Updated_Boss_Stats>().cooldown
+        /*bossStats.text = "Stats:"+"\nhealth: " + Boss.GetComponent<Updated_Boss_Stats>().health + "\ncooldown: " + Boss.GetComponent<Updated_Boss_Stats>().cooldown
                             + "\nstartup: " + Boss.GetComponent<Updated_Boss_Stats>().startup;
-        bossAttacks.text = "attacks: " + attackString;
+        bossAttacks.text = "attacks: " + attackString;*/
         //For Debug End*/
         var buttons = buttonContainer.GetComponentsInChildren<Button>();
 

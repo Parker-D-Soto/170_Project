@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SteadyAimFireSpawn : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class SteadyAimFireSpawn : MonoBehaviour
 
     public void SpawnFireSquadNearPlayer()
     {
+        GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Ready Aim FIRE";
+
         Vector3 playerPosition = player.position;
         List <GameObject> spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint").ToList<GameObject>();
         for (int i = 0; i < gobbosInFireSquad; i++)

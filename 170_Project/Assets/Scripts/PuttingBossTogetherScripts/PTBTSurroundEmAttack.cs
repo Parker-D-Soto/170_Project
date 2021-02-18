@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 //Spawn serveral goblins around the player in random placement
 public class PTBTSurroundEmAttack : MonoBehaviour
 {
@@ -14,7 +16,8 @@ public class PTBTSurroundEmAttack : MonoBehaviour
     
     public void SummonCircleOfGobbos()
     {
-        
+        GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Surround the ENEMY!";
+
         position = target.GetComponent<Transform>().position;
         for (int i = 0; i < howManyGobbos; i++)
         {
