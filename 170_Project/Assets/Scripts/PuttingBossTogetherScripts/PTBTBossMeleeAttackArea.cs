@@ -17,7 +17,7 @@ public class PTBTBossMeleeAttackArea : MonoBehaviour
     // Update is called once per frame
     public void Melee()
     {
-        //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Shouldn't have gotten close";
+        GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Shouldn't have gotten close";
         //Collect a list of all the colliders found in the circle
         Collider2D[] attackArea = Physics2D.OverlapCircleAll(attackPos.position, attackRadius, targets);
         foreach (var target in attackArea)
