@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/GoblinBossUI.unity
+- path: Assets/Scenes/wall-dividing-player-and-golbin.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

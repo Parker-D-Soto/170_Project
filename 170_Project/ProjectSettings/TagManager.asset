@@ -10,6 +10,7 @@ TagManager:
   - grapple
   - player
   - clone
+  - Wall
   layers:
   - Default
   - TransparentFX
