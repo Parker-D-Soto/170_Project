@@ -14,7 +14,7 @@ public class PTBTGoblinPickaxeThrow : MonoBehaviour
 
     public void ThrowPickaxe()
     {
-        GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Have a Pickaxe";
+        //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Have a Pickaxe";
         timeForNextThrow = durationOfAttack / (float)howManyThrows;
         Debug.Log("timeForNextThrow: "+timeForNextThrow);
         while (pickaxeThrown < howManyThrows)
