@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine .UI;
 
 //Stats for player, mainly used to test attacks for hits and damage
 //Combination of Boss_Stats and Player_Dmg_State
@@ -10,6 +11,8 @@ public class Updated_Player_Stats : MonoBehaviour
     private int health;
     private bool inDialogue = true;
     private bool alive;
+
+    public Slider myhealthBar;
 
     //Variables for damgage state
     Color damage_color;
@@ -21,6 +24,7 @@ public class Updated_Player_Stats : MonoBehaviour
     void Start()
     {
         health = 3;
+        myhealthBar .value = health;
         alive = true;
     }
 
@@ -32,6 +36,11 @@ public class Updated_Player_Stats : MonoBehaviour
             alive = false;
             Destroy(gameObject);
         }
+
+        //update health bar
+        myhealthBar .value = health;
+
+        
 
         //damage state effect
 
