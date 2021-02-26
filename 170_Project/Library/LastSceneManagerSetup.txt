@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/wall-dividing-player-and-golbin.unity
+- path: Assets/Scenes/added-sounds-and-assets.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
