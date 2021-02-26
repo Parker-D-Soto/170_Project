@@ -3020,6 +3020,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5479774469788701792, guid: 7c9076940b3a70b4a864ee674a680590,
+        type: 3}
+      propertyPath: dashSpeed
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479774469788701792, guid: 7c9076940b3a70b4a864ee674a680590,
+        type: 3}
+      propertyPath: dashDistance
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7801039864443124381, guid: 7c9076940b3a70b4a864ee674a680590,
         type: 3}
       propertyPath: cam
