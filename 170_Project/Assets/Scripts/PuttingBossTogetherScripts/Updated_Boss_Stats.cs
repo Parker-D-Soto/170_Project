@@ -16,9 +16,9 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     protected float timeSinceLastAttack = 0;
 
-    public float startup = 1;
+    public float startup = 1f;
 
-    protected float timeLeftOnStartup = 0;
+    protected float timeLeftOnStartup = 0f;
 
     public float speed = 5;
 
@@ -110,6 +110,7 @@ public class Updated_Boss_Stats : MonoBehaviour
     {
         if(timeLeftOnStartup < startup)
         {
+            //Debug.Log("Complete: " + timeLeftOnStartup);
             Task.current.Succeed();
         }
         /*else
@@ -122,8 +123,18 @@ public class Updated_Boss_Stats : MonoBehaviour
     [Task]
     public void IncrementStartup()
     {
-        timeLeftOnStartup += Time.deltaTime;
-        Task.current.Succeed();
+        if(timeLeftOnStartup < startup)
+        {
+            timeLeftOnStartup += Time.deltaTime;
+            //Debug.Log("Increment: " + timeLeftOnStartup);
+        }
+        else
+        {
+            //Debug.Log("Attack");
+            Task.current.Succeed();
+        }
+        
+        
     }
 
     //Gives player time to understand what attack is being called
@@ -131,7 +142,8 @@ public class Updated_Boss_Stats : MonoBehaviour
     public void ResetStartup()
     {
 
-        timeLeftOnStartup = 0;
+        timeLeftOnStartup = 0f;
+        //Debug.Log("Reset: " + timeLeftOnStartup);
         Task.current.Succeed();
     }
 

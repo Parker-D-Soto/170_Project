@@ -12,7 +12,7 @@ public class PTBTChargeGobboSpawn : MonoBehaviour
 
     public void SpawnChargeGobboNearPlayer()
     {
-        GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Charge the enemy";
+        //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Charge the enemy";
 
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Get Em Boys!";
         Vector3 playerPosition = player.position;

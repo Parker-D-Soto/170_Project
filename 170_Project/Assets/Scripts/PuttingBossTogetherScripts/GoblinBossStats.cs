@@ -2,12 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Panda;
 public class GoblinBossStats : Updated_Boss_Stats
 {
 
     public Dictionary<string, bool> attacks = new Dictionary<string, bool>(StringComparer.OrdinalIgnoreCase) {
-        {"melee", true},
+        //{"melee", true},
         {"pickaxeThrow", true},
         {"goblinCharge", true },
         {"getEmBoys", false },
@@ -84,4 +85,31 @@ public class GoblinBossStats : Updated_Boss_Stats
 
     }
 
+    [Task]
+    public void AnnounceAttack(string attack)
+    {
+        switch (attack)
+        {
+            case "steadyAimFire":
+                GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Steady...Aim..FIRE";
+                break;
+            case "getEmBoys":
+                GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Get Em Boys!";
+                break;
+            case "surroundEm":
+                GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Surround em boys";
+                break;
+            case "pickaxeThrow":
+                GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Have a Pickaxe";
+                break;
+            case "goblinCharge":
+                GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Charge the enemy";
+                break;
+            default:
+                Debug.Log("UnknownAttack: " + attack);
+                Task.current.Fail();
+                break;
+        }
+        Task.current.Succeed();
+    }
 }
