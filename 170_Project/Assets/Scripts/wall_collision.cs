@@ -23,6 +23,10 @@ public class wall_collision : MonoBehaviour
         if(collider.gameObject.CompareTag("Wall")){
             //body.isKinematic=false
             body.bodyType = RigidbodyType2D.Dynamic;
+            if (gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
+            {
+                gameObject.GetComponent<Updated_Player_Stats>().Toggle_Grapple_Status();
+            }
         }
     }
 

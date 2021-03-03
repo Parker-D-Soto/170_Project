@@ -21,7 +21,7 @@ public class MovementTest : MonoBehaviour
     void FixedUpdate()
     {
         //player movement
-        if (!gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status())
+        if (!gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
         {
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         }

@@ -24,7 +24,7 @@ public class PTBTDash : MonoBehaviour
 
         rg.velocity = Vector2.zero;
 
-        if (dash && Input.GetKey(KeyCode.Space) && !gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status())
+        if (dash && Input.GetKey(KeyCode.Space) && !gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
         {
             Debug.Log("dash");
             //Vector2 mouseDirection = (Input.mousePosition - new Vector3(Screen.width / 2, Screen.height / 2)).normalized;
