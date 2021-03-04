@@ -10,10 +10,10 @@ public class PTBTChargeGobboSpawn : MonoBehaviour
     public int gobbosInFireSquad = 3;
     public Transform player;
 
-    public void SpawnChargeGobboNearPlayer()
+    public void SpawnChargeGobboNearPlayer(float spawned, float duration, float damage, float speed)
     {
+        gobbosInFireSquad = (int)spawned;
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Charge the enemy";
-
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Get Em Boys!";
         Vector3 playerPosition = player.position;
         List <GameObject> spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint").ToList<GameObject>();
@@ -34,6 +34,14 @@ public class PTBTChargeGobboSpawn : MonoBehaviour
 
             Instantiate(fireSquad, closest.transform.position, Quaternion.identity);
             spawnPoints.Remove(closest);
+        }
+
+        GameObject[] chargers = GameObject.FindGameObjectsWithTag("ChargeGobbo");
+        foreach (GameObject charger in chargers)
+        {
+            //charger.GetComponent<Destroyer>().selfDestructTimer = duration;
+            charger.GetComponent<PTBTEnemy_Charge>().damage = (int)damage;
+            charger.GetComponent<PTBTEnemy_Charge>().runSpeed = speed;
         }
     }
 }

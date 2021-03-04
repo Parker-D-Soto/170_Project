@@ -10,8 +10,10 @@ public class SteadyAimFireSpawn : MonoBehaviour
     public int gobbosInFireSquad = 3;
     public Transform player;
 
-    public void SpawnFireSquadNearPlayer()
+    public void SpawnFireSquadNearPlayer(float spawned, float speed, float damage, float duration, float reps)
     {
+        gobbosInFireSquad = (int)spawned;
+
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Steady...Aim..FIRE";
         Vector3 playerPosition = player.position;
         List <GameObject> spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint").ToList<GameObject>();
@@ -32,6 +34,14 @@ public class SteadyAimFireSpawn : MonoBehaviour
 
             Instantiate(fireSquad, closest.transform.position, Quaternion.identity);
             spawnPoints.Remove(closest);
+        }
+        GameObject[] shooters = GameObject.FindGameObjectsWithTag("FireGobbo");
+        foreach (GameObject shooter in shooters)
+        {
+            shooter.GetComponent<Destroyer>().selfDestructTimer = duration;
+            shooter.GetComponent<enemyFire>().SetSpeed(speed);
+            shooter.GetComponent<enemyFire>().SetDamage(damage);
+            shooter.GetComponent<enemyFire>().startTimeBtwShots = reps;
         }
     }
 }

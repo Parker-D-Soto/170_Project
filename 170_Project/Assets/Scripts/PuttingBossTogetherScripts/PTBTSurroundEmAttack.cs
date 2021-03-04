@@ -14,8 +14,9 @@ public class PTBTSurroundEmAttack : MonoBehaviour
     public int howManyGobbos;       //number of goblins to spawn
     
     
-    public void SummonCircleOfGobbos()
+    public void SummonCircleOfGobbos(float spawned, float speed, float damage)
     {
+        howManyGobbos = (int)spawned;
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Surround em boys";
         position = target.GetComponent<Transform>().position;
         for (int i = 0; i < howManyGobbos; i++)
@@ -26,6 +27,12 @@ public class PTBTSurroundEmAttack : MonoBehaviour
             //spawn one goblin at that spawn point
             Instantiate(gobbo, spawnPoint, Quaternion.identity);
 
+        }
+        GameObject[] slicers = GameObject.FindGameObjectsWithTag("KnifeGobbo");
+        foreach (GameObject slicer in slicers)
+        {
+            slicer.GetComponent<PTBTRunToPlayer>().runSpeed = speed;
+            slicer.GetComponent<PTBTRunToPlayer>().damage = (int)damage;
         }
     }
 

@@ -21,8 +21,9 @@ public class BossDialogueParser : MonoBehaviour
     //public GameObject UI;
 
     Regex rxName = new Regex(@"^\b((?<name>\w+))\b", RegexOptions.IgnoreCase);
-    Regex rxQuantity = new Regex(@"(?<quantity>(-|\+)\d*)\s*$", RegexOptions.IgnoreCase);
-    Regex rxEnabled = new Regex(@"(?<enabled>(dis|en)(able))\s*$", RegexOptions.IgnoreCase);
+    string statChanges = @"((-|\+)\d*)";
+    string attackChanges = @",\s*([a-zA-Z]*?)\s*((-|\+)\d*)\s*";
+    Regex rxEnabled = new Regex(@"(?<enabled>(dis|en)(able))\s*", RegexOptions.IgnoreCase);
 
 
     // Start is called before the first frame update
@@ -76,28 +77,44 @@ public class BossDialogueParser : MonoBehaviour
     }
 
     private void MutateBoss(string mutation)
-    {
+    { 
         string category;
         string numberChange;
+        string attackNumbers;
+        string attackStat;
+        (string, float) attackPairing;
+        List<(string, float)> attackModifiers = new List<(string, float)>();
         int number = 0;
         string attackEnabled;
         bool isEnabled = false;
         //Debug.Log("In MutateBoss");
-        Match name = rxName.Match(mutation);
-        Match change = rxQuantity.Match(mutation);
+        MatchCollection name = rxName.Matches(mutation);
+        Match statChange = Regex.Match(mutation, statChanges, RegexOptions.IgnoreCase);
+        MatchCollection attackChange = Regex.Matches(mutation, attackChanges, RegexOptions.IgnoreCase);
         Match enabled = rxEnabled.Match(mutation);
-        /*For Debug Start
-        Debug.Log("name: " + name.Value);
-        Debug.Log("changes: " + change.Value);
+        /*//For Debug Start
+        Debug.Log("name count: " + name.Count);
+        foreach (var item in name)
+        {
+            Debug.Log("name: " + item);
+        }
+        Debug.Log("change count: " + attackChange.Count);
+        foreach (Match item in attackChange)
+        {
+            Debug.Log("stat: " + item.Groups[1].Value);
+            Debug.Log("value: " + item.Groups[2].Value);
+        }
+        
+        Debug.Log("statChanges: " + statChange.Value);
         Debug.Log("enabled: " + enabled.Value);
         //For Debug End*/
 
-        if (name.Success)
+        if (name.Count == 1)
         {
-            category = name.ToString();
-            if (change.Success)
+            category = name[0].Value;
+            if (statChange.Success)
             {
-                numberChange = change.ToString();
+                numberChange = statChange.ToString();
                 number = Int32.Parse(numberChange);
 
             }
@@ -109,6 +126,14 @@ public class BossDialogueParser : MonoBehaviour
                     isEnabled = true;
                 }
 
+            }
+
+            foreach (Match attackItem in attackChange)
+            {
+                attackStat = attackItem.Groups[1].Value;
+                attackNumbers = attackItem.Groups[2].Value;
+                attackPairing = (attackStat, float.Parse(attackNumbers));
+                attackModifiers.Add(attackPairing);
             }
 
             switch (category)
@@ -128,10 +153,11 @@ public class BossDialogueParser : MonoBehaviour
                 case "none":
                     break;
                 default:
-                    Boss.GetComponent<Updated_Boss_Stats>().SearchAttacks(category, isEnabled);
+                    Boss.GetComponent<Updated_Boss_Stats>().SearchAttacks(category, attackModifiers, isEnabled);
                     break;
             }
         }
+        
     }
 
 

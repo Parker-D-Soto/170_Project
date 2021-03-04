@@ -24,7 +24,7 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     protected bool inDialogue = true;
 
-    public virtual void SearchAttacks(string potentialAttack, bool isEnabled)
+    public virtual void SearchAttacks(string potentialAttack, List<(string, float)> attacksList, bool isEnabled)
     {
         Debug.Log("Something went wrong");
     }

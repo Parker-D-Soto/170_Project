@@ -14,8 +14,9 @@ public class GetEmBoysAttack : MonoBehaviour
     public int howManyGobbos;       //number of goblins to spawn
     
     
-    public void SummonCircleOfGobbos()
+    public void SummonCircleOfGobbos(float spawned, float speed, float damage, float duration)
     {
+        howManyGobbos = (int)spawned;
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Get Em Boys!";
         position = target.GetComponent<Transform>().position;
         for (int i = 0; i < howManyGobbos; i++)
@@ -26,6 +27,14 @@ public class GetEmBoysAttack : MonoBehaviour
             //spawn one goblin at that spawn point
             Instantiate(gobbo, spawnPoint, Quaternion.identity);
 
+        }
+        GameObject[] bruisers = GameObject.FindGameObjectsWithTag("GetEmGobbo");
+
+        foreach (GameObject bruiser in bruisers)
+        {
+            bruiser.GetComponent<PTBTChase>().speed = speed;
+            bruiser.GetComponent<DamagePlayerOnTouch>().damage = (int)damage;
+            bruiser.GetComponent<Destroyer>().selfDestructTimer = duration;
         }
     }
 

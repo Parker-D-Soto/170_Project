@@ -7,15 +7,17 @@ public class PTBTGoblinPickaxeThrow : MonoBehaviour
 {
     public GameObject pickaxe;
     float timeForNextThrow;
-    public int howManyThrows = 1;
+    public float howManyThrows = 1;
     public float durationOfAttack = 1;
     float timeInAttack = 0;
     int pickaxeThrown = 0;
 
-    public void ThrowPickaxe()
+    public void ThrowPickaxe(float numberOfThrows, float attackLengthOfTime, float damage, float speed)
     {
+        howManyThrows = numberOfThrows;
+        durationOfAttack = attackLengthOfTime;
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Have a Pickaxe";
-        timeForNextThrow = durationOfAttack / (float)howManyThrows;
+        timeForNextThrow = durationOfAttack / howManyThrows;
         //Debug.Log("timeForNextThrow: "+timeForNextThrow);
         while (pickaxeThrown < howManyThrows)
         {
@@ -38,6 +40,13 @@ public class PTBTGoblinPickaxeThrow : MonoBehaviour
         }
 
         pickaxeThrown = 0;
+
+        GameObject[] pickaxes = GameObject.FindGameObjectsWithTag("GoblinPickaxe");
+        foreach (GameObject pickaxe in pickaxes)
+        {
+            pickaxe.GetComponent<PTBTPickaxeCollisionScript>().moveSpeed = speed;
+            pickaxe.GetComponent<PTBTPickaxeCollisionScript>().damage = (int)damage;
+        }
             
     }
 }

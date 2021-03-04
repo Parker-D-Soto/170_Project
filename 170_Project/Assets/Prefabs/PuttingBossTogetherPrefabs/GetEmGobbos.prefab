@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4347493684086005973}
   m_Layer: 0
   m_Name: GetEmGobbos
-  m_TagString: EnemyTag
+  m_TagString: GetEmGobbo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
