@@ -8,15 +8,16 @@ public class GrappleProjObject : MonoBehaviour
 
     public void Awake()
     {
-        Debug.Log("Im alive");
+        //Debug.Log("Im alive");
     }
 
     public void OnTriggerEnter2D(Collider2D hitInfo)
     {
         if (hitInfo.tag == "grapple")
         {
+            grapHook.firing = false;
             Destroy(gameObject);
-            grapHook.holdobject = !grapHook.holdobject;
+            grapHook.holdobject = true;
             // Debug.Log(hitInfo.name);
             // GameObject newProjectile = Instantiate(hitInfo.gameObject, firePoint.position, firePoint.rotation);
             grapHook.grappleObject = GameObject.Find(hitInfo.name);
@@ -27,7 +28,7 @@ public class GrappleProjObject : MonoBehaviour
             grapHook.newProjectiles.gameObject.tag = "clone";
             grapHook.newProjectiles.transform.parent = grapHook.player.transform;
             grapHook.holdobject = grapHook.changeStatus(grapHook.findProjectile);
-            Debug.Log(grapHook.holdobject + " new status");
+            //Debug.Log(grapHook.holdobject + " new status");
             //Destroy(gameObject);
         }
         else if (hitInfo.tag == "Wall")
@@ -43,7 +44,7 @@ public class GrappleProjObject : MonoBehaviour
 
     public void OnDestroy()
     {
-        Debug.Log("I died");
+        //Debug.Log("I died");
         grapHook.firing = false;
     }
 }

@@ -10,6 +10,7 @@ public class Updated_Player_Stats : MonoBehaviour
     private int health;
     private bool inDialogue = true;
     private bool inGrapple = false;
+    private bool inDash = false;
     private bool alive;
 
     //Variables for damgage state
@@ -112,6 +113,16 @@ public class Updated_Player_Stats : MonoBehaviour
     public bool Check_Grapple_Status()
     {
         return inGrapple;
+    }
+
+    public void Toggle_Dash_Status()
+    {
+        inDash = !inDash;
+    }
+
+    public bool Check_Dash_Status()
+    {
+        return inDash;
     }
 
 }

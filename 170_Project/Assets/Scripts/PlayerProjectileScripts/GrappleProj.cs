@@ -36,14 +36,16 @@ public class GrappleProj : MonoBehaviour
         holdobject = false;
         grappleToSpeed = (1.0f * grappleToSpeed) * Time.deltaTime;
     }
-    void FixedUpdate()
+    void Update()
     {
-        if (!gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
+        if (!gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Dash_Status())
         {
             if (findProjectile == false && !firing)
             {
+                //Debug.Log("ready");
                 if (Input.GetButtonDown("Fire1"))
                 {
+                    Debug.Log("you are clicking me");
                     DetectObject();
 
                 }
@@ -51,17 +53,20 @@ public class GrappleProj : MonoBehaviour
             if (holdobject && Input.GetButtonDown("Fire2"))
             {
 
-                Debug.Log("you are clicking me");
+                //Debug.Log("you are clicking me");
                 foundObject();
 
             }
         }
+        //Debug.Log(findProjectile);
+    }
 
+    private void FixedUpdate()
+    {
         if (gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
         {
             player.GetComponent<Rigidbody2D>().MovePosition(player.GetComponent<Rigidbody2D>().position + direction * grappleToSpeed * Time.fixedDeltaTime);
         }
-        //Debug.Log(findProjectile);
     }
 
     public void DetectObject()
@@ -71,7 +76,7 @@ public class GrappleProj : MonoBehaviour
         bulletSpawn = Instantiate(grapple, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bulletSpawn.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
-        Destroy(bulletSpawn, 1f);
+        Destroy(bulletSpawn, 1.2f);
         //Debug.Log(grapple.name + " hittest1");
         // Debug.Log(findProjectile);
 
@@ -101,13 +106,13 @@ public class GrappleProj : MonoBehaviour
     {
         if (changeStatus == true)
         {
-            Debug.Log("hit1");
+            //Debug.Log("hit1");
             return findProjectile = false;
 
         }
         if (findProjectile == false)
         {
-            Debug.Log("hit2");
+            //Debug.Log("hit2");
             return findProjectile = true;
 
         }

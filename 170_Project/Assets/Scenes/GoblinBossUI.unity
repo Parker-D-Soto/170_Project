@@ -2660,9 +2660,15 @@ MonoBehaviour:
   holdobject: 0
   hitEffect: {fileID: 0}
   firing: 0
-  grappleToSpeed: 6000
+  grappleToSpeed: 8000
   grappleToObject: {fileID: 0}
   direction: {x: 0, y: 0}
+--- !u!50 &1427245605 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3029498852200312998, guid: 7c9076940b3a70b4a864ee674a680590,
+    type: 3}
+  m_PrefabInstance: {fileID: 1639502030}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1441652562
 GameObject:
   m_ObjectHideFlags: 0
@@ -3070,11 +3076,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5479774469788701792, guid: 7c9076940b3a70b4a864ee674a680590,
+        type: 3}
+      propertyPath: dashDistance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5479774469788701792, guid: 7c9076940b3a70b4a864ee674a680590,
+        type: 3}
+      propertyPath: dashSpeed
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801039864443124378, guid: 7c9076940b3a70b4a864ee674a680590,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 7801039864443124381, guid: 7c9076940b3a70b4a864ee674a680590,
         type: 3}
       propertyPath: cam
       value: 
       objectReference: {fileID: 1697522143}
+    - target: {fileID: 7801039864443124381, guid: 7c9076940b3a70b4a864ee674a680590,
+        type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1427245605}
+    - target: {fileID: 7801039864443124381, guid: 7c9076940b3a70b4a864ee674a680590,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1427245605}
     - target: {fileID: 7801039864443124383, guid: 7c9076940b3a70b4a864ee674a680590,
         type: 3}
       propertyPath: grapple

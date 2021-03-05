@@ -16,22 +16,22 @@ public class PTBTGoblinPickaxeThrow : MonoBehaviour
     {
         GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Have a Pickaxe";
         timeForNextThrow = durationOfAttack / (float)howManyThrows;
-        Debug.Log("timeForNextThrow: "+timeForNextThrow);
+        //Debug.Log("timeForNextThrow: "+timeForNextThrow);
         while (pickaxeThrown < howManyThrows)
         {
             if (timeInAttack >= timeForNextThrow)
             {
-                Debug.Log("timeInAttack: " + timeInAttack);
+                //Debug.Log("timeInAttack: " + timeInAttack);
                 timeInAttack = 0f;
-                Debug.Log("timeInAttack: " + timeInAttack);
+                //Debug.Log("timeInAttack: " + timeInAttack);
                 Instantiate(pickaxe, gameObject.transform.position, Quaternion.identity);
                 pickaxeThrown++;
-                Debug.Log("pickaxe thrown: " + pickaxeThrown);
+                //Debug.Log("pickaxe thrown: " + pickaxeThrown);
             }
             else
             {
                 timeInAttack += Time.deltaTime;
-                Debug.Log("timeInAttack: " + timeInAttack);
+                //Debug.Log("timeInAttack: " + timeInAttack);
 
             }
 
