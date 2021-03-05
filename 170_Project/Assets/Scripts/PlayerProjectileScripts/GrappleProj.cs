@@ -76,7 +76,7 @@ public class GrappleProj : MonoBehaviour
         bulletSpawn = Instantiate(grapple, firePoint.position, firePoint.rotation);
         Rigidbody2D rb = bulletSpawn.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
-        Destroy(bulletSpawn, 1.2f);
+        Destroy(bulletSpawn, 1.0f);
         //Debug.Log(grapple.name + " hittest1");
         // Debug.Log(findProjectile);
 

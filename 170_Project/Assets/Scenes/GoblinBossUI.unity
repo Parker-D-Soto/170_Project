@@ -2653,14 +2653,14 @@ MonoBehaviour:
   grappleObject: {fileID: 0}
   firePoint: {fileID: 1639502031}
   grapple: {fileID: 166911903}
-  bulletForce: 200
+  bulletForce: 300
   newProjectiles: {fileID: 0}
   bulletSpawn: {fileID: 0}
   findProjectile: 0
   holdobject: 0
   hitEffect: {fileID: 0}
   firing: 0
-  grappleToSpeed: 8000
+  grappleToSpeed: 10000
   grappleToObject: {fileID: 0}
   direction: {x: 0, y: 0}
 --- !u!50 &1427245605 stripped

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PTBTPickaxeCollisionScript : MonoBehaviour
 {
-    public float moveSpeed = 7f;
+    public float moveSpeed = 240;
     Rigidbody2D rb;
     GameObject target;
     Vector2 moveDirection;
