@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,23 +22,10 @@ public class MovementTest : MonoBehaviour
     void FixedUpdate()
     {
         //player movement
-        if (!GetComponent<Updated_Player_Stats>().Check_Dashing() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status())
+        if (!gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Dash_Status())
         {
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
         }
 
-        if (GetComponent<Updated_Player_Stats>().Check_Dashing())
-        {
-            
-            transform.position = Vector2.MoveTowards(transform.position, GetComponent<PTBTDash>().CheckDestination(), GetComponent<PTBTDash>().dashSpeed*Time.deltaTime);
-            if (transform.position.x == GetComponent<PTBTDash>().CheckDestination().x && transform.position.y == GetComponent<PTBTDash>().CheckDestination().y)
-            {
-                //Debug.Log("GetDashing: " + GetComponent<Updated_Player_Stats>().Check_Dashing());
-                GetComponent<Updated_Player_Stats>().End_Dashing();
-            }
-        }
-
     }
-
-
 }

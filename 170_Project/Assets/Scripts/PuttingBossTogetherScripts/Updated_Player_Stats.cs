@@ -6,12 +6,11 @@ using UnityEngine;
 //Combination of Boss_Stats and Player_Dmg_State
 public class Updated_Player_Stats : MonoBehaviour
 {
-    //flag for player in dash state
-    private bool dashing = false;
-
     //health tracking
     private int health;
     private bool inDialogue = true;
+    private bool inGrapple = false;
+    private bool inDash = false;
     private bool alive;
 
     //Variables for damgage state
@@ -61,7 +60,7 @@ public class Updated_Player_Stats : MonoBehaviour
             }
             else
             {
-                //Debug.Log("Done");
+                Debug.Log("Done");
                 sprite.color = Color.white;
                 damaged = false;
                 //reset timer to 3 second for next countdown
@@ -72,21 +71,6 @@ public class Updated_Player_Stats : MonoBehaviour
         }
     }
 
-    public bool Check_Dashing()
-    {
-        return dashing;
-    }
-
-    public void Start_Dashing()
-    {
-        dashing = true;
-    }
-
-    public void End_Dashing()
-    {
-        dashing = false;
-    }
-
     public int Check_Health()
     {
         return health;
@@ -95,20 +79,20 @@ public class Updated_Player_Stats : MonoBehaviour
     public void Minus_Health(int damage)
     {
         health = health - damage;
-        //Debug.Log("Health: " + health);
+        Debug.Log("Health: " + health);
     }
     //function to call in boss attacks when player is hit
     public void gotHit(int damage)
     {
 
-        if (!damaged && !dashing)
+        if (!damaged)
         {
             Minus_Health(damage);
             damaged = true;
         }
 
 
-        
+
     }
 
     public void Toggle_Dialogue_Status()
@@ -119,6 +103,26 @@ public class Updated_Player_Stats : MonoBehaviour
     public bool Check_Dialogue_Status()
     {
         return inDialogue;
+    }
+
+    public void Toggle_Grapple_Status()
+    {
+        inGrapple = !inGrapple;
+    }
+
+    public bool Check_Grapple_Status()
+    {
+        return inGrapple;
+    }
+
+    public void Toggle_Dash_Status()
+    {
+        inDash = !inDash;
+    }
+
+    public bool Check_Dash_Status()
+    {
+        return inDash;
     }
 
 }

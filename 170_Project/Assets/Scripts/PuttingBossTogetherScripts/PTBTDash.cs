@@ -4,56 +4,54 @@ using UnityEngine;
 
 public class PTBTDash : MonoBehaviour
 {
-    public float dashSpeed = 300; //set dash speed
-    public float dashDistance = 1000;
+    public float dashSpeed; //set dash speed
+    //public float dashDistance = 1000;
+    private Vector2 direction;
     public Rigidbody2D rg;
 
     bool dash = true;
-    int dashCooldown = 2;  //modify cooldown
-
-    private Vector2 destination;
+    //bool inDash = false;
+    int dashCooldown = 160;  //modify cooldown
+    int inDashTime = 100;
 
     void FixedUpdate()
     {
-        if (dashCooldown == 0)
+        //bug.Log(gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status());
+        if (gameObject.GetComponent<Updated_Player_Stats>().Check_Dash_Status())
+        {
+            rg.velocity = direction * dashSpeed * -1;
+        }
+
+        if (dashCooldown == 1)
         {
             dash = true;
         }
+        else if (inDashTime == 1 && gameObject.GetComponent<Updated_Player_Stats>().Check_Dash_Status())
+        {
+            gameObject.GetComponent<Updated_Player_Stats>().Toggle_Dash_Status();
+        }
         else
         {
+            Debug.Log(inDashTime);
             dashCooldown--;
+            inDashTime--;
         }
-
-        rg.velocity = Vector2.zero;
-
-        if (dash && Input.GetKey(KeyCode.Space) && !gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status())
+    }
+    private void Update()
+    {
+        if (dash && Input.GetKey(KeyCode.Space) && !gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Dash_Status())
         {
-            //Debug.Log("dash");
+            Debug.Log("dash");
             //Vector2 mouseDirection = (Input.mousePosition - new Vector3(Screen.width / 2, Screen.height / 2)).normalized;
-            //Vector2 mouseDirection = (Input.mousePosition - new Vector3(gameObject.transform.position.x, gameObject.transform.position.y)).normalized;
+            //direction = (new Vector3(rg.position.x, rg.position.y) - Camera.main.ScreenToWorldPoint(Input.mousePosition)).normalized;
+            direction = (new Vector3(rg.position.x, rg.position.y) - Camera.main.ScreenToWorldPoint(Input.mousePosition)).normalized;
             //rg.AddForce(mouseDirection * dashSpeed * Time.fixedDeltaTime);
             //Vector2 newPosition = ((Vector2)gameObject.transform.position + mouseDirection * dashDistance);
             //gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, newPosition, dashDistance); //need to find someway to update: might need to use states
             dash = false;
-            destination = MoveToNewPosition();
-            GetComponent<Updated_Player_Stats>().Start_Dashing();
-            dashCooldown = 2; //update cooldown
+            dashCooldown = 60; //update cooldown
+            inDashTime = 40;
+            gameObject.GetComponent<Updated_Player_Stats>().Toggle_Dash_Status();
         }
-    }
-
-
-    private Vector2 MoveToNewPosition()
-    {
-        
-        var mouseDirection = new Vector2(Input.mousePosition.x - transform.position.x, Input.mousePosition.y - transform.position.y).normalized;
-        //Debug.Log("mouseDirection: " + mouseDirection);
-        var dashVector = mouseDirection * dashDistance;
-        var targetPosition = new Vector2(transform.position.x + dashVector.x, transform.position.y + dashVector.y);
-        return targetPosition;
-    }
-
-    public Vector2 CheckDestination()
-    {
-        return destination;
     }
 }

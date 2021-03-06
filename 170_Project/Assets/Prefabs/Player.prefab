@@ -14,12 +14,13 @@ GameObject:
   - component: {fileID: 7801039865262587587}
   - component: {fileID: 5479774469788701792}
   - component: {fileID: 2136813261610807599}
-  - component: {fileID: 7801039864443124383}
   - component: {fileID: 7801039864443124381}
   - component: {fileID: 7801039864443124378}
   - component: {fileID: 3029498852200313000}
+  - component: {fileID: 4174969931085182191}
+  - component: {fileID: 593147258832624306}
   m_Layer: 8
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -151,8 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eb2b14b605759446a3411c8724ecfe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashSpeed: 100
-  dashDistance: 1000
+  dashSpeed: 200
   rg: {fileID: 3029498852200312998}
 --- !u!114 &2136813261610807599
 MonoBehaviour:
@@ -166,24 +166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ba9e44a439f9b439be7c84e492cd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7801039864443124383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3029498852200313003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13c33d2687e73a34f88db00f7d1e1f91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 3029498852200313003}
-  firePoint: {fileID: 7801039864828884734}
-  grapple: {fileID: 0}
-  bulletForce: 200
-  bulletSpawn: {fileID: 0}
-  hitEffect: {fileID: 0}
 --- !u!114 &7801039864443124381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 549f505b4cf6cb441bbc49d9fa03f73e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 100
+  moveSpeed: 120
   rb: {fileID: 3029498852200312998}
 --- !u!114 &3029498852200313000
 MonoBehaviour:
@@ -224,6 +206,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d6345278cf44be429477a423650a596, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4174969931085182191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3029498852200313003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef760fdf83779349815eedd7cfe6ff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 3029498852200313003}
+  grappleObject: {fileID: 0}
+  firePoint: {fileID: 7801039864828884734}
+  grapple: {fileID: 0}
+  bulletForce: 200
+  newProjectiles: {fileID: 0}
+  bulletSpawn: {fileID: 0}
+  findProjectile: 0
+  holdobject: 0
+  hitEffect: {fileID: 0}
+  firing: 0
+  grappleToSpeed: 9000
+  grappleToObject: {fileID: 0}
+  direction: {x: 0, y: 0}
+--- !u!114 &593147258832624306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3029498852200313003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae4e3b964cee01f48b21122582fd4224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myhealthBar: {fileID: 0}
 --- !u!1 &7801039864211464093
 GameObject:
   m_ObjectHideFlags: 0
