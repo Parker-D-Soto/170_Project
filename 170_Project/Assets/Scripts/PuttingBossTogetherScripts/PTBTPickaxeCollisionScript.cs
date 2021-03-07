@@ -14,7 +14,10 @@ public class PTBTPickaxeCollisionScript : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player");
-        moveDirection = (target.transform.position - transform.position).normalized * moveSpeed;
+        if(target != null)
+        {
+            moveDirection = (target.transform.position - transform.position).normalized * moveSpeed;
+        }
         rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
         Destroy(gameObject, 5f);
     }
