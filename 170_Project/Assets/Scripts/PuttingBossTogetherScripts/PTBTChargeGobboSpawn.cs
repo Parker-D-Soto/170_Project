@@ -15,25 +15,29 @@ public class PTBTChargeGobboSpawn : MonoBehaviour
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Charge the enemy";
 
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Get Em Boys!";
-        Vector3 playerPosition = player.position;
-        List <GameObject> spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint").ToList<GameObject>();
-        for (int i = 0; i < gobbosInFireSquad; i++)
+        if(player != null)
         {
-            GameObject closest = spawnPoints.First();
-            float shortestDistance = Mathf.Infinity;
-
-            foreach (GameObject spawnPoint in spawnPoints)
+            Vector3 playerPosition = player.position;
+            List<GameObject> spawnPoints = GameObject.FindGameObjectsWithTag("SpawnPoint").ToList<GameObject>();
+            for (int i = 0; i < gobbosInFireSquad; i++)
             {
-                float distance = Vector2.Distance(spawnPoint.transform.position,playerPosition);
-                if(distance < shortestDistance)
-                {
-                    closest = spawnPoint;
-                    shortestDistance = distance;
-                }
-            }
+                GameObject closest = spawnPoints.First();
+                float shortestDistance = Mathf.Infinity;
 
-            Instantiate(fireSquad, closest.transform.position, Quaternion.identity);
-            spawnPoints.Remove(closest);
+                foreach (GameObject spawnPoint in spawnPoints)
+                {
+                    float distance = Vector2.Distance(spawnPoint.transform.position, playerPosition);
+                    if (distance < shortestDistance)
+                    {
+                        closest = spawnPoint;
+                        shortestDistance = distance;
+                    }
+                }
+
+                Instantiate(fireSquad, closest.transform.position, Quaternion.identity);
+                spawnPoints.Remove(closest);
+            }
         }
+        
     }
 }

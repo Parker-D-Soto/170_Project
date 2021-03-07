@@ -18,7 +18,11 @@ public class PTBTChase : MonoBehaviour
     {
 
         goblin_loc = gameObject.transform.position;
-        skelly_loc = GameObject.FindGameObjectWithTag("Player").transform.position;
+
+        if(GameObject.FindGameObjectWithTag("Player") != null)
+        {
+            skelly_loc = GameObject.FindGameObjectWithTag("Player").transform.position;
+        }
     }
 
     // Update is called once per frame
@@ -29,6 +33,9 @@ public class PTBTChase : MonoBehaviour
         //moving goblin towards player
         transform.position = Vector2.MoveTowards(transform.position, skelly_loc, goblin_move);
 
-        skelly_loc = GameObject.FindGameObjectWithTag("Player").transform.position;
+        if (GameObject.FindGameObjectWithTag("Player") != null)
+        {
+            skelly_loc = GameObject.FindGameObjectWithTag("Player").transform.position;
+        }
     }
 }
