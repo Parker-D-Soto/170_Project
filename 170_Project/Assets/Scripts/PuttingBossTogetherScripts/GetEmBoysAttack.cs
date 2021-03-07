@@ -17,16 +17,20 @@ public class GetEmBoysAttack : MonoBehaviour
     public void SummonCircleOfGobbos()
     {
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Get Em Boys!";
-        position = target.GetComponent<Transform>().position;
-        for (int i = 0; i < howManyGobbos; i++)
+        if(target != null)
         {
-            //spawn point for a specific goblin
-            Vector2 spawnPoint = RandomCircle(position, radius);
+            position = target.GetComponent<Transform>().position;
+            for (int i = 0; i < howManyGobbos; i++)
+            {
+                //spawn point for a specific goblin
+                Vector2 spawnPoint = RandomCircle(position, radius);
 
-            //spawn one goblin at that spawn point
-            Instantiate(gobbo, spawnPoint, Quaternion.identity);
+                //spawn one goblin at that spawn point
+                Instantiate(gobbo, spawnPoint, Quaternion.identity);
 
+            }
         }
+
     }
 
     //chooses a random point a certain distance from the player

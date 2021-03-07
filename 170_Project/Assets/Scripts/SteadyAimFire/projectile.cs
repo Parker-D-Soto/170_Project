@@ -12,21 +12,33 @@ public class projectile : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        if(GameObject.FindGameObjectWithTag("Player") != null)
+        {
+            player = GameObject.FindGameObjectWithTag("Player").transform;
 
-        target = new Vector2(player.position.x, player.position.y);
+            target = new Vector2(player.position.x, player.position.y);
+        }
+
     }
 
     // Update is called once per frame
     void Update()
     {
-         
+        if(target != null)
+        {
+            transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
 
-        transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
-
-        if (transform.position.x == target.x && transform.position.y == target.y){
+            if (transform.position.x == target.x && transform.position.y == target.y)
+            {
+                DestroyProjectile();
+            }
+        }
+        else
+        {
             DestroyProjectile();
         }
+
+
     }
 
     void OnTriggerEnter2D(Collider2D other){
