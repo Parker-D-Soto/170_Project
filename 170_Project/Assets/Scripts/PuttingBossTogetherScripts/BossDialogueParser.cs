@@ -28,7 +28,7 @@ public class BossDialogueParser : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        SoundManagerScript.PlaySound("Dialogue");
         var narrativeData = dialogue.NodeLinks.First();
         ProceedToNarrative(narrativeData.TargetNodeGuid);
     }
@@ -139,6 +139,7 @@ public class BossDialogueParser : MonoBehaviour
     {
         GameObject.FindGameObjectWithTag("Player").GetComponent<Updated_Player_Stats>().Toggle_Dialogue_Status();
         Boss.GetComponent<Updated_Boss_Stats>().Toggle_Dialogue_Status();
+        SoundManagerScript.PlaySound("Fight");
         Destroy(gameObject);
     }
 

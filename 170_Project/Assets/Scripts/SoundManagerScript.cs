@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundManagerScript : MonoBehaviour
 {
     public static AudioClip DialogueBG, FightBG;
-    static AudioSource audioSrc;
+    public static AudioSource audioSrc;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +25,7 @@ public class SoundManagerScript : MonoBehaviour
     public static void PlaySound (string clip){
         switch(clip){
             case "Fight":
+                //audioSrc.AudioClip("oldverison-beat6");
                 audioSrc.PlayOneShot(FightBG);
                 break;
             case "Dialogue":
