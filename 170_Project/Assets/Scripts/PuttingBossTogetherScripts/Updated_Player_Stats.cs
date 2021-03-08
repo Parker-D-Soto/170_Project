@@ -85,7 +85,7 @@ public class Updated_Player_Stats : MonoBehaviour
     public void gotHit(int damage)
     {
 
-        if (!damaged)
+        if (!damaged && !inDash)
         {
             Minus_Health(damage);
             damaged = true;
