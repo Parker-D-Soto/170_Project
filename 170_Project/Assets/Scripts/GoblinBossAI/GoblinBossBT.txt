@@ -1,0 +1,82 @@
+tree("Root")
+	while IsAlive
+		while CheckDialogueStatus
+			while IsCooldownOver
+				random
+					//tree("Melee")
+					tree("SteadyAimFire")
+					tree("GetEmBoys")
+					tree("SurroundEm")
+					tree("PickaxeThrow")
+					tree("GoblinCharge")
+
+tree("SurroundEm")
+	sequence
+		CheckAttacks("surroundEm")
+		SameAsLastAttack("surroundEm")
+		AnnounceAttack("surroundEm")
+		ResetStartup
+		mute
+			while CheckStartup
+				IncrementStartup
+		SurroundEm
+		ResetCooldown
+				
+tree("GetEmBoys")
+	sequence
+		CheckAttacks("getEmBoys")
+		SameAsLastAttack("getEmBoys")
+		AnnounceAttack("getEmBoys")
+		ResetStartup
+		mute
+			while CheckStartup
+				IncrementStartup
+		GetEmBoys
+		ResetCooldown
+
+tree("SteadyAimFire")
+	sequence
+		CheckAttacks("steadyAimFire")
+		SameAsLastAttack("steadyAimFire")
+		AnnounceAttack("steadyAimFire")
+		ResetStartup
+		mute
+			while CheckStartup
+				IncrementStartup
+		SteadyAimFire
+		ResetCooldown
+
+//tree("Melee")
+	//sequence
+		//CheckAttacks("melee")
+		//SameAsLastAttack("melee")
+		//ResetStartup
+		//mute
+			//while CheckStartup
+				//IncrementStartup
+		//Melee
+		//ResetCooldown
+
+tree("PickaxeThrow")
+	sequence
+		CheckAttacks("pickaxeThrow")
+		SameAsLastAttack("pickaxeThrow")
+		AnnounceAttack("pickaxeThrow")
+		ResetStartup
+		mute
+			while CheckStartup
+				IncrementStartup
+		PickaxeThrow
+		ResetCooldown
+
+tree("GoblinCharge")
+	sequence
+		CheckAttacks("goblinCharge")
+		SameAsLastAttack("goblinCharge")
+		AnnounceAttack("goblinCharge")
+		ResetStartup
+		mute
+			while CheckStartup
+				IncrementStartup
+		GoblinCharge
+		ResetCooldown
