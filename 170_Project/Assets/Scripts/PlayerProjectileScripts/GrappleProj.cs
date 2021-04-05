@@ -86,6 +86,9 @@ public class GrappleProj : MonoBehaviour
     {
         firing = false;
         Rigidbody2D rb = newProjectiles.AddComponent<Rigidbody2D>(); //add Rigidbody2D when ready to shoot.
+        //rb.isKinematic = true;
+        Physics2D.IgnoreLayerCollision(10,10); //ignore pickaxe and clone pickaxe from colliding
+        Physics2D.IgnoreLayerCollision(9,10); //ignores clone pickaxe and dividing wall from colliding
         rb.gravityScale = 0;
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
         Destroy(newProjectiles, 5f);

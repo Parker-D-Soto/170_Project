@@ -33,4 +33,16 @@ public class SoundManagerScript : MonoBehaviour
                 break;
         }
     }
+
+    public static void StopSound (string clip){
+       switch(clip){
+            case "Fight":
+                //audioSrc.AudioClip("oldverison-beat6");
+                audioSrc.Stop();
+                break;
+            case "Dialogue":
+                audioSrc.Stop();
+                break;
+        } 
+    }
 }
