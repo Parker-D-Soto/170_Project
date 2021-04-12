@@ -1,0 +1,704 @@
+fileFormatVersion: 2
+guid: 85258da11c86ab54785b0e229f312dfb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8524592497140671621
+    second: Skelly and Goblins Character Sprite Sheet_0
+  - first:
+      213: -5843354172831810188
+    second: Skelly and Goblins Character Sprite Sheet_1
+  - first:
+      213: 6428297227786038980
+    second: Skelly and Goblins Character Sprite Sheet_2
+  - first:
+      213: 3048697428882594730
+    second: Skelly and Goblins Character Sprite Sheet_3
+  - first:
+      213: 7044583154717462588
+    second: Skelly and Goblins Character Sprite Sheet_4
+  - first:
+      213: -6155366715606904000
+    second: Skelly and Goblins Character Sprite Sheet_5
+  - first:
+      213: -8703173395328161217
+    second: Skelly and Goblins Character Sprite Sheet_6
+  - first:
+      213: -5864942777521465360
+    second: Skelly and Goblins Character Sprite Sheet_7
+  - first:
+      213: 1645806231107951016
+    second: Skelly and Goblins Character Sprite Sheet_8
+  - first:
+      213: -2674091536792178403
+    second: Skelly and Goblins Character Sprite Sheet_9
+  - first:
+      213: -3632346225507563316
+    second: Skelly and Goblins Character Sprite Sheet_10
+  - first:
+      213: -5012575775805170103
+    second: Skelly and Goblins Character Sprite Sheet_11
+  - first:
+      213: 4913145400554219507
+    second: Skelly and Goblins Character Sprite Sheet_12
+  - first:
+      213: 1367048076379703003
+    second: Skelly and Goblins Character Sprite Sheet_13
+  - first:
+      213: 4338150382626809546
+    second: Skelly and Goblins Character Sprite Sheet_14
+  - first:
+      213: -402101354283572620
+    second: Skelly and Goblins Character Sprite Sheet_15
+  - first:
+      213: 1092078146779311849
+    second: Skelly and Goblins Character Sprite Sheet_16
+  - first:
+      213: 7305895984783949854
+    second: Skelly and Goblins Character Sprite Sheet_17
+  - first:
+      213: 2901802859357569223
+    second: Skelly and Goblins Character Sprite Sheet_18
+  - first:
+      213: 5853328013381403604
+    second: Skelly and Goblins Character Sprite Sheet_19
+  - first:
+      213: 2982646952865565321
+    second: Skelly and Goblins Character Sprite Sheet_20
+  - first:
+      213: 5246883539193635201
+    second: Skelly and Goblins Character Sprite Sheet_21
+  - first:
+      213: 5888026187086860702
+    second: Skelly and Goblins Character Sprite Sheet_22
+  - first:
+      213: -35523645452498766
+    second: Skelly and Goblins Character Sprite Sheet_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2254
+        width: 144
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584a70ff5bf6d4670800000000000000
+      internalID: 8524592497140671621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 2254
+        width: 84
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d3097d65c38eea0800000000000000
+      internalID: -5843354172831810188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 2254
+        width: 143
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cea0d42546e53950800000000000000
+      internalID: 6428297227786038980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 2254
+        width: 84
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab913ca8262f4a20800000000000000
+      internalID: 3048697428882594730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 2254
+        width: 144
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3092af2e0363c160800000000000000
+      internalID: 7044583154717462588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 2254
+        width: 84
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043dcfda59eb39aa0800000000000000
+      internalID: -6155366715606904000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 2254
+        width: 83
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aa5d888ed183780800000000000000
+      internalID: -8703173395328161217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1523
+        width: 144
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f717dd1e998b9ea0800000000000000
+      internalID: -5864942777521465360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 1523
+        width: 142
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9505e1c0417d610800000000000000
+      internalID: 1645806231107951016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1523
+        width: 143
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11bf9c4ae7b3ead0800000000000000
+      internalID: -2674091536792178403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 1523
+        width: 143
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc804675a50579dc0800000000000000
+      internalID: -3632346225507563316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 1523
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e9761c3e0cf6ab0800000000000000
+      internalID: -5012575775805170103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1523
+        width: 143
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7e0e9f5bffe2440800000000000000
+      internalID: 4913145400554219507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1523
+        width: 164
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd64e778bfab8f210800000000000000
+      internalID: 1367048076379703003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1523
+        width: 143
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac622bad9c4343c30800000000000000
+      internalID: 4338150382626809546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1543
+        width: 183
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472693ed2f27b6af0800000000000000
+      internalID: -402101354283572620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2324
+        y: 1543
+        width: 183
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee6fb5d947d72f00800000000000000
+      internalID: 1092078146779311849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 723
+        width: 342
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10000b90b1c36560800000000000000
+      internalID: 7305895984783949854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 723
+        width: 233
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c088308356454820800000000000000
+      internalID: 2901802859357569223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 723
+        width: 344
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3017fd0d23b3150800000000000000
+      internalID: 5853328013381403604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 723
+        width: 233
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a04f3d99d746920800000000000000
+      internalID: 2982646952865565321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 723
+        width: 253
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1812b7b97cca0d840800000000000000
+      internalID: 5246883539193635201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 723
+        width: 324
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91928dfe9876b150800000000000000
+      internalID: 5888026187086860702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skelly and Goblins Character Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 723
+        width: 254
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b84da3ce6bc18ff0800000000000000
+      internalID: -35523645452498766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

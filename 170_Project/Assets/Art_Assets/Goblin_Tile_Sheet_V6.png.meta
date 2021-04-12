@@ -1,0 +1,2288 @@
+fileFormatVersion: 2
+guid: aee00219c4771af49982577d97e9637e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8507777235314063824
+    second: Goblin_Tile_Sheet
+  - first:
+      213: 5073476646436235945
+    second: Goblin_Tile_Sheet_V6_1
+  - first:
+      213: -3576698650909334687
+    second: Goblin_Tile_Sheet_V6_2
+  - first:
+      213: -729679954670497749
+    second: Goblin_Tile_Sheet_V6_3
+  - first:
+      213: 4922432456783452051
+    second: Goblin_Tile_Sheet_V6_4
+  - first:
+      213: 8457209654429049181
+    second: Goblin_Tile_Sheet_V6_5
+  - first:
+      213: 1226540321235031508
+    second: Goblin_Tile_Sheet_V6_6
+  - first:
+      213: -4585627315792682561
+    second: Goblin_Tile_Sheet_V6_7
+  - first:
+      213: 2618434223347833715
+    second: Goblin_Tile_Sheet_V6_8
+  - first:
+      213: -2357364409786612036
+    second: Goblin_Tile_Sheet_V6_9
+  - first:
+      213: -4680960064068863643
+    second: Goblin_Tile_Sheet_V6_10
+  - first:
+      213: -6109108083293622467
+    second: Goblin_Tile_Sheet_V6_11
+  - first:
+      213: 646141106047407550
+    second: Goblin_Tile_Sheet_V6_12
+  - first:
+      213: -3057925984389539180
+    second: Goblin_Tile_Sheet_V6_13
+  - first:
+      213: 4245041284753587163
+    second: Goblin_Tile_Sheet_V6_14
+  - first:
+      213: -4616068900226555872
+    second: Goblin_Tile_Sheet_V6_15
+  - first:
+      213: -7983769393874996155
+    second: Goblin_Tile_Sheet_V6_16
+  - first:
+      213: 8313268877565309492
+    second: Goblin_Tile_Sheet_V6_17
+  - first:
+      213: 1991713176421918059
+    second: Goblin_Tile_Sheet_V6_18
+  - first:
+      213: 8496702426673915173
+    second: Goblin_Tile_Sheet_V6_19
+  - first:
+      213: 7175364386384501344
+    second: Goblin_Tile_Sheet_V6_20
+  - first:
+      213: 3851282573264333022
+    second: Goblin_Tile_Sheet_V6_21
+  - first:
+      213: -8819706685788429543
+    second: Goblin_Tile_Sheet_V6_22
+  - first:
+      213: 2634069638012194278
+    second: Goblin_Tile_Sheet_V6_23
+  - first:
+      213: -4673750282447062733
+    second: Goblin_Tile_Sheet_V6_24
+  - first:
+      213: -5145997806806197690
+    second: Goblin_Tile_Sheet_V6_25
+  - first:
+      213: 2900117932900971232
+    second: Goblin_Tile_Sheet_V6_26
+  - first:
+      213: 9201309241185590961
+    second: Goblin_Tile_Sheet_V6_27
+  - first:
+      213: 8837409267441976164
+    second: Goblin_Tile_Sheet_V6_28
+  - first:
+      213: -2203983560906467420
+    second: Goblin_Tile_Sheet_V6_29
+  - first:
+      213: 312041951621878747
+    second: Goblin_Tile_Sheet_V6_30
+  - first:
+      213: -4074668674600778452
+    second: Goblin_Tile_Sheet_V6_31
+  - first:
+      213: 1788704931684178481
+    second: Goblin_Tile_Sheet_V6_32
+  - first:
+      213: -6187563365600051610
+    second: Goblin_Tile_Sheet_V6_33
+  - first:
+      213: 6390631963550234016
+    second: Goblin_Tile_Sheet_V6_34
+  - first:
+      213: -3980430934674724514
+    second: Goblin_Tile_Sheet_V6_35
+  - first:
+      213: -5866073974951455735
+    second: Goblin_Tile_Sheet_V6_36
+  - first:
+      213: 1159197646749401964
+    second: Goblin_Tile_Sheet_V6_37
+  - first:
+      213: 194384149426923623
+    second: Goblin_Tile_Sheet_V6_38
+  - first:
+      213: -6648038252990836092
+    second: Goblin_Tile_Sheet_V6_39
+  - first:
+      213: 1418556036420212019
+    second: Goblin_Tile_Sheet_V6_40
+  - first:
+      213: 7100503713141535405
+    second: Goblin_Tile_Sheet_V6_41
+  - first:
+      213: -3680156514795074854
+    second: Goblin_Tile_Sheet_V6_42
+  - first:
+      213: 5801324280448491188
+    second: Goblin_Tile_Sheet_V6_43
+  - first:
+      213: 2770945672855464692
+    second: Goblin_Tile_Sheet_V6_44
+  - first:
+      213: -169602277090279539
+    second: Goblin_Tile_Sheet_V6_45
+  - first:
+      213: -8286594308718476620
+    second: Goblin_Tile_Sheet_V6_46
+  - first:
+      213: 8885528681228342791
+    second: Goblin_Tile_Sheet_V6_47
+  - first:
+      213: 1649489617191821266
+    second: Goblin_Tile_Sheet_V6_48
+  - first:
+      213: 1554721307916415473
+    second: Goblin_Tile_Sheet_V6_49
+  - first:
+      213: -8587449084367445587
+    second: Goblin_Tile_Sheet_V6_50
+  - first:
+      213: -6370632803835286056
+    second: Goblin_Tile_Sheet_V6_51
+  - first:
+      213: -3001721597681295875
+    second: Goblin_Tile_Sheet_V6_52
+  - first:
+      213: -3014546089121837176
+    second: Goblin_Tile_Sheet_V6_53
+  - first:
+      213: 5508865957270872688
+    second: Goblin_Tile_Sheet_V6_54
+  - first:
+      213: 156286144267174909
+    second: Goblin_Tile_Sheet_V6_55
+  - first:
+      213: 7422183309419841798
+    second: Goblin_Tile_Sheet_V6_56
+  - first:
+      213: -4243732819728103330
+    second: Goblin_Tile_Sheet_V6_57
+  - first:
+      213: 4625194479354982897
+    second: Goblin_Tile_Sheet_V6_58
+  - first:
+      213: -8623823163114241139
+    second: Goblin_Tile_Sheet_V6_59
+  - first:
+      213: -2260240852430226012
+    second: Goblin_Tile_Sheet_V6_60
+  - first:
+      213: -9151034748195207951
+    second: Goblin_Tile_Sheet_V6_61
+  - first:
+      213: -3381375416049575715
+    second: Goblin_Tile_Sheet_V6_62
+  - first:
+      213: 7859135721009934538
+    second: Goblin_Tile_Sheet_V6_63
+  - first:
+      213: 1093997144833111375
+    second: Goblin_Tile_Sheet_V6_64
+  - first:
+      213: 4621297019514793103
+    second: Goblin_Tile_Sheet_V6_65
+  - first:
+      213: 1051345893673282066
+    second: Goblin_Tile_Sheet_V6_66
+  - first:
+      213: 4407626065402111260
+    second: Goblin_Tile_Sheet_V6_67
+  - first:
+      213: -2591363783988419743
+    second: Goblin_Tile_Sheet_V6_68
+  - first:
+      213: 2726425436599504897
+    second: Goblin_Tile_Sheet_V6_69
+  - first:
+      213: 4335023144948350800
+    second: Goblin_Tile_Sheet_V6_70
+  - first:
+      213: -7980254146747786173
+    second: Goblin_Tile_Sheet_V6_71
+  - first:
+      213: -941231336595153444
+    second: Goblin_Tile_Sheet_V6_72
+  - first:
+      213: -5211016372603508045
+    second: Goblin_Tile_Sheet_V6_73
+  - first:
+      213: -6071039652224946170
+    second: Goblin_Tile_Sheet_V6_74
+  - first:
+      213: 6552700131351186306
+    second: Goblin_Tile_Sheet_V6_75
+  - first:
+      213: 7166037048178295208
+    second: Goblin_Tile_Sheet_V6_76
+  - first:
+      213: 8184240058229102307
+    second: Goblin_Tile_Sheet_V6_77
+  - first:
+      213: -7025559728399377418
+    second: Goblin_Tile_Sheet_V6_78
+  - first:
+      213: -3793596812437518555
+    second: Goblin_Tile_Sheet_V6_79
+  - first:
+      213: -7215985788178795301
+    second: Goblin_Tile_Sheet_V6_80
+  - first:
+      213: 6824019919704533956
+    second: Goblin_Tile_Sheet_V6_81
+  - first:
+      213: 5882999770819714571
+    second: Goblin_Tile_Sheet_V6_82
+  - first:
+      213: -6852537384691555423
+    second: Goblin_Tile_Sheet_V6_83
+  - first:
+      213: 8767778836042384788
+    second: Goblin_Tile_Sheet_V6_84
+  - first:
+      213: -1199874887223349421
+    second: Goblin_Tile_Sheet_V6_85
+  - first:
+      213: -363680135882657840
+    second: Goblin_Tile_Sheet_V6_86
+  - first:
+      213: 3263562811813793576
+    second: Goblin_Tile_Sheet_V6_87
+  - first:
+      213: 3449251606736704168
+    second: Goblin_Tile_Sheet_V6_88
+  - first:
+      213: -4083856267944156179
+    second: Goblin_Tile_Sheet_V6_89
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 493
+        width: 90
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9bc03c152b11670800000000000000
+      internalID: 8507777235314063824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 528
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa6217212c986640800000000000000
+      internalID: 5073476646436235945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 528
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1632ee3f6830d5ec0800000000000000
+      internalID: -3576698650909334687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_3
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 528
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20542e72f7afd5f0800000000000000
+      internalID: -729679954670497749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_4
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 528
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3975e614d3eff4440800000000000000
+      internalID: 4922432456783452051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 547
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d516f3b5f5b0e5570800000000000000
+      internalID: 8457209654429049181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 544
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d558e57ceb850110800000000000000
+      internalID: 1226540321235031508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 546
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb169d180449c50c0800000000000000
+      internalID: -4585627315792682561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_8
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 528
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b9f569d0c865420800000000000000
+      internalID: 2618434223347833715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 528
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb645842f85f84fd0800000000000000
+      internalID: -2357364409786612036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_10
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 528
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569b26d5f93e90fb0800000000000000
+      internalID: -4680960064068863643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_11
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 527
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fe0d0d096183ba0800000000000000
+      internalID: -6109108083293622467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 496
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5dbbc99ed87f800800000000000000
+      internalID: 646141106047407550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_13
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 496
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a560fc4801095d0800000000000000
+      internalID: -3057925984389539180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_14
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 464
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbfa9aae8a69ea30800000000000000
+      internalID: 4245041284753587163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_15
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 311
+        width: 70
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020a44fcacd60ffb0800000000000000
+      internalID: -4616068900226555872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_16
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 528
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544f17d3904f33190800000000000000
+      internalID: -7983769393874996155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 528
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4323791aff9ae5370800000000000000
+      internalID: 8313268877565309492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_18
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 530
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65e717d49cf3ab10800000000000000
+      internalID: 1991713176421918059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_19
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 530
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5252910f6d95ae570800000000000000
+      internalID: 8496702426673915173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_20
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 529
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06adf6884e3049360800000000000000
+      internalID: 7175364386384501344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_21
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 496
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8a21d6811827530800000000000000
+      internalID: 3851282573264333022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 496
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91361728f7b1a9580800000000000000
+      internalID: -8819706685788429543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_23
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 496
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edcb5f31681e8420800000000000000
+      internalID: 2634069638012194278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_24
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 496
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3397cd571e0832fb0800000000000000
+      internalID: -4673750282447062733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 496
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a9066624eb598b0800000000000000
+      internalID: -5145997806806197690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 496
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e27d4df4e94f3820800000000000000
+      internalID: 2900117932900971232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_27
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 496
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bed265110e91bf70800000000000000
+      internalID: 9201309241185590961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_28
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 482
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463cf98f7e8c4aa70800000000000000
+      internalID: 8837409267441976164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_29
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 464
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a79e59e0a0e961e0800000000000000
+      internalID: -2203983560906467420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_30
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 464
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd311717088945400800000000000000
+      internalID: 312041951621878747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_31
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 483
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c254201dd6ed377c0800000000000000
+      internalID: -4074668674600778452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_32
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 480
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a560d88a1c2d810800000000000000
+      internalID: 1788704931684178481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_33
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 482
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e3030f6eb512aa0800000000000000
+      internalID: -6187563365600051610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_34
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 464
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a53bad69e510b850800000000000000
+      internalID: 6390631963550234016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_35
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 464
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59acb5772ba2c8c0800000000000000
+      internalID: -3980430934674724514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_36
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 464
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904dad0bcc4879ea0800000000000000
+      internalID: -5866073974951455735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_37
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 448
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6387f63e1c461010800000000000000
+      internalID: 1159197646749401964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_38
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 464
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768ee80aa5792b200800000000000000
+      internalID: 194384149426923623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_39
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 464
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482d5458e6c6db3a0800000000000000
+      internalID: -6648038252990836092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_40
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 466
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33510d40339bfa310800000000000000
+      internalID: 1418556036420212019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_41
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 466
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2b42cc18e0a8260800000000000000
+      internalID: 7100503713141535405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_42
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 465
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adaccc9e5257decc0800000000000000
+      internalID: -3680156514795074854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_43
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 411
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be1bf242b1728050800000000000000
+      internalID: 5801324280448491188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_44
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 432
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4faa47a8860647620800000000000000
+      internalID: 2770945672855464692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_45
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 432
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fbfe8a0a375adf0800000000000000
+      internalID: -169602277090279539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_46
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 432
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2cf07616a100d80800000000000000
+      internalID: -8286594308718476620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_47
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 432
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706192e024dbf4b70800000000000000
+      internalID: 8885528681228342791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_48
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 432
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfd965411a24e610800000000000000
+      internalID: 1649489617191821266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_49
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 404
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1b613daca739510800000000000000
+      internalID: 1554721307916415473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_50
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 404
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da166875e8043d880800000000000000
+      internalID: -8587449084367445587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_51
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 368
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd62fcc737f697a0800000000000000
+      internalID: -6370632803835286056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 336
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd96975c1eb756d0800000000000000
+      internalID: -3001721597681295875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_53
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 355
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f89debd4e2a26d0800000000000000
+      internalID: -3014546089121837176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_54
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 356
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0726f52a66c637c40800000000000000
+      internalID: 5508865957270872688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 355
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df34c509b6d3b2200800000000000000
+      internalID: 156286144267174909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_56
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6098dcf3564e00760800000000000000
+      internalID: 7422183309419841798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_57
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 368
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5880761c7b3b15c0800000000000000
+      internalID: -4243732819728103330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_58
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 323
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f13d07afddff2040800000000000000
+      internalID: 4625194479354982897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_59
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 323
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d834acc2686025880800000000000000
+      internalID: -8623823163114241139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_60
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 323
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adf1148be202a0e0800000000000000
+      internalID: -2260240852430226012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_61
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 323
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4819a716ef00180800000000000000
+      internalID: -9151034748195207951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_62
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 242
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8502279f0f211d0800000000000000
+      internalID: -3381375416049575715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_63
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 242
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0716c7c42411d60800000000000000
+      internalID: 7859135721009934538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_64
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 242
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45b1136b98ae2f00800000000000000
+      internalID: 1093997144833111375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c20c19725222040800000000000000
+      internalID: 4621297019514793103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_66
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a26702581279e00800000000000000
+      internalID: 1051345893673282066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15ab0bcd880b2d30800000000000000
+      internalID: 4407626065402111260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_68
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163ee8b3e50a90cd0800000000000000
+      internalID: -2591363783988419743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_69
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1005a174d7536d520800000000000000
+      internalID: 2726425436599504897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_70
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f3eb71598192c30800000000000000
+      internalID: 4335023144948350800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_71
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c92cd7221704190800000000000000
+      internalID: -7980254146747786173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_72
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 96
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd97c2161310f2f0800000000000000
+      internalID: -941231336595153444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_73
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 96
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba2930e730cea7b0800000000000000
+      internalID: -5211016372603508045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_74
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 96
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60032df1a955fbba0800000000000000
+      internalID: -6071039652224946170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_75
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 96
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bc7d04d0edfea50800000000000000
+      internalID: 6552700131351186306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_76
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 96
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1c4ff5ab0e27360800000000000000
+      internalID: 7166037048178295208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_77
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 96
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6944398f2449170800000000000000
+      internalID: 8184240058229102307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_78
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 96
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb177866a2308e90800000000000000
+      internalID: -7025559728399377418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_79
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 100
+        width: 11
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5278b956ccf6a5bc0800000000000000
+      internalID: -3793596812437518555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_80
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 32
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4f557582babdb90800000000000000
+      internalID: -7215985788178795301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_81
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 32
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbad2636f9c3be50800000000000000
+      internalID: 6824019919704533956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_82
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 32
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ed9614f1d94a150800000000000000
+      internalID: 5882999770819714571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_83
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3206f0e85e6e0a0800000000000000
+      internalID: -6852537384691555423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_84
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 32
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4958e7fc5686da970800000000000000
+      internalID: 8767778836042384788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_85
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 32
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fe324b520395fe0800000000000000
+      internalID: -1199874887223349421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_86
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 32
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df29d0e7d2f3faf0800000000000000
+      internalID: -363680135882657840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_87
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 323
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f065416118a4d20800000000000000
+      internalID: 3263562811813793576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_88
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 323
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a29c78bf043edf20800000000000000
+      internalID: 3449251606736704168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin_Tile_Sheet_V6_89
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 404
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3af6b8c5a3357c0800000000000000
+      internalID: -4083856267944156179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
