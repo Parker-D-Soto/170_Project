@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":391.16455078125,"y":276.3177185058594,"z":-1067.90625},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":268.2356262207031,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-6.816999435424805,"y":-0.6741409301757813,"z":-949.5348510742188},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":6.329667091369629,"orthographic":true}
+>>>>>>> Pathfinder
