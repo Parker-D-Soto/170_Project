@@ -13,6 +13,9 @@ public class Updated_Player_Stats : MonoBehaviour
     private bool inDash = false;
     private bool alive;
 
+    public LineController lc;
+    public GrappleProj gP;
+
     //Variables for damgage state
     Color damage_color;
     bool damaged = false;
@@ -32,6 +35,8 @@ public class Updated_Player_Stats : MonoBehaviour
         if (alive && health <= 0)
         {
             alive = false;
+            gP.lPoints.Remove(transform);
+            lc.SetPoints(gP.lPoints);
             Destroy(gameObject);
         }
 

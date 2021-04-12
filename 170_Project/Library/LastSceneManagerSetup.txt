@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Goblin_Boss_Fight.unity
-=======
-- path: Assets/Scenes/StrawberryMovementPathfinding.unity
->>>>>>> Pathfinder
   isLoaded: 1
   isActive: 1
   isSubScene: 0
