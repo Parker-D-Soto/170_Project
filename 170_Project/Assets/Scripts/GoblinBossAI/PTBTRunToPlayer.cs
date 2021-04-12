@@ -29,14 +29,14 @@ public class PTBTRunToPlayer : MonoBehaviour
         Move();
 
         //hurt player if in contact
-        Collider2D[] body = Physics2D.OverlapBoxAll(goblin.GetComponent<Transform>().position, goblin.GetComponent<BoxCollider2D>().size,0);
+        /*Collider2D[] body = Physics2D.OverlapBoxAll(goblin.GetComponent<Transform>().position, goblin.GetComponent<BoxCollider2D>().size,0);
         foreach (var target in body)
         {
             if(target.GetComponent<Updated_Player_Stats>() != null)
             {
                 target.GetComponent<Updated_Player_Stats>().gotHit(damage);
             }
-        }
+        }*/
     }
 
     private void Move()
