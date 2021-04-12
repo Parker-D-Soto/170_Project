@@ -26,6 +26,9 @@ public class GrappleProj : MonoBehaviour
 
     public Vector2 direction;
 
+    public LineController lc;
+    public List<Transform> lPoints = new List<Transform>();
+
 
 
     void Start()
@@ -35,7 +38,11 @@ public class GrappleProj : MonoBehaviour
         //findProjectile = false;   
         holdobject = false;
         grappleToSpeed = (1.0f * grappleToSpeed) * Time.deltaTime;
+
+        lPoints.Add(transform);
+        lc.SetPoints(lPoints);
     }
+
     void Update()
     {
         if (!gameObject.GetComponent<Updated_Player_Stats>().Check_Dialogue_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status() && !gameObject.GetComponent<Updated_Player_Stats>().Check_Dash_Status())
@@ -50,7 +57,7 @@ public class GrappleProj : MonoBehaviour
 
                 }
             }
-            if (holdobject && Input.GetButtonDown("Fire2"))
+            if (holdobject && Input.GetButtonDown("Fire1"))
             {
 
                 //Debug.Log("you are clicking me");
@@ -74,6 +81,8 @@ public class GrappleProj : MonoBehaviour
         firing = true;
         //Debug.Log(grapple.name +"current object");
         bulletSpawn = Instantiate(grapple, firePoint.position, firePoint.rotation);
+        lPoints.Add(bulletSpawn.transform);
+        lc.SetPoints(lPoints);
         Rigidbody2D rb = bulletSpawn.GetComponent<Rigidbody2D>();
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
         Destroy(bulletSpawn, 1.0f);
