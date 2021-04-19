@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 7801039864443124378}
   - component: {fileID: 4174969931085182191}
   - component: {fileID: 593147258832624306}
+  - component: {fileID: 8735473008213414486}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -81,8 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: 1390531163
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -5012575775805170103, guid: 85258da11c86ab54785b0e229f312dfb,
-    type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9818da8a1d143534387d9881b8482190, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 164, y: 243}
+    oldSize: {x: 360, y: 360}
     newSize: {x: 8, y: 6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -154,6 +154,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dashSpeed: 200
   rg: {fileID: 3029498852200312998}
+  dashCooldownCeil: 1
+  speedUp: 250
+  speedDown: 25
 --- !u!114 &2136813261610807599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,6 +169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ba9e44a439f9b439be7c84e492cd4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lc: {fileID: 0}
+  gP: {fileID: 0}
 --- !u!114 &7801039864443124381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,7 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
-  rb: {fileID: 3029498852200312998}
+  ft: {fileID: 3029498852200312992}
 --- !u!114 &7801039864443124378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,7 +198,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 120
+  anim: {fileID: 0}
   rb: {fileID: 3029498852200312998}
+  movement: {x: 0, y: 0}
 --- !u!114 &4174969931085182191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +227,8 @@ MonoBehaviour:
   grappleToSpeed: 9000
   grappleToObject: {fileID: 0}
   direction: {x: 0, y: 0}
+  lc: {fileID: 0}
+  lPoints: []
 --- !u!114 &593147258832624306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -233,6 +242,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myhealthBar: {fileID: 0}
+--- !u!95 &8735473008213414486
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3029498852200313003}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1177b42e1844a154f89437260345cd29, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7801039864211464093
 GameObject:
   m_ObjectHideFlags: 0
