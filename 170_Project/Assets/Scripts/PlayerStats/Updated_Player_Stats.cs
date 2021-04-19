@@ -65,7 +65,7 @@ public class Updated_Player_Stats : MonoBehaviour
             }
             else
             {
-                Debug.Log("Done");
+                //Debug.Log("Done");
                 sprite.color = Color.white;
                 damaged = false;
                 //reset timer to 3 second for next countdown
@@ -84,7 +84,7 @@ public class Updated_Player_Stats : MonoBehaviour
     public void Minus_Health(int damage)
     {
         health = health - damage;
-        Debug.Log("Health: " + health);
+        //Debug.Log("Health: " + health);
     }
     //function to call in boss attacks when player is hit
     public void gotHit(int damage)

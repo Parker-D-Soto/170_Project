@@ -8,7 +8,7 @@ public class MovementTest : MonoBehaviour
     public float moveSpeed = 10f;
 
     public Rigidbody2D rb;
-    Vector2 movement;
+    public Vector2 movement;
 
     void Update()
     {
