@@ -35,6 +35,7 @@ public class GrappleProjObject : MonoBehaviour
             grapHook.holdobject = grapHook.changeStatus(grapHook.findProjectile);
             //Debug.Log(grapHook.holdobject + " new status");
             //Destroy(gameObject);
+            grapHook.newProjectiles.GetComponent<CircleCollider2D>().enabled = true;
         }
         else if (hitInfo.tag == "Wall")
         {

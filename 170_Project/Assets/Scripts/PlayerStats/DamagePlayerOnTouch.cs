@@ -11,7 +11,7 @@ public class DamagePlayerOnTouch : MonoBehaviour
         Debug.Log("collision");
         Debug.Log(collision.gameObject.name);
         
-        if (collision.gameObject.name == "Player")
+        if (collision.gameObject.tag == "Player")
         {
             Debug.Log("collision");
             //May have to put this into an enemy script later.
