@@ -609,8 +609,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  cooldown: 5
-  startup: 5
+  cooldown: 2
+  startup: 0.75
   speed: 5
 --- !u!114 &7180737593117270587
 MonoBehaviour:
