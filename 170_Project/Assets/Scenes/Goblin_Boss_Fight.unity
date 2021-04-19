@@ -6170,6 +6170,21 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 1697522143}
+    - target: {fileID: 7801039865262587587, guid: 7c9076940b3a70b4a864ee674a680590,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 164
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801039865262587587, guid: 7c9076940b3a70b4a864ee674a680590,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 243
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801039865262587587, guid: 7c9076940b3a70b4a864ee674a680590,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c9076940b3a70b4a864ee674a680590, type: 3}
 --- !u!1 &859099581
