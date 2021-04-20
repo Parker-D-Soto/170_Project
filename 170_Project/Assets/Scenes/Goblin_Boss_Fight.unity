@@ -14742,10 +14742,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ccf2cfb4859045aa68590f1a37f23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  boss: {fileID: 0}
-  uiWinText: {fileID: 0}
-  scenePortal: {fileID: 0}
+  player: {fileID: 800662614}
+  boss: {fileID: 1830936717}
+  uiWinText: {fileID: 859099581}
+  scenePortal: {fileID: 2091439801}
 --- !u!1 &1213151992
 GameObject:
   m_ObjectHideFlags: 0
