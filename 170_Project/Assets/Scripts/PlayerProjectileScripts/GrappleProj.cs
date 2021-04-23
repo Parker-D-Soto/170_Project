@@ -110,9 +110,26 @@ public class GrappleProj : MonoBehaviour
         if (hitInfo.tag == "Wall")
         {
             Debug.Log("I'm FREEE BABY");
-            player.GetComponent<Updated_Player_Stats>().Toggle_Grapple_Status();
+            if (player.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
+            {
+                player.GetComponent<Updated_Player_Stats>().Deactivate_Grapple();
+            }
         } 
     }*/
+
+    private void OnCollisionEnter2D(Collision2D hitInfo)
+    {
+        //Debug.Log("I'm FREEE BABY");
+
+        if (hitInfo.gameObject.tag == "Wall")
+        {
+            //Debug.Log("I'm FREEE BABY");
+            if (player.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
+            {
+                player.GetComponent<Updated_Player_Stats>().Deactivate_Grapple();
+            }
+        }
+    }
 
     public bool changeStatus(bool changeStatus)
     {

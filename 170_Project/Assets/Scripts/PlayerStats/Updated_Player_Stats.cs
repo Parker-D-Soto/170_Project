@@ -110,9 +110,16 @@ public class Updated_Player_Stats : MonoBehaviour
         return inDialogue;
     }
 
-    public void Toggle_Grapple_Status()
+    public void Activate_Grapple()
     {
-        inGrapple = !inGrapple;
+        inGrapple = true;
+
+    }
+
+    public void Deactivate_Grapple()
+    {
+        inGrapple = false;
+
     }
 
     public bool Check_Grapple_Status()
