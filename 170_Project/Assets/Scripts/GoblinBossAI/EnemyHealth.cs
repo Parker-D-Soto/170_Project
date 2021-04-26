@@ -21,7 +21,7 @@ public class EnemyHealth : MonoBehaviour
     }
 
     //lower enemy's health
-    void OnTriggerEnter2D(Collider2D collider){
+    /*void OnTriggerEnter2D(Collider2D collider){
         if(collider.gameObject.layer == LayerMask.NameToLayer("Pickaxe")){
             if(GameObject.Find("Player").GetComponent<GrappleProj>().holdobject == false){ //accessing holdobject from GrappleProj script
                 Debug.Log("colliding with pickaxe");
@@ -35,5 +35,5 @@ public class EnemyHealth : MonoBehaviour
             }
         }
     
-    }
+    }*/
 }
