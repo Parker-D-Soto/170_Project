@@ -23,11 +23,12 @@ public class wall_collision : MonoBehaviour
         // if player touches wall, then body type = dynamic;
         if (collider.gameObject.CompareTag("Wall"))
         {
+            Debug.Log("Wall Collision Detected on Play baby");
             //body.isKinematic=false
             body.bodyType = RigidbodyType2D.Dynamic;
             if (gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
             {
-                gameObject.GetComponent<Updated_Player_Stats>().Toggle_Grapple_Status();
+                gameObject.GetComponent<Updated_Player_Stats>().Deactivate_Grapple();
             }
         }
     }

@@ -14,6 +14,7 @@ public class GrappleProjObject : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D hitInfo)
     {
+        Debug.Log("Trigger : " + hitInfo.tag);
         if (hitInfo.tag == "grapple")
         {
             //Debug.Log("Collide Getting Called");
@@ -39,12 +40,12 @@ public class GrappleProjObject : MonoBehaviour
         }
         else if (hitInfo.tag == "Wall")
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
             Debug.Log("AWAY I GOOOOO");
             grapHook.grappleToObject = hitInfo.gameObject;
-            grapHook.player.GetComponent<Updated_Player_Stats>().Toggle_Grapple_Status();
-            grapHook.direction = (hitInfo.gameObject.transform.position - grapHook.player.transform.position).normalized;
-            //Destroy(gameObject);
+            grapHook.player.GetComponent<Updated_Player_Stats>().Activate_Grapple();
+            grapHook.direction = (gameObject.transform.position - grapHook.player.transform.position).normalized;
+            Destroy(gameObject);
         }
     }
 
