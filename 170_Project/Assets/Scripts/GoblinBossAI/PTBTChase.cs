@@ -8,6 +8,7 @@ public class PTBTChase : MonoBehaviour
     //private Transform skelly_player = GameObject.FindGameObjectWithTag("Player").transform;
     //Speed of goblin
     public float speed;
+    public GoblinAttack dmg;
 
     //Actual vector locations of Skelly and the Goblin
     private Vector2 skelly_loc;
@@ -28,14 +29,17 @@ public class PTBTChase : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float goblin_move = speed * Time.deltaTime;
-
-        //moving goblin towards player
-        transform.position = Vector2.MoveTowards(transform.position, skelly_loc, goblin_move);
-
-        if (GameObject.FindGameObjectWithTag("Player") != null)
+        if (!dmg.Attacking)
         {
-            skelly_loc = GameObject.FindGameObjectWithTag("Player").transform.position;
+            float goblin_move = speed * Time.deltaTime;
+
+            //moving goblin towards player
+            transform.position = Vector2.MoveTowards(transform.position, skelly_loc, goblin_move);
+            if (GameObject.FindGameObjectWithTag("Player") != null)
+            {
+                skelly_loc = GameObject.FindGameObjectWithTag("Player").transform.position;
+            }
         }
+        
     }
 }
