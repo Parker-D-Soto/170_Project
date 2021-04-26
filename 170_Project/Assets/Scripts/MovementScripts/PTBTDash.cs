@@ -48,7 +48,7 @@ public class PTBTDash : MonoBehaviour
                 curSpeed = 0;
             }
             rg.velocity = direction * curSpeed;
-            Debug.Log("curSpeed: " + curSpeed);
+            //Debug.Log("curSpeed: " + curSpeed);
         }
 
         if (dashCooldown <= 0)

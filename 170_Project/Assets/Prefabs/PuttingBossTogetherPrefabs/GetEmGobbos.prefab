@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 5107817038571159174}
   - component: {fileID: 5107817038571159192}
   - component: {fileID: 5107817038571159194}
-  - component: {fileID: 5107817038571159195}
   - component: {fileID: 4347493684086005973}
   - component: {fileID: 9085514689618142274}
+  - component: {fileID: 8267585290360425125}
+  - component: {fileID: 8325574984326348418}
   m_Layer: 0
   m_Name: GetEmGobbos
   m_TagString: EnemyTag
@@ -128,19 +129,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   selfDestructTimer: 20
   destroyWhenOffScreen: 0
---- !u!114 &5107817038571159195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5107817038571159172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c6113cdfdb792b40a5263d864e61ea9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
 --- !u!114 &4347493684086005973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,6 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 106
+  dmg: {fileID: 8325574984326348418}
 --- !u!114 &9085514689618142274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +157,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bar: {fileID: 2027323749669827262, guid: 7ca0a627fc4b51f4aba1eb5e92b95109, type: 3}
   health: 2
+--- !u!95 &8267585290360425125
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5107817038571159172}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 914edfe8e182fd14b86661fdc75b7113, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &8325574984326348418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5107817038571159172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240b35273ee53834f826174d0f1ca75e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Attacking: 0
+  anim: {fileID: 8267585290360425125}
+  attackRange: 10
+  damage: 1
+  attackTimeDelay: 1
 --- !u!1001 &911847932781533341
 PrefabInstance:
   m_ObjectHideFlags: 0
