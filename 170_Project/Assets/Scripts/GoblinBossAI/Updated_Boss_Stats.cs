@@ -6,11 +6,25 @@ using Panda;
 
 public class Updated_Boss_Stats : MonoBehaviour
 {
+    protected SpriteRenderer sprite;
+
     public int health = 100;
 
     protected string last_attack = "";
 
     protected bool alive = true;
+
+    protected bool damaged = false;
+
+    protected bool flash = false;
+
+    protected float timer = 3f;
+
+    protected float flashTimerReset = 0.25f;
+
+    protected float flashTimer = 0.25f;
+
+    protected float flashTimerTemp = 0.25f;
 
     public float cooldown = 1;
 
@@ -29,10 +43,15 @@ public class Updated_Boss_Stats : MonoBehaviour
         Debug.Log("Something went wrong");
     }
 
+    void Start()
+    {
+        sprite = GetComponent<SpriteRenderer>();
+    }
+
     // Update is called once per frame
     void Update()
     {
-        if(alive && health <= 0)
+        if (alive && health <= 0)
         {
             alive = false;
         }
@@ -40,6 +59,49 @@ public class Updated_Boss_Stats : MonoBehaviour
         if (!alive)
         {
             Die();
+        }
+
+        if (damaged)
+        {
+
+            //countdown for effect
+            if (timer >= 0)
+            {
+                timer -= Time.deltaTime;
+                flashTimerTemp -= Time.deltaTime;
+                if (flash)
+                {
+                    sprite.color = Color.red;
+
+                    if (flashTimerTemp < 0)
+                    {
+                        flash = false;
+                        flashTimer -= 0.02f;
+                        flashTimerTemp = flashTimer;
+                    }
+
+                }
+                else
+                {
+                    sprite.color = Color.white;
+
+                    if (flashTimerTemp < 0)
+                    {
+                        flash = true;
+                        flashTimer -= 0.02f;
+                        flashTimerTemp = flashTimer;
+                    }
+                }
+            }
+            else
+            {
+                //Debug.Log("Done");
+                sprite.color = Color.white;
+                damaged = false;
+                //reset timer to 3 second for next countdown
+                timer = 3;
+                flashTimer = flashTimerReset;
+            }
         }
     }
 
@@ -66,6 +128,16 @@ public class Updated_Boss_Stats : MonoBehaviour
     public void Modify_Health(int healthChangedBy)
     {
         health += healthChangedBy;
+        
+        if(healthChangedBy < 0 && !(health + healthChangedBy <= 0))
+        {
+            GotHitFlash();
+        }
+    }
+
+    public void GotHitFlash()
+    {
+        damaged = true;
     }
 
     public void Toggle_Dialogue_Status()
