@@ -34,6 +34,7 @@ public class Updated_Player_Stats : MonoBehaviour
     {
         if (alive && health <= 0)
         {
+            Debug.Log("What comes first");
             alive = false;
             gP.lPoints.Remove(transform);
             lc.SetPoints(gP.lPoints);
@@ -135,6 +136,11 @@ public class Updated_Player_Stats : MonoBehaviour
     public bool Check_Dash_Status()
     {
         return inDash;
+    }
+
+    public bool checkAlive()
+    {
+        return alive;
     }
 
 }

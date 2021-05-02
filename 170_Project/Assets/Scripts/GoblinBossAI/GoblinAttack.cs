@@ -10,6 +10,7 @@ public class GoblinAttack : MonoBehaviour
     public float attackRange;
     public int damage = 1;
     public float attackTimeDelay;
+    private Updated_Player_Stats pStats;
 
     private float lastTimeAttack;
     private Transform target;
@@ -33,33 +34,37 @@ public class GoblinAttack : MonoBehaviour
     private void Awake()
     {
         target = GameObject.FindGameObjectWithTag("Player").transform;
+        pStats = target.GetComponent<Updated_Player_Stats>();
     }
 
     private void Update()
     {
-        float distanceFromPlayer = Vector2.Distance(transform.position, target.position);
-        if (distanceFromPlayer <= attackRange)
+        if (pStats.checkAlive())
         {
-            if (!Attacking)
+            float distanceFromPlayer = Vector2.Distance(transform.position, target.position);
+            if (distanceFromPlayer <= attackRange)
             {
-                lastTimeAttack = Time.time;
-                Attacking = true;
-                anim.SetBool("Attack", Attacking);
+                if (!Attacking)
+                {
+                    lastTimeAttack = Time.time;
+                    Attacking = true;
+                    anim.SetBool("Attack", Attacking);
+                }
+                if (Time.time > lastTimeAttack + attackTimeDelay)
+                {
+                    Debug.Log("Attempted Damage");
+                    target.GetComponent<Updated_Player_Stats>().gotHit(damage);
+                    lastTimeAttack = Time.time;
+                    Attacking = false;
+                }
             }
-            if (Time.time > lastTimeAttack + attackTimeDelay)
+            else
             {
-                Debug.Log("Attempted Damage");
-                target.GetComponent<Updated_Player_Stats>().gotHit(damage);
-                lastTimeAttack = Time.time;
-                Attacking = false;
-            }
-        }
-        else
-        {
-            if (Time.time > lastTimeAttack + attackTimeDelay)
-            {
-                Attacking = false;
-                anim.SetBool("Attack", Attacking);
+                if (Time.time > lastTimeAttack + attackTimeDelay)
+                {
+                    Attacking = false;
+                    anim.SetBool("Attack", Attacking);
+                }
             }
         }
     }

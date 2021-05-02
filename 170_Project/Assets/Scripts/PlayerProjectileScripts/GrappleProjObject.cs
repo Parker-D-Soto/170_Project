@@ -51,11 +51,15 @@ public class GrappleProjObject : MonoBehaviour
 
     public void OnDestroy()
     {
-        //Debug.Log("Player Hook died");
-        grapHook.firing = false;
+        if(!(gameObject.name == "grappleBullet"))
+        {
+            //Debug.Log("Player Hook died");
+            grapHook.firing = false;
 
-        grapHook.lPoints.Remove(transform);
-        grapHook.lc.SetPoints(grapHook.lPoints);
+            Debug.Log(gameObject.name);
+            grapHook.lPoints.Remove(transform);
+            grapHook.lc.SetPoints(grapHook.lPoints);
+        }
     }
 }
 
