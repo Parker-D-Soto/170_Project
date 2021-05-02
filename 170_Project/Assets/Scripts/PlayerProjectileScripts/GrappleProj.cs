@@ -11,6 +11,7 @@ public class GrappleProj : MonoBehaviour
     public Transform firePoint;
     public GameObject grapple;
     public float bulletForce = 20f;
+    public float hookBulletForce = 20f;
 
     public GameObject newProjectiles;
     public GameObject bulletSpawn;
@@ -20,7 +21,7 @@ public class GrappleProj : MonoBehaviour
 
     public bool firing = false;
 
-    public float grappleToSpeed;
+    public float grappleToSpeed = 10f;
 
     public GameObject grappleToObject;
 
@@ -37,7 +38,7 @@ public class GrappleProj : MonoBehaviour
 
         //findProjectile = false;   
         holdobject = false;
-        grappleToSpeed = (1.0f * grappleToSpeed) * Time.deltaTime;
+        //grappleToSpeed = (1.0f * grappleToSpeed) * Time.deltaTime;
 
         lPoints.Add(transform);
         lc.SetPoints(lPoints);
@@ -72,7 +73,8 @@ public class GrappleProj : MonoBehaviour
     {
         if (gameObject.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
         {
-            player.GetComponent<Rigidbody2D>().MovePosition(player.GetComponent<Rigidbody2D>().position + direction * grappleToSpeed * Time.fixedDeltaTime);
+            Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
+            rb.MovePosition(rb.position + direction * Time.deltaTime * grappleToSpeed);
         }
     }
 
@@ -84,7 +86,7 @@ public class GrappleProj : MonoBehaviour
         lPoints.Add(bulletSpawn.transform);
         lc.SetPoints(lPoints);
         Rigidbody2D rb = bulletSpawn.GetComponent<Rigidbody2D>();
-        rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+        rb.AddForce(firePoint.up * hookBulletForce, ForceMode2D.Impulse);
         Destroy(bulletSpawn, 1.0f);
         //Debug.Log(grapple.name + " hittest1");
         // Debug.Log(findProjectile);

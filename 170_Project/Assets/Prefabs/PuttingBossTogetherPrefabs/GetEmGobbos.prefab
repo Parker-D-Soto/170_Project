@@ -190,7 +190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Attacking: 0
   anim: {fileID: 8267585290360425125}
-  attackRange: 10
+  attackRange: 50
   damage: 1
   attackTimeDelay: 1
 --- !u!1001 &911847932781533341
