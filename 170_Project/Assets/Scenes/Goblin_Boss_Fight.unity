@@ -16619,6 +16619,21 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 606854569}
+    - target: {fileID: 7180737594172773495, guid: 0f2dfc603e5a5ed4788e7c27cf00e130,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180737594172773495, guid: 0f2dfc603e5a5ed4788e7c27cf00e130,
+        type: 3}
+      propertyPath: m_Value
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180737594172773495, guid: 0f2dfc603e5a5ed4788e7c27cf00e130,
+        type: 3}
+      propertyPath: m_WholeNumbers
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9186663631069575279, guid: 0f2dfc603e5a5ed4788e7c27cf00e130,
         type: 3}
       propertyPath: target
