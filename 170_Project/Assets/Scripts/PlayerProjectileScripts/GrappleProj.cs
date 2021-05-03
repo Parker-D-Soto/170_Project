@@ -100,6 +100,7 @@ public class GrappleProj : MonoBehaviour
         //rb.isKinematic = true;
         Physics2D.IgnoreLayerCollision(10,10); //ignore pickaxe and clone pickaxe from colliding
         Physics2D.IgnoreLayerCollision(9,10); //ignores clone pickaxe and dividing wall from colliding
+        Physics2D.IgnoreCollision(player.GetComponent<Collider2D>(), newProjectiles.GetComponent<Collider2D>());
         rb.gravityScale = 0;
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
         Destroy(newProjectiles, 5f);
