@@ -172,6 +172,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lc: {fileID: 0}
   gP: {fileID: 1986715814104373243}
+  SoundEffects: {fileID: 0}
+  hitSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &5629674241769625993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,6 +202,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 120
+  anim: {fileID: 0}
   rb: {fileID: 605931710857155506}
   movement: {x: 0, y: 0}
 --- !u!114 &1986715814104373243
@@ -218,6 +222,7 @@ MonoBehaviour:
   firePoint: {fileID: 5629674242457605610}
   grapple: {fileID: 0}
   bulletForce: 200
+  hookBulletForce: 20
   newProjectiles: {fileID: 0}
   bulletSpawn: {fileID: 0}
   findProjectile: 0

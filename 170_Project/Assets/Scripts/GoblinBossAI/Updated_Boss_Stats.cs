@@ -10,6 +10,12 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     public int health = 100;
 
+    public GameObject SoundEffects;
+
+    private AudioSource hitSound;
+    private AudioSource deathSound;
+    private AudioSource[] soundEffects;
+
     protected string last_attack = "";
 
     protected bool alive = true;
@@ -45,6 +51,10 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     void Start()
     {
+        soundEffects = SoundEffects.GetComponents<AudioSource>();
+        hitSound = soundEffects[0];
+        deathSound = soundEffects[1];
+
         sprite = GetComponent<SpriteRenderer>();
     }
 
@@ -107,6 +117,7 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     public void Die()
     {
+        deathSound.Play();
         Destroy(gameObject);
     }
 
@@ -137,6 +148,7 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     public void GotHitFlash()
     {
+        hitSound.Play();
         damaged = true;
     }
 
