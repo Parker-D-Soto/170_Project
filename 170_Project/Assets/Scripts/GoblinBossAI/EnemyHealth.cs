@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public GameObject bar;
-    public int health;
+    public float health;
     
 
     // Start is called before the first frame update
@@ -17,23 +17,25 @@ public class EnemyHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log("test");
+        //test
     }
 
     //lower enemy's health
-    /*void OnTriggerEnter2D(Collider2D collider){
+    void OnTriggerEnter2D(Collider2D collider){
         if(collider.gameObject.layer == LayerMask.NameToLayer("Pickaxe")){
-            if(GameObject.Find("Player").GetComponent<GrappleProj>().holdobject == false){ //accessing holdobject from GrappleProj script
-                Debug.Log("colliding with pickaxe");
-                health = health - 1;
+            if(GameObject.Find("Player UM").GetComponent<GrappleProj>().holdobject == false){ //accessing holdobject from GrappleProj script
+                Debug.Log("colliding with crystal");
+                health = health - 0.2f;
                 if(health == 0){
                     Object.Destroy(this.gameObject);
                 }else{
-                    bar.transform.localScale = new Vector3(health/3.0f, 1.0f, 1.0f);
-                    Debug.Log("enemy hit");
+                    //bar.transform.localScale = new Vector3(health/3.0f, 1.0f, 1.0f);
+                    bar.transform.localScale = new Vector3(180.0f*health, 150.0f, 1.0f);
+                    Debug.Log("enemy got hit");
+                    Debug.Log(bar.transform.localScale);
                 }
             }
         }
     
-    }*/
+    }
 }
