@@ -14159,6 +14159,11 @@ PrefabInstance:
       propertyPath: lc
       value: 
       objectReference: {fileID: 791505889}
+    - target: {fileID: 1986715814104373243, guid: 4f27ba490e4a4f1459fa6df55e8939d5,
+        type: 3}
+      propertyPath: hookBulletForce
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2477615904511623312, guid: 4f27ba490e4a4f1459fa6df55e8939d5,
         type: 3}
       propertyPath: m_Enabled
@@ -16022,6 +16027,21 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 606854569}
+    - target: {fileID: 7180737594172773495, guid: 0f2dfc603e5a5ed4788e7c27cf00e130,
+        type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180737594172773495, guid: 0f2dfc603e5a5ed4788e7c27cf00e130,
+        type: 3}
+      propertyPath: m_MaxValue
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7180737594172773495, guid: 0f2dfc603e5a5ed4788e7c27cf00e130,
+        type: 3}
+      propertyPath: m_Value
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 9186663631069575279, guid: 0f2dfc603e5a5ed4788e7c27cf00e130,
         type: 3}
       propertyPath: target
