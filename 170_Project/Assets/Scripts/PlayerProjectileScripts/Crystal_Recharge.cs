@@ -8,6 +8,7 @@ public class Crystal_Recharge : MonoBehaviour
     private bool rechargCryst;
     public Animator anim;
     public CircleCollider2D col;
+    public AudioSource rechargeSound;
 
     public float secondsToWait = 30;
     
@@ -17,12 +18,15 @@ public class Crystal_Recharge : MonoBehaviour
         anim.SetBool("recharging", rechargCryst);
     }
 
-    // Update is called once per frame
     public void Toggle_Recharge()
     {
         //Debug.Log("Recharge Getting Called");
         rechargCryst = !rechargCryst;
         col.enabled = !col.enabled;
+        if (!rechargCryst)
+        {
+            rechargeSound.Play();
+        }
         anim.SetBool("recharging", rechargCryst);
         if (rechargCryst)
         {

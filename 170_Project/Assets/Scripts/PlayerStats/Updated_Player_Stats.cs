@@ -16,6 +16,12 @@ public class Updated_Player_Stats : MonoBehaviour
     public LineController lc;
     public GrappleProj gP;
 
+    public GameObject SoundEffects;
+
+    public AudioSource hitSound;
+    public AudioSource deathSound;
+    private AudioSource[] soundEffects;
+
     //Variables for damgage state
     Color damage_color;
     bool damaged = false;
@@ -30,6 +36,10 @@ public class Updated_Player_Stats : MonoBehaviour
     {
         health = 3;
         alive = true;
+
+        soundEffects = SoundEffects.GetComponents<AudioSource>();
+        hitSound = soundEffects[0];
+        deathSound = soundEffects[1];
     }
 
     // Update is called once per frame
@@ -39,6 +49,7 @@ public class Updated_Player_Stats : MonoBehaviour
         {
             Debug.Log("What comes first");
             alive = false;
+            deathSound.Play();
             gP.lPoints.Remove(transform);
             lc.SetPoints(gP.lPoints);
             Destroy(gameObject);
@@ -109,6 +120,7 @@ public class Updated_Player_Stats : MonoBehaviour
         if (!damaged && !inDash)
         {
             Minus_Health(damage);
+            hitSound.Play();
             damaged = true;
         }
 
