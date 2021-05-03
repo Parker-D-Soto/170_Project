@@ -20,11 +20,11 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     protected float timer = 3f;
 
-    protected float flashTimerReset = 0.25f;
+    protected float flashTimerReset = 0.24f;
 
-    protected float flashTimer = 0.25f;
+    protected float flashTimer = 0.24f;
 
-    protected float flashTimerTemp = 0.25f;
+    protected float flashTimerTemp = 0.24f;
 
     public float cooldown = 1;
 
@@ -88,7 +88,6 @@ public class Updated_Boss_Stats : MonoBehaviour
                     if (flashTimerTemp < 0)
                     {
                         flash = true;
-                        flashTimer -= 0.02f;
                         flashTimerTemp = flashTimer;
                     }
                 }

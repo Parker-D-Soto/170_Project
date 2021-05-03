@@ -22,6 +22,9 @@ public class Updated_Player_Stats : MonoBehaviour
     bool flash = true;
     float timer = 3; //3 second damage state effect
 
+    float flashTimerReset = 0.24f;
+    float flashTimer = 0.24f;
+    float flashTimerTemp = 0.24f;
     // Start is called before the first frame update
     void Start()
     {
@@ -53,15 +56,28 @@ public class Updated_Player_Stats : MonoBehaviour
             if (timer >= 0)
             {
                 timer -= Time.deltaTime;
+                flashTimerTemp -= Time.deltaTime;
                 if (flash)
                 {
-                    sprite.color = Color.grey;
-                    flash = false;
+                    sprite.color = new Color(0.5f,0.5f,0.5f,0.5f);
+
+                    if (flashTimerTemp < 0)
+                    {
+                        flash = false;
+                        flashTimer -= 0.02f;
+                        flashTimerTemp = flashTimer;
+                    }
+
                 }
                 else
                 {
                     sprite.color = Color.white;
-                    flash = true;
+
+                    if (flashTimerTemp < 0)
+                    {
+                        flash = true;
+                        flashTimerTemp = flashTimer;
+                    }
                 }
             }
             else
@@ -71,9 +87,8 @@ public class Updated_Player_Stats : MonoBehaviour
                 damaged = false;
                 //reset timer to 3 second for next countdown
                 timer = 3;
+                flashTimer = flashTimerReset;
             }
-
-
         }
     }
 
