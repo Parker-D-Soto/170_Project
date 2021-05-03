@@ -16,4 +16,12 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
+  public void Sound() {
+    Debug.Log("moving to sound settings");
+    SceneManager.LoadScene("volume-control");
+  }
+
+  public void Menu() {
+    SceneManager.LoadScene("Main Menu");
+  }
 }
