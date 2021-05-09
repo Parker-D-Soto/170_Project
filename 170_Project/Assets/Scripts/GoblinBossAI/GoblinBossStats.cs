@@ -7,14 +7,6 @@ using Panda;
 public class GoblinBossStats : Updated_Boss_Stats
 {
 
-    public Dictionary<string, bool> attacks = new Dictionary<string, bool>(StringComparer.OrdinalIgnoreCase) {
-        //{"melee", true},
-        {"pickaxeThrow", true},
-        {"goblinCharge", true },
-        {"getEmBoys", false },
-        {"steadyAimFire", false },
-        {"surroundEm", false }
-    };
     //Attack Enable/Disable Function
     public override void SearchAttacks(string potentialAttack, bool isEnabled)
     {
@@ -23,7 +15,6 @@ public class GoblinBossStats : Updated_Boss_Stats
             attacks[potentialAttack] = isEnabled;
         }
     }
-
 
     //Behavior Tree Board Checking Tasks Start
     //Check if specific attack is enabled
