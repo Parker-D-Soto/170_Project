@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class SoundManagerScript : MonoBehaviour
 {
     public static AudioClip DialogueBG, FightBG;
     public static AudioSource audioSrc;
-    public AudioMixer mixer;
+    //public AudioMixer mixer;
     //public float vol;
     float value;
 
@@ -19,20 +20,24 @@ public class SoundManagerScript : MonoBehaviour
         DialogueBG = Resources.Load<AudioClip> ("beat3");
         
         audioSrc = GetComponent<AudioSource> ();
-        mixer.GetFloat("MusicVol", out value);
+        //mixer.GetFloat("MusicVol", out value);
+
+        //slider.value = PlayerPrefs.GetFloat("volFloat");
     }
 
     // Update is called once per frame
     void Update()
     {
-        mixer.GetFloat("MusicVol", out value);
+        /*mixer.GetFloat("MusicVol", out value);
 
         //mixer starts off at 0, so if player didnt change volume then default is 0.3f
         if(value == 0){
             value = 0.3f;
-        }
+        }*/
         
-        SetVolValue(value);    
+        SetVolValue(PlayerPrefs.GetFloat("volFloat"));
+        Debug.Log("PlayerPrefab = " + PlayerPrefs.GetFloat("volFloat"));
+
     }
 
     public static void PlaySound (string clip){
@@ -63,4 +68,5 @@ public class SoundManagerScript : MonoBehaviour
         audioSrc.volume = sliderValue; //0-1 value
         Debug.Log("volume changed to: " + sliderValue);
     }
+
 }
