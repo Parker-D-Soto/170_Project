@@ -31,7 +31,9 @@ public class UIDeathHandler : MonoBehaviour
         }
 
         if(player == null) {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1); // move to main menu
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2); // move to main menu
+              SceneManager.LoadScene("Goblin_Boss_Fight");
+            
         }
     }
 

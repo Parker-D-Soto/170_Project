@@ -22,7 +22,8 @@ public class PortalSceneScript : MonoBehaviour
         if(hitInfo.tag == "Player"){
             Debug.Log("move to the next room");    
             // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); move to the tree boss
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1); // move to main menu
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2); // move to main menu
+            
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -52,5 +53,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue() {
         Debug.Log("End Of Introduction");
         animator.SetBool("isOpen", false);
+        SceneManager.LoadScene("Goblin_Boss_Fight");
+
     }
 }

@@ -15648,6 +15648,11 @@ PrefabInstance:
       propertyPath: lc
       value: 
       objectReference: {fileID: 791505889}
+    - target: {fileID: 4595148120600646203, guid: 4f27ba490e4a4f1459fa6df55e8939d5,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 800662626}
     - target: {fileID: 5629674241769625993, guid: 4f27ba490e4a4f1459fa6df55e8939d5,
         type: 3}
       propertyPath: cam
