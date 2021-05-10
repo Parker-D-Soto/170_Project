@@ -44,6 +44,23 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     protected bool inDialogue = true;
 
+    public Dictionary<string, bool> attacks = new Dictionary<string, bool>(StringComparer.OrdinalIgnoreCase) {
+        //{"melee", true},
+        {"pickaxeThrow", true},
+        {"goblinCharge", true },
+        {"getEmBoys", false },
+        {"steadyAimFire", false },
+        {"surroundEm", false }
+    };
+
+    private List<string> starterAttacks = new List<string>();
+
+    private List<string> advancedAttacks = new List<string>();
+
+    private List<string> waveAttacks = new List<string>();
+
+    private List<int> waveActivationThresholds = new List<int>();
+
     public virtual void SearchAttacks(string potentialAttack, bool isEnabled)
     {
         Debug.Log("Something went wrong");
@@ -56,6 +73,18 @@ public class Updated_Boss_Stats : MonoBehaviour
         deathSound = soundEffects[1];
 
         sprite = GetComponent<SpriteRenderer>();
+
+        foreach(KeyValuePair<string, bool> allAttacks in attacks)
+        {
+            if (allAttacks.Value)
+            {
+                starterAttacks.Add(allAttacks.Key);
+            }
+            else
+            {
+                advancedAttacks.Add(allAttacks.Key);
+            }
+        }
     }
 
     // Update is called once per frame
@@ -142,6 +171,18 @@ public class Updated_Boss_Stats : MonoBehaviour
         if(healthChangedBy < 0 && !(health + healthChangedBy <= 0))
         {
             GotHitFlash();
+            if (!inDialogue)
+            {
+                //Debug.Log(waveActivationThresholds[0]);
+                //Debug.Log(health);
+                if (health <= waveActivationThresholds[0])
+                {
+                    //Debug.Log("Wave Threshold Met");
+                    attacks[waveAttacks[0]] = true;
+                    waveActivationThresholds.RemoveAt(0);
+                    waveAttacks.RemoveAt(0);
+                }
+            }
         }
     }
 
@@ -154,6 +195,46 @@ public class Updated_Boss_Stats : MonoBehaviour
     public void Toggle_Dialogue_Status()
     {
         inDialogue = !inDialogue;
+    }
+
+    public void SetUpWaves()
+    {
+        foreach(KeyValuePair<string, bool> potentialAttack in attacks)
+        {
+            if (advancedAttacks.Contains(potentialAttack.Key))
+            {
+                if (potentialAttack.Value)
+                {
+                    waveAttacks.Add(potentialAttack.Key);
+                    //attacks[potentialAttack.Key] = false;
+                }
+            }
+        }
+
+        foreach(string turnOffAttack in waveAttacks)
+        {
+            attacks[turnOffAttack] = false;
+        }
+
+        //Debug.Log("waveAttacks count" + waveAttacks.Count);
+
+        int healthDivider = health / (waveAttacks.Count + 1);
+
+        //Debug.Log("Health Divider" + healthDivider);
+
+        //Debug.Log("Boss Health" + health);
+
+        for (int i = 0; i < (waveAttacks.Count); i++)
+        {
+            waveActivationThresholds.Add(health - (healthDivider * (i + 1)));
+        }
+
+        waveActivationThresholds.Add(0);
+
+        /*foreach(int checker in waveActivationThresholds)
+        {
+            Debug.Log("Health Threshold " + checker);
+        }*/
     }
 
     public void Change_Last_Attack(string new_attack)
