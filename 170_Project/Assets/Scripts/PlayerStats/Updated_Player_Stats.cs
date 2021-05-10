@@ -13,6 +13,8 @@ public class Updated_Player_Stats : MonoBehaviour
     private bool inDash = false;
     private bool alive;
 
+    public Animator anim;
+
     public LineController lc;
     public GrappleProj gP;
 
@@ -62,7 +64,6 @@ public class Updated_Player_Stats : MonoBehaviour
         //damage state effect
         if (damaged)
         {
-
             //countdown for effect
             if (timer >= 0)
             {
@@ -96,6 +97,7 @@ public class Updated_Player_Stats : MonoBehaviour
                 //Debug.Log("Done");
                 sprite.color = Color.white;
                 damaged = false;
+                anim.SetBool("inHurt", damaged);
                 //reset timer to 3 second for next countdown
                 timer = 3;
                 flashTimer = flashTimerReset;
@@ -122,6 +124,7 @@ public class Updated_Player_Stats : MonoBehaviour
             Minus_Health(damage);
             hitSound.Play();
             damaged = true;
+            anim.SetBool("inHurt", damaged);
         }
 
 
@@ -158,6 +161,7 @@ public class Updated_Player_Stats : MonoBehaviour
     public void Toggle_Dash_Status()
     {
         inDash = !inDash;
+        anim.SetBool("inRoll", inDash);
     }
 
     public bool Check_Dash_Status()

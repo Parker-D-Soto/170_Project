@@ -9,6 +9,8 @@ public class PTBTDash : MonoBehaviour
     private Vector2 direction;
     public Rigidbody2D rg;
 
+    //public Animator anim;
+
     bool dash = true;
     //bool inDash = false;
     public float dashCooldownCeil = 1f;  //modify cooldown
