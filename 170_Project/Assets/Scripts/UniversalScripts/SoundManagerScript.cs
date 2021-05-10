@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class SoundManagerScript : MonoBehaviour
 {
-    public static AudioClip DialogueBG, FightBG;
+    public static AudioClip DialogueBG, FightBG, CrystalSound;
     public static AudioSource audioSrc;
     //public AudioMixer mixer;
     //public float vol;
@@ -18,6 +18,7 @@ public class SoundManagerScript : MonoBehaviour
         //loading sounds from sound folder
         FightBG = Resources.Load<AudioClip> ("oldversion-beat6");
         DialogueBG = Resources.Load<AudioClip> ("beat3");
+        CrystalSound = Resources.Load<AudioClip>("crystalFinishGrowth");
         
         audioSrc = GetComponent<AudioSource> ();
         //mixer.GetFloat("MusicVol", out value);
@@ -48,6 +49,9 @@ public class SoundManagerScript : MonoBehaviour
                 break;
             case "Dialogue":
                 audioSrc.PlayOneShot(DialogueBG);
+                break;
+            case "Crystal":
+                audioSrc.PlayOneShot(CrystalSound);
                 break;
         }
     }
