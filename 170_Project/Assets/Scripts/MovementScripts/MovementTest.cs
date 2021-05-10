@@ -17,7 +17,16 @@ public class MovementTest : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        anim.SetFloat("vertSpeed", movement.y);
+        /*anim.SetFloat("vertSpeed", movement.y);
+        anim.SetFloat("horizSpeed", movement.x);
+        if(movement.y >= movement.x)
+        {
+            anim.SetBool("vertPrio", true);
+        }
+        else
+        {
+            anim.SetBool("vertPrio", false);
+        }*/
     }
 
     void FixedUpdate()
@@ -27,6 +36,17 @@ public class MovementTest : MonoBehaviour
         {
             rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
             anim.SetFloat("vertSpeed", movement.y);
+            anim.SetFloat("horizSpeed", movement.x);
+            if (Mathf.Abs(movement.y) >= Mathf.Abs(movement.x))
+            {
+                anim.SetBool("vertPrio", true);
+            }
+            else
+            {
+                //Debug.Log("vertPrio is OFF");
+                //Debug.Log("movement in x is " + movement.x);
+                anim.SetBool("vertPrio", false);
+            }
         }
 
     }
