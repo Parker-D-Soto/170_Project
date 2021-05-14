@@ -66,7 +66,7 @@ public class Updated_Boss_Stats : MonoBehaviour
         Debug.Log("Something went wrong");
     }
 
-    void Start()
+    void Awake()
     {
         soundEffects = SoundEffects.GetComponents<AudioSource>();
         hitSound = soundEffects[0];
@@ -241,6 +241,7 @@ public class Updated_Boss_Stats : MonoBehaviour
     {
         last_attack = new_attack;
     }
+
 
     //checks to make sure some amount of time has passed since the last attack occurred and the next attack being called
     [Task]

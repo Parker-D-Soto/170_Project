@@ -20,6 +20,8 @@ public class BossDialogueParser : MonoBehaviour
     public GameObject Boss;
     //public GameObject UI;
 
+    private ProgressSaverMaster saver;
+
     Regex rxName = new Regex(@"^\b((?<name>\w+))\b", RegexOptions.IgnoreCase);
     Regex rxQuantity = new Regex(@"(?<quantity>(-|\+)\d*)\s*$", RegexOptions.IgnoreCase);
     Regex rxEnabled = new Regex(@"(?<enabled>(dis|en)(able))\s*$", RegexOptions.IgnoreCase);
@@ -28,9 +30,24 @@ public class BossDialogueParser : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        SoundManagerScript.PlaySound("Dialogue");
-        var narrativeData = dialogue.NodeLinks.First();
-        ProceedToNarrative(narrativeData.TargetNodeGuid);
+        saver = GameObject.FindGameObjectWithTag("Saver").GetComponent<ProgressSaverMaster>();
+        if (saver.startWithDialogue)
+        {
+            SoundManagerScript.PlaySound("Dialogue");
+            var narrativeData = dialogue.NodeLinks.First();
+            ProceedToNarrative(narrativeData.TargetNodeGuid);
+        }
+        else
+        {
+            SoundManagerScript.PlaySound("Dialogue");
+            Boss.GetComponent<Updated_Boss_Stats>().attacks = saver.goblinAttacks; 
+            Boss.GetComponent<Updated_Boss_Stats>().health = saver.goblinStartHealth;
+            Boss.GetComponent<Updated_Boss_Stats>().cooldown = saver.goblinCooldown;
+            Boss.GetComponent<Updated_Boss_Stats>().startup = saver.goblinStartup;
+            Boss.GetComponent<Updated_Boss_Stats>().speed = saver.goblinSpeed;
+            GoToNextScene();
+        }
+        
     }
 
     private void ProceedToNarrative(string narrativeDataGUID)
@@ -137,6 +154,12 @@ public class BossDialogueParser : MonoBehaviour
 
     private void GoToNextScene()
     {
+        //Debug.Log("GOBLIN BOSS HEALTH IS " + Boss.GetComponent<Updated_Boss_Stats>().health);
+        if (saver.startWithDialogue)
+        {
+            saver.SaveStats();
+        }
+        //saver.SaveStats();
         GameObject.FindGameObjectWithTag("Player").GetComponent<Updated_Player_Stats>().Toggle_Dialogue_Status();
         Boss.GetComponent<Updated_Boss_Stats>().Toggle_Dialogue_Status();
         Boss.GetComponent<Updated_Boss_Stats>().SetUpWaves();
