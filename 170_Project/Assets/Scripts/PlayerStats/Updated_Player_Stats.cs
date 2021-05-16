@@ -18,6 +18,8 @@ public class Updated_Player_Stats : MonoBehaviour
     public LineController lc;
     public GrappleProj gP;
 
+    public GameObject gameOverCanvas;
+
     public GameObject SoundEffects;
 
     public AudioSource hitSound;
@@ -54,6 +56,7 @@ public class Updated_Player_Stats : MonoBehaviour
             deathSound.Play();
             gP.lPoints.Remove(transform);
             lc.SetPoints(gP.lPoints);
+            gameOverCanvas.SetActive(true);
             Destroy(gameObject);
         }
 
