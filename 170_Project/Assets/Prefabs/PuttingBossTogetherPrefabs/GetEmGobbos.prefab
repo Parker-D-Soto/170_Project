@@ -157,6 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bar: {fileID: 1882862005396632162}
   health: 1
+  type: 2
 --- !u!95 &8267585290360425125
 Animator:
   serializedVersion: 3
