@@ -130,6 +130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bar: {fileID: 8511085788082924588}
   health: 1
+  type: 1
 --- !u!61 &-5365872393467003148
 BoxCollider2D:
   m_ObjectHideFlags: 0
