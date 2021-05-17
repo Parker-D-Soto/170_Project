@@ -7,13 +7,21 @@ public class BossHealthBar : MonoBehaviour
 {
     public Slider myhealthBar;
 
-    void Start()
+    public Text healthText;
+
+    public void ModifySlider(int newHealth)
     {
-        myhealthBar.value = gameObject.GetComponent<Updated_Boss_Stats>().health;
+        myhealthBar.value = newHealth;
+
+        healthText.text = myhealthBar.value + " / " + myhealthBar.maxValue;
     }
 
-    void Update()
+    public void UpdateMaxHealth(int newMaxHealth)
     {
-        myhealthBar.value = gameObject.GetComponent<Updated_Boss_Stats>().health;
+        myhealthBar.maxValue = newMaxHealth;
+
+        myhealthBar.value = newMaxHealth;
+
+        healthText.text = myhealthBar.value + " / " + myhealthBar.maxValue;
     }
 }

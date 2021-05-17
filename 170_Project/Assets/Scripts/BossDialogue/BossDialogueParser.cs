@@ -18,6 +18,7 @@ public class BossDialogueParser : MonoBehaviour
     //[SerializeField] private TextMeshProUGUI bossStats;
     //[SerializeField] private TextMeshProUGUI bossAttacks;
     public GameObject Boss;
+    public BossHealthBar BossHealthBar;
     //public GameObject UI;
 
     private ProgressSaverMaster saver;
@@ -163,6 +164,7 @@ public class BossDialogueParser : MonoBehaviour
         GameObject.FindGameObjectWithTag("Player").GetComponent<Updated_Player_Stats>().Toggle_Dialogue_Status();
         Boss.GetComponent<Updated_Boss_Stats>().Toggle_Dialogue_Status();
         Boss.GetComponent<Updated_Boss_Stats>().SetUpWaves();
+        BossHealthBar.UpdateMaxHealth(Boss.GetComponent<Updated_Boss_Stats>().health);
         SoundManagerScript.StopSound("Dialogue");
         SoundManagerScript.PlaySound("Fight");
         Destroy(gameObject);
