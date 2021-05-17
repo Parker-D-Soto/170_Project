@@ -12,6 +12,8 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     public GameObject SoundEffects;
 
+    public BossHealthBar BossHealthBar;
+
     private AudioSource hitSound;
     private AudioSource deathSound;
     private AudioSource[] soundEffects;
@@ -48,9 +50,9 @@ public class Updated_Boss_Stats : MonoBehaviour
         //{"melee", true},
         {"pickaxeThrow", true},
         {"goblinCharge", true },
-        {"getEmBoys", false },
         {"steadyAimFire", false },
-        {"surroundEm", false }
+        {"surroundEm", false },
+        {"getEmBoys", false }
     };
 
     private List<string> starterAttacks = new List<string>();
@@ -173,6 +175,7 @@ public class Updated_Boss_Stats : MonoBehaviour
             GotHitFlash();
             if (!inDialogue)
             {
+                BossHealthBar.ModifySlider(health);
                 //Debug.Log(waveActivationThresholds[0]);
                 //Debug.Log(health);
                 if (health <= waveActivationThresholds[0])
