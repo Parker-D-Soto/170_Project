@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: DaCeo
+    name: Monopolis
     sentences:
     - 'In the great world of Monoplis, DaCeo a necromancer seeks to take control
       of all of Monopolis''s resources and land. '
@@ -187,6 +187,15 @@ MonoBehaviour:
       his two minute work break for the day. '
     - He was instantly blinded by a mysterious illuminated object in the middle of
       the room.
+    - ' Cautiously approaching what appeared to be a crystal ball, Skelly was immediately
+      overwhelmed with flashes of images of other kingdoms and its inhabitants.'
+    - ' He saw fairs, carnivals, parties, and most importantly of all: people.'
+    - 'He observed families spending time together, all with large smiles on their
+      faces. '
+    - " It was at this moment, Skelly resolved to leave Daceo\u2019s kingdom and
+      started to fabricate a plan to escape. "
+    - "Navigating through the crystal ball, Skelly realizes he must first cross over
+      the Goblin Boss\u2019s territory."
 --- !u!114 &24599491
 MonoBehaviour:
   m_ObjectHideFlags: 0
