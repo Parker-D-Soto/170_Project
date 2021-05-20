@@ -18,8 +18,12 @@ public class LineController : MonoBehaviour
 
     public void SetPoints(List<Transform> newPoints)
     {
-        lr.positionCount = newPoints.Count;
-        points = newPoints;
+        if(lr != null)
+        {
+            lr.positionCount = newPoints.Count;
+            points = newPoints;
+        }
+        
     }
 
     private void Update()

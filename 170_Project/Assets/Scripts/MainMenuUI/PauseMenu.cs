@@ -8,6 +8,14 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject volumeMenuUI;
+
+    private ProgressSaverMaster saver;
+
+    public void Start()
+    {
+        saver = GameObject.FindGameObjectWithTag("Saver").GetComponent<ProgressSaverMaster>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -34,6 +42,7 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMenu() {
         Time.timeScale = 1f;
+        Destroy(saver.gameObject);
         SceneManager.LoadScene("Main Menu");
     }
 
