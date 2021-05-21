@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: df0ed156df46e9641a63402e5687a884
   - enabled: 1
-    path: Assets/Scenes/Goblin_Boss_Fight.unity
-    guid: a0269597bcbeebe4c8b8ee38a762df9e
+    path: Assets/Scenes/16x9Goblin_Boss_Fight.unity
+    guid: b0a48c82187960541a779505257137d7
+  - enabled: 1
+    path: Assets/Scenes/IntroTextScene.unity
+    guid: 2de14decc5f04e140b300a26e1cc1aab
   m_configObjects: {}

@@ -53,7 +53,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue() {
         Debug.Log("End Of Introduction");
         animator.SetBool("isOpen", false);
-        SceneManager.LoadScene("Goblin_Boss_Fight");
+        SceneManager.LoadScene(1);
 
     }
 }

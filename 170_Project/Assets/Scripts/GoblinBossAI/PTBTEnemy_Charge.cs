@@ -8,6 +8,7 @@ public class PTBTEnemy_Charge : MonoBehaviour
 {
 
     private Transform tf;
+    private SpriteRenderer visible;
     public int damage;
     public float runSpeed;
     private Vector3 runDirection;
@@ -16,17 +17,17 @@ public class PTBTEnemy_Charge : MonoBehaviour
     void Start()
     {
         tf = GetComponent<Transform>();
-        if(gameObject.transform.position.x == 95)
+        visible = GetComponent<SpriteRenderer>();
+        if(tf.position.y < 300)
         {
-            runDirection = new Vector3(1, 0, 0) * runSpeed * Time.deltaTime;
-        }
-        else if(gameObject.transform.position.x == 855)
-        {
-            runDirection = new Vector3(-1, 0, 0) * runSpeed * Time.deltaTime;
-        }
-        else if(gameObject.transform.position.y == -90)
-        {
-            runDirection = new Vector3(0, 1, 0) * runSpeed * Time.deltaTime;
+            if (tf.position.x < 0)
+            {
+                runDirection = new Vector3(1, 0, 0) * runSpeed * Time.deltaTime;
+            }
+            else
+            {
+                runDirection = new Vector3(-1, 0, 0) * runSpeed * Time.deltaTime;
+            }
         }
         else
         {
@@ -39,17 +40,26 @@ public class PTBTEnemy_Charge : MonoBehaviour
     void Update()
     {
         Move();
+
+        if (tf.position.y >= 310)
+        {
+            visible.color = Color.clear;
+        }
+        else if(tf.position.x <= -90)
+        {
+            visible.color = Color.clear;
+        }
+        else if(tf.position.x >= 1000)
+        {
+            visible.color = Color.clear;
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collider){
         //destroy enemy/ lose health if collision occurs
         if(collider.gameObject.tag.Equals("Player")){
             GameObject.FindGameObjectWithTag("Player").GetComponent<Updated_Player_Stats>().gotHit(damage);
-            Destroy(gameObject);
-
         }
-
-
     }
 
     private void Move()
