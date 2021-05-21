@@ -1,0 +1,3410 @@
+fileFormatVersion: 2
+guid: 7d578af9999a8cb4f83dde62f36b33db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -388628898876239444
+    second: TILE_SHEET_V10_0
+  - first:
+      213: 1450895029766347201
+    second: TILE_SHEET_V10_1
+  - first:
+      213: 6919665599232494713
+    second: TILE_SHEET_V10_2
+  - first:
+      213: 1103975734509338802
+    second: TILE_SHEET_V10_3
+  - first:
+      213: 726682007807075174
+    second: TILE_SHEET_V10_4
+  - first:
+      213: 4157124215272551014
+    second: TILE_SHEET_V10_5
+  - first:
+      213: -790290997668403430
+    second: TILE_SHEET_V10_6
+  - first:
+      213: 6102639442613934932
+    second: TILE_SHEET_V10_7
+  - first:
+      213: 8282246698704948631
+    second: TILE_SHEET_V10_8
+  - first:
+      213: -3644258011626463027
+    second: TILE_SHEET_V10_9
+  - first:
+      213: -6639734413769115781
+    second: TILE_SHEET_V10_10
+  - first:
+      213: 2184641842988688594
+    second: TILE_SHEET_V10_11
+  - first:
+      213: -6388033618225406701
+    second: TILE_SHEET_V10_12
+  - first:
+      213: 4953434072958394192
+    second: TILE_SHEET_V10_13
+  - first:
+      213: 2244757314369949322
+    second: TILE_SHEET_V10_14
+  - first:
+      213: -7534607102817559287
+    second: TILE_SHEET_V10_15
+  - first:
+      213: 3708351632896839156
+    second: TILE_SHEET_V10_16
+  - first:
+      213: -4704386421523054095
+    second: TILE_SHEET_V10_17
+  - first:
+      213: 839538459013130175
+    second: TILE_SHEET_V10_18
+  - first:
+      213: -8988424263148072767
+    second: TILE_SHEET_V10_19
+  - first:
+      213: 5547474526484870655
+    second: TILE_SHEET_V10_20
+  - first:
+      213: -8359608179643275126
+    second: TILE_SHEET_V10_21
+  - first:
+      213: -8457410779257365630
+    second: TILE_SHEET_V10_22
+  - first:
+      213: -4617418064260515950
+    second: TILE_SHEET_V10_23
+  - first:
+      213: -1695183001500621061
+    second: TILE_SHEET_V10_24
+  - first:
+      213: 5571788091335485506
+    second: TILE_SHEET_V10_25
+  - first:
+      213: -7919279369966600432
+    second: TILE_SHEET_V10_26
+  - first:
+      213: -4711876478840037383
+    second: TILE_SHEET_V10_27
+  - first:
+      213: 7148415711028824646
+    second: TILE_SHEET_V10_28
+  - first:
+      213: 6749663154604766117
+    second: TILE_SHEET_V10_29
+  - first:
+      213: 625155477817232353
+    second: TILE_SHEET_V10_30
+  - first:
+      213: 6219686298857678800
+    second: TILE_SHEET_V10_31
+  - first:
+      213: 4266893671556184113
+    second: TILE_SHEET_V10_32
+  - first:
+      213: 366558297727685595
+    second: TILE_SHEET_V10_33
+  - first:
+      213: -4062414299509099438
+    second: TILE_SHEET_V10_34
+  - first:
+      213: -2072382518705865560
+    second: TILE_SHEET_V10_35
+  - first:
+      213: -6775360941639729300
+    second: TILE_SHEET_V10_36
+  - first:
+      213: 1693676091828168951
+    second: TILE_SHEET_V10_37
+  - first:
+      213: 4574685824926422457
+    second: TILE_SHEET_V10_38
+  - first:
+      213: 3295860246746367346
+    second: TILE_SHEET_V10_39
+  - first:
+      213: 1290929190002432324
+    second: TILE_SHEET_V10_40
+  - first:
+      213: 8434895401143206197
+    second: TILE_SHEET_V10_41
+  - first:
+      213: 3254124597622925690
+    second: TILE_SHEET_V10_42
+  - first:
+      213: 2610823872074760025
+    second: TILE_SHEET_V10_43
+  - first:
+      213: 9060537978489858932
+    second: TILE_SHEET_V10_44
+  - first:
+      213: -3296033564910449297
+    second: TILE_SHEET_V10_45
+  - first:
+      213: -8019362997744366745
+    second: TILE_SHEET_V10_46
+  - first:
+      213: 3315515493499813968
+    second: TILE_SHEET_V10_47
+  - first:
+      213: 8540978070954679342
+    second: TILE_SHEET_V10_48
+  - first:
+      213: 1944570656155887580
+    second: TILE_SHEET_V10_49
+  - first:
+      213: 5018598177319061404
+    second: TILE_SHEET_V10_50
+  - first:
+      213: 7384984153090054717
+    second: TILE_SHEET_V10_51
+  - first:
+      213: 7245858625792582485
+    second: TILE_SHEET_V10_52
+  - first:
+      213: -4383807772036621253
+    second: TILE_SHEET_V10_53
+  - first:
+      213: -7452404976596821985
+    second: TILE_SHEET_V10_54
+  - first:
+      213: -1734443882345953092
+    second: TILE_SHEET_V10_55
+  - first:
+      213: -2315120109372349252
+    second: TILE_SHEET_V10_56
+  - first:
+      213: 6432682993620727413
+    second: TILE_SHEET_V10_57
+  - first:
+      213: -830566115028170223
+    second: TILE_SHEET_V10_58
+  - first:
+      213: 8284153488983194676
+    second: TILE_SHEET_V10_59
+  - first:
+      213: -7465441136482151643
+    second: TILE_SHEET_V10_60
+  - first:
+      213: -5699941255687851419
+    second: TILE_SHEET_V10_61
+  - first:
+      213: 3919079557941265138
+    second: TILE_SHEET_V10_62
+  - first:
+      213: -1303042006645504235
+    second: TILE_SHEET_V10_63
+  - first:
+      213: -8317332295361870055
+    second: TILE_SHEET_V10_64
+  - first:
+      213: -693775425159657037
+    second: TILE_SHEET_V10_65
+  - first:
+      213: 7659887784039954035
+    second: TILE_SHEET_V10_66
+  - first:
+      213: -574423319056404101
+    second: TILE_SHEET_V10_67
+  - first:
+      213: -1943701741073161869
+    second: TILE_SHEET_V10_68
+  - first:
+      213: -3787453814965248893
+    second: TILE_SHEET_V10_69
+  - first:
+      213: 8917845476550835242
+    second: TILE_SHEET_V10_70
+  - first:
+      213: -2844651436635445337
+    second: TILE_SHEET_V10_71
+  - first:
+      213: 1669482505771466492
+    second: TILE_SHEET_V10_72
+  - first:
+      213: 1095378083837102419
+    second: TILE_SHEET_V10_73
+  - first:
+      213: -6902622547654238395
+    second: TILE_SHEET_V10_74
+  - first:
+      213: 1522583810942276343
+    second: TILE_SHEET_V10_75
+  - first:
+      213: -6948231142872942929
+    second: TILE_SHEET_V10_76
+  - first:
+      213: 1637458298815246073
+    second: TILE_SHEET_V10_77
+  - first:
+      213: -1949052031405458563
+    second: TILE_SHEET_V10_78
+  - first:
+      213: -2704491939824217051
+    second: TILE_SHEET_V10_79
+  - first:
+      213: 2954470571694266862
+    second: TILE_SHEET_V10_80
+  - first:
+      213: -2544887231704518230
+    second: TILE_SHEET_V10_81
+  - first:
+      213: -6855940236774574811
+    second: TILE_SHEET_V10_82
+  - first:
+      213: -7660508337278312382
+    second: TILE_SHEET_V10_83
+  - first:
+      213: -4695968393769811210
+    second: TILE_SHEET_V10_84
+  - first:
+      213: 4500208219420859815
+    second: TILE_SHEET_V10_85
+  - first:
+      213: -5344909141795764751
+    second: TILE_SHEET_V10_86
+  - first:
+      213: 3549198256623747068
+    second: TILE_SHEET_V10_87
+  - first:
+      213: 766800584650644462
+    second: TILE_SHEET_V10_88
+  - first:
+      213: -2567373606397201667
+    second: TILE_SHEET_V10_89
+  - first:
+      213: 7675039477049367692
+    second: TILE_SHEET_V10_90
+  - first:
+      213: -6017825596210829627
+    second: TILE_SHEET_V10_91
+  - first:
+      213: -1273390687090171196
+    second: TILE_SHEET_V10_92
+  - first:
+      213: 6989577432328237660
+    second: TILE_SHEET_V10_93
+  - first:
+      213: -3356113443482667813
+    second: TILE_SHEET_V10_94
+  - first:
+      213: -1650249001315869850
+    second: TILE_SHEET_V10_95
+  - first:
+      213: 3890777753384152932
+    second: TILE_SHEET_V10_96
+  - first:
+      213: 2098054663021607652
+    second: TILE_SHEET_V10_97
+  - first:
+      213: -5177074765711340689
+    second: TILE_SHEET_V10_98
+  - first:
+      213: 7561216657919195752
+    second: TILE_SHEET_V10_99
+  - first:
+      213: 8990793594377992434
+    second: TILE_SHEET_V10_100
+  - first:
+      213: 8578753435888257473
+    second: TILE_SHEET_V10_101
+  - first:
+      213: -2558814088831110039
+    second: TILE_SHEET_V10_102
+  - first:
+      213: 4056958367543063169
+    second: TILE_SHEET_V10_103
+  - first:
+      213: -2444181291968971076
+    second: TILE_SHEET_V10_104
+  - first:
+      213: -7124163240690112728
+    second: TILE_SHEET_V10_105
+  - first:
+      213: -960903312759167627
+    second: TILE_SHEET_V10_106
+  - first:
+      213: 7335490212017049234
+    second: TILE_SHEET_V10_107
+  - first:
+      213: -3944084250601640188
+    second: TILE_SHEET_V10_108
+  - first:
+      213: -6463243597047211798
+    second: TILE_SHEET_V10_109
+  - first:
+      213: 1552674047804033010
+    second: TILE_SHEET_V10_110
+  - first:
+      213: 3232214480837723780
+    second: TILE_SHEET_V10_111
+  - first:
+      213: -8003772892866813190
+    second: TILE_SHEET_V10_112
+  - first:
+      213: -3678036846444490394
+    second: TILE_SHEET_V10_113
+  - first:
+      213: -5237254975317501804
+    second: TILE_SHEET_V10_114
+  - first:
+      213: 2446467644665255384
+    second: TILE_SHEET_V10_115
+  - first:
+      213: 3630486787770374566
+    second: TILE_SHEET_V10_116
+  - first:
+      213: 1259963277053332940
+    second: TILE_SHEET_V10_117
+  - first:
+      213: 1336158455413211280
+    second: TILE_SHEET_V10_118
+  - first:
+      213: -2528184299191714025
+    second: TILE_SHEET_V10_119
+  - first:
+      213: 8732449013136087924
+    second: TILE_SHEET_V10_120
+  - first:
+      213: -8065255821087630709
+    second: TILE_SHEET_V10_121
+  - first:
+      213: 3569223668002222047
+    second: TILE_SHEET_V10_122
+  - first:
+      213: -4710566096978640997
+    second: TILE_SHEET_V10_123
+  - first:
+      213: 3123745024582604354
+    second: TILE_SHEET_V10_124
+  - first:
+      213: -6832099845111345066
+    second: TILE_SHEET_V10_125
+  - first:
+      213: -8194491891911019040
+    second: TILE_SHEET_V10_126
+  - first:
+      213: 8532429269421003546
+    second: TILE_SHEET_V10_127
+  - first:
+      213: -8860058625629233997
+    second: TILE_SHEET_V10_128
+  - first:
+      213: 1262479867194811989
+    second: TILE_SHEET_V10_129
+  - first:
+      213: -2040660824108958491
+    second: TILE_SHEET_V10_130
+  - first:
+      213: -4446234513349109199
+    second: TILE_SHEET_V10_131
+  - first:
+      213: 4057241091658749337
+    second: TILE_SHEET_V10_132
+  - first:
+      213: 2084289742949929105
+    second: TILE_SHEET_V10_133
+  - first:
+      213: 4325394211617191712
+    second: TILE_SHEET_V10_134
+  - first:
+      213: 5806541747014394693
+    second: TILE_SHEET_V10_135
+  - first:
+      213: 9137449711827618106
+    second: TILE_SHEET_V10_136
+  - first:
+      213: -2242462230773605158
+    second: TILE_SHEET_V10_137
+  - first:
+      213: -5200092182170559648
+    second: TILE_SHEET_V10_138
+  - first:
+      213: 1293311995980568327
+    second: TILE_SHEET_V10_139
+  - first:
+      213: 5328848716399837241
+    second: TILE_SHEET_V10_140
+  - first:
+      213: -8793154246193161502
+    second: TILE_SHEET_V10_141
+  - first:
+      213: -6339145980513764537
+    second: TILE_SHEET_V10_142
+  - first:
+      213: -2464068815024607197
+    second: TILE_SHEET_V10_143
+  - first:
+      213: -3582792871198110408
+    second: TILE_SHEET_V10_144
+  - first:
+      213: -6305530972381296763
+    second: TILE_SHEET_V10_145
+  - first:
+      213: -3631011666268145830
+    second: TILE_SHEET_V10_146
+  - first:
+      213: -1848990869064675822
+    second: TILE_SHEET_V10_147
+  - first:
+      213: -6824266164669902235
+    second: TILE_SHEET_V10_148
+  - first:
+      213: -7225778444202107828
+    second: TILE_SHEET_V10_149
+  - first:
+      213: 8076957765002969971
+    second: TILE_SHEET_V10_150
+  - first:
+      213: 3327319170960837535
+    second: TILE_SHEET_V10_151
+  - first:
+      213: -5584875214943733890
+    second: TILE_SHEET_V10_152
+  - first:
+      213: 2744426071341160319
+    second: TILE_SHEET_V10_153
+  - first:
+      213: 386561187755641822
+    second: TILE_SHEET_V10_154
+  - first:
+      213: -2972305338667788970
+    second: TILE_SHEET_V10_155
+  - first:
+      213: -5739591320952664210
+    second: TILE_SHEET_V10_156
+  - first:
+      213: -5225025638977167554
+    second: TILE_SHEET_V10_157
+  - first:
+      213: -2070424216793059475
+    second: TILE_SHEET_V10_158
+  - first:
+      213: 2606985888397508046
+    second: TILE_SHEET_V10_159
+  - first:
+      213: 7609704621377072917
+    second: TILE_SHEET_V10_160
+  - first:
+      213: -704572620006497556
+    second: TILE_SHEET_V10_161
+  - first:
+      213: 38131683167119098
+    second: TILE_SHEET_V10_162
+  - first:
+      213: -3179700922744876285
+    second: TILE_SHEET_V10_163
+  - first:
+      213: -7710422465127349346
+    second: TILE_SHEET_V10_164
+  - first:
+      213: -184584635357654398
+    second: TILE_SHEET_V10_165
+  - first:
+      213: 6143351362341938138
+    second: TILE_SHEET_V10_166
+  - first:
+      213: -1834439254817988866
+    second: TILE_SHEET_V10_167
+  - first:
+      213: -3637310282523167888
+    second: TILE_SHEET_V10_168
+  - first:
+      213: -3751694091351618422
+    second: TILE_SHEET_V10_169
+  - first:
+      213: -7250686143873627426
+    second: TILE_SHEET_V10_170
+  - first:
+      213: -4687769610371007483
+    second: TILE_SHEET_V10_171
+  - first:
+      213: -7718733819277325725
+    second: TILE_SHEET_V10_172
+  - first:
+      213: 6272329527952453449
+    second: TILE_SHEET_V10_173
+  - first:
+      213: 8030043814929624443
+    second: TILE_SHEET_V10_174
+  - first:
+      213: -1178135744751816754
+    second: TILE_SHEET_V10_175
+  - first:
+      213: -8495270412229633070
+    second: TILE_SHEET_V10_176
+  - first:
+      213: 7255907131335321071
+    second: TILE_SHEET_V10_177
+  - first:
+      213: -310133860167399371
+    second: TILE_SHEET_V10_178
+  - first:
+      213: -1644361540161279331
+    second: TILE_SHEET_V10_179
+  - first:
+      213: -5728136260243683363
+    second: TILE_SHEET_V10_180
+  - first:
+      213: 8809320837407949308
+    second: TILE_SHEET_V10_181
+  - first:
+      213: -612837904694042372
+    second: TILE_SHEET_V10_182
+  - first:
+      213: -6833132985860332991
+    second: TILE_SHEET_V10_183
+  - first:
+      213: -8603497237083265942
+    second: TILE_SHEET_V10_184
+  - first:
+      213: 1006735007910793909
+    second: TILE_SHEET_V10_185
+  - first:
+      213: 6225775097238697055
+    second: TILE_SHEET_V10_186
+  - first:
+      213: -4530764436568067557
+    second: TILE_SHEET_V10_187
+  - first:
+      213: -2966785242102871930
+    second: TILE_SHEET_V10_188
+  - first:
+      213: -2541099254116563194
+    second: TILE_SHEET_V10_189
+  - first:
+      213: -6905759346514593333
+    second: TILE_SHEET_V10_190
+  - first:
+      213: -7863331554046440488
+    second: TILE_SHEET_V10_191
+  - first:
+      213: 1327719744922327254
+    second: TILE_SHEET_V10_192
+  - first:
+      213: -721518554550934981
+    second: TILE_SHEET_V10_193
+  - first:
+      213: -8059625118907307017
+    second: TILE_SHEET_V10_194
+  - first:
+      213: -1909493016179849056
+    second: TILE_SHEET_V10_195
+  - first:
+      213: -9186758356671699149
+    second: TILE_SHEET_V10_196
+  - first:
+      213: -5637418905142639477
+    second: TILE_SHEET_V10_197
+  - first:
+      213: 6362191242828527755
+    second: TILE_SHEET_V10_198
+  - first:
+      213: -5660815149772010130
+    second: TILE_SHEET_V10_199
+  - first:
+      213: 3848340292586336015
+    second: TILE_SHEET_V10_200
+  - first:
+      213: -1677723355202756909
+    second: TILE_SHEET_V10_201
+  - first:
+      213: -2565078792741795850
+    second: TILE_SHEET_V10_202
+  - first:
+      213: -5754817198835037658
+    second: TILE_SHEET_V10_203
+  - first:
+      213: -5814226857048521495
+    second: TILE_SHEET_V10_204
+  - first:
+      213: 8637385652743596499
+    second: TILE_SHEET_V10_205
+  - first:
+      213: -4826088205873207109
+    second: TILE_SHEET_V10_206
+  - first:
+      213: 8688926748674832000
+    second: TILE_SHEET_V10_207
+  - first:
+      213: 7376200622324262116
+    second: TILE_SHEET_V10_208
+  - first:
+      213: -4622390777157403577
+    second: TILE_SHEET_V10_209
+  - first:
+      213: -3207954107300615305
+    second: TILE_SHEET_V10_210
+  - first:
+      213: 6912396171828197763
+    second: TILE_SHEET_V10_211
+  - first:
+      213: 4343467852022505635
+    second: TILE_SHEET_V10_212
+  - first:
+      213: -1443907841564687688
+    second: TILE_SHEET_V10_213
+  - first:
+      213: -2574791679207634211
+    second: TILE_SHEET_V10_214
+  - first:
+      213: 9215952557668082085
+    second: TILE_SHEET_V10_215
+  - first:
+      213: -9187829871484974030
+    second: TILE_SHEET_V10_216
+  - first:
+      213: 6636112777218175859
+    second: TILE_SHEET_V10_217
+  - first:
+      213: 6219580829319016497
+    second: TILE_SHEET_V10_218
+  - first:
+      213: -1892934169790315024
+    second: TILE_SHEET_V10_219
+  - first:
+      213: -4993421863355326312
+    second: TILE_SHEET_V10_220
+  - first:
+      213: -2002669951538189638
+    second: TILE_SHEET_V10_221
+  - first:
+      213: 6652859301153312844
+    second: TILE_SHEET_V10_222
+  - first:
+      213: -972651342353552004
+    second: TILE_SHEET_V10_223
+  - first:
+      213: -6649739943527720373
+    second: TILE_SHEET_V10_224
+  - first:
+      213: -7659452479057894515
+    second: TILE_SHEET_V10_225
+  - first:
+      213: -4698177146085504028
+    second: TILE_SHEET_V10_226
+  - first:
+      213: -337548162185187823
+    second: TILE_SHEET_V10_227
+  - first:
+      213: -1143390594138177879
+    second: TILE_SHEET_V10_228
+  - first:
+      213: -8870950763293469721
+    second: TILE_SHEET_V10_229
+  - first:
+      213: 4086837422555498245
+    second: TILE_SHEET_V10_230
+  - first:
+      213: 7087939920648485328
+    second: TILE_SHEET_V10_231
+  - first:
+      213: -1048328386984091370
+    second: TILE_SHEET_V10_232
+  - first:
+      213: 7957921680293073428
+    second: TILE_SHEET_V10_233
+  - first:
+      213: -2248121711846123209
+    second: TILE_SHEET_V10_234
+  - first:
+      213: 402217671239911124
+    second: TILE_SHEET_V10_235
+  - first:
+      213: 1736033402878771504
+    second: TILE_SHEET_V10_236
+  - first:
+      213: -8900240536602754688
+    second: TILE_SHEET_V10_237
+  - first:
+      213: 3638767457957003388
+    second: TILE_SHEET_V10_238
+  - first:
+      213: 2303866782141819578
+    second: TILE_SHEET_V10_239
+  - first:
+      213: 8745045866455129147
+    second: TILE_SHEET_V10_240
+  - first:
+      213: -7917228241518972042
+    second: TILE_SHEET_V10_241
+  - first:
+      213: -6738513513668535462
+    second: TILE_SHEET_V10_242
+  - first:
+      213: 5187708798826570002
+    second: TILE_SHEET_V10_243
+  - first:
+      213: -8932323306770283765
+    second: TILE_SHEET_V10_244
+  - first:
+      213: 4533823772679069912
+    second: TILE_SHEET_V10_245
+  - first:
+      213: 8807158555255694718
+    second: TILE_SHEET_V10_246
+  - first:
+      213: -2243644180998816841
+    second: TILE_SHEET_V10_247
+  - first:
+      213: -494585943685908594
+    second: TILE_SHEET_V10_248
+  - first:
+      213: -5728580583416139977
+    second: TILE_SHEET_V10_249
+  - first:
+      213: -1298830543947290532
+    second: TILE_SHEET_V10_250
+  - first:
+      213: -747840181684689327
+    second: TILE_SHEET_V10_251
+  - first:
+      213: 8266542382008328906
+    second: TILE_SHEET_V10_252
+  - first:
+      213: -3645015879216609134
+    second: TILE_SHEET_V10_253
+  - first:
+      213: 1869398595820279652
+    second: TILE_SHEET_V10_254
+  - first:
+      213: 8496949784262596178
+    second: TILE_SHEET_V10_255
+  - first:
+      213: -2147965517956123478
+    second: TILE_SHEET_V10_256
+  - first:
+      213: 3734945162610297164
+    second: TILE_SHEET_V10_257
+  - first:
+      213: 8060518461039322968
+    second: TILE_SHEET_V10_258
+  - first:
+      213: -228874806332288005
+    second: TILE_SHEET_V10_259
+  - first:
+      213: 6108939662132876096
+    second: TILE_SHEET_V10_260
+  - first:
+      213: -5956346942138395040
+    second: TILE_SHEET_V10_261
+  - first:
+      213: 1786748739295530525
+    second: TILE_SHEET_V10_262
+  - first:
+      213: 8032342489291767529
+    second: TILE_SHEET_V10_263
+  - first:
+      213: 2578048112212290736
+    second: TILE_SHEET_V10_264
+  - first:
+      213: -4539165893615277040
+    second: TILE_SHEET_V10_265
+  - first:
+      213: -4134997773635567781
+    second: TILE_SHEET_V10_266
+  - first:
+      213: 53810331746730328
+    second: TILE_SHEET_V10_267
+  - first:
+      213: -1721177211641190105
+    second: TILE_SHEET_V10_268
+  - first:
+      213: -862439828624154605
+    second: TILE_SHEET_V10_269
+  - first:
+      213: -2885799493923698735
+    second: TILE_SHEET_V10_270
+  - first:
+      213: -4975603412591554731
+    second: TILE_SHEET_V10_271
+  - first:
+      213: 6239751815387965349
+    second: TILE_SHEET_V10_272
+  - first:
+      213: -7095112411486409829
+    second: TILE_SHEET_V10_273
+  - first:
+      213: 7732048255841564777
+    second: TILE_SHEET_V10_274
+  - first:
+      213: 734957519837424174
+    second: TILE_SHEET_V10_275
+  - first:
+      213: -207533763765607846
+    second: TILE_SHEET_V10_276
+  - first:
+      213: -4910971588149795378
+    second: TILE_SHEET_V10_277
+  - first:
+      213: 6104024865247323829
+    second: TILE_SHEET_V10_278
+  - first:
+      213: 3835963694531407674
+    second: TILE_SHEET_V10_279
+  - first:
+      213: 5792574089420636215
+    second: TILE_SHEET_V10_280
+  - first:
+      213: 8345815059523553050
+    second: TILE_SHEET_V10_281
+  - first:
+      213: -6666981565559150027
+    second: TILE_SHEET_V10_282
+  - first:
+      213: 3721725073516087006
+    second: TILE_SHEET_V10_283
+  - first:
+      213: 3484607002129615342
+    second: TILE_SHEET_V10_284
+  - first:
+      213: 3136354724514428293
+    second: TILE_SHEET_V10_285
+  - first:
+      213: 667445429616472846
+    second: TILE_SHEET_V10_286
+  - first:
+      213: -8629184734865868521
+    second: TILE_SHEET_V10_287
+  - first:
+      213: -3643528095653372691
+    second: TILE_SHEET_V10_288
+  - first:
+      213: 140051119851336043
+    second: TILE_SHEET_V10_289
+  - first:
+      213: 1858706242418465278
+    second: TILE_SHEET_V10_290
+  - first:
+      213: -5287726219541476595
+    second: TILE_SHEET_V10_291
+  - first:
+      213: 5793464202261518473
+    second: TILE_SHEET_V10_292
+  - first:
+      213: 5968069906183018988
+    second: TILE_SHEET_V10_293
+  - first:
+      213: 4355994555159371880
+    second: TILE_SHEET_V10_294
+  - first:
+      213: -5619040732640226460
+    second: TILE_SHEET_V10_295
+  - first:
+      213: -8146394784711499817
+    second: TILE_SHEET_V10_296
+  - first:
+      213: -3468647256084904499
+    second: TILE_SHEET_V10_297
+  - first:
+      213: -7023271301051363977
+    second: TILE_SHEET_V10_298
+  - first:
+      213: 7470530278774163021
+    second: TILE_SHEET_V10_299
+  - first:
+      213: -6967089684558872339
+    second: TILE_SHEET_V10_300
+  - first:
+      213: 4078282813107920885
+    second: TILE_SHEET_V10_301
+  - first:
+      213: 5795666440318392291
+    second: TILE_SHEET_V10_302
+  - first:
+      213: 7114596550178065849
+    second: TILE_SHEET_V10_303
+  - first:
+      213: 3046135285419348654
+    second: TILE_SHEET_V10_304
+  - first:
+      213: 2612922010209722161
+    second: TILE_SHEET_V10_305
+  - first:
+      213: -4159060409941926630
+    second: TILE_SHEET_V10_306
+  - first:
+      213: 1699675990200510500
+    second: TILE_SHEET_V10_307
+  - first:
+      213: -6992919569857838224
+    second: TILE_SHEET_V10_308
+  - first:
+      213: -5641920719612403970
+    second: TILE_SHEET_V10_309
+  - first:
+      213: 6372199353626030508
+    second: TILE_SHEET_V10_310
+  - first:
+      213: 8604747795137183997
+    second: TILE_SHEET_V10_311
+  - first:
+      213: -4187287483896801279
+    second: TILE_SHEET_V10_312
+  - first:
+      213: 3386860950088186730
+    second: TILE_SHEET_V10_313
+  - first:
+      213: 6385938798090532147
+    second: TILE_SHEET_V10_314
+  - first:
+      213: -6487618324945675254
+    second: TILE_SHEET_V10_315
+  - first:
+      213: 5388824050346108080
+    second: TILE_SHEET_V10_316
+  - first:
+      213: 1208837879911423058
+    second: TILE_SHEET_V10_317
+  - first:
+      213: 5377533087430430233
+    second: TILE_SHEET_V10_318
+  - first:
+      213: -620046878452576840
+    second: TILE_SHEET_V10_319
+  - first:
+      213: 3930480582063491479
+    second: TILE_SHEET_V10_320
+  - first:
+      213: -2157141782982382826
+    second: TILE_SHEET_V10_321
+  - first:
+      213: -3146336861415411585
+    second: TILE_SHEET_V10_322
+  - first:
+      213: 5618635302783813107
+    second: TILE_SHEET_V10_323
+  - first:
+      213: -6409074424185787667
+    second: TILE_SHEET_V10_324
+  - first:
+      213: -3411085730088689266
+    second: TILE_SHEET_V10_325
+  - first:
+      213: -32251565660004285
+    second: TILE_SHEET_V10_326
+  - first:
+      213: 6291710646297640730
+    second: TILE_SHEET_V10_327
+  - first:
+      213: 3782621676578711427
+    second: TILE_SHEET_V10_328
+  - first:
+      213: 8900605967493514725
+    second: TILE_SHEET_V10_329
+  - first:
+      213: 657064532522548461
+    second: TILE_SHEET_V10_330
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b08418d41c125f00800000000000000
+      internalID: 1103975734509338802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663220c9f61b51a00800000000000000
+      internalID: 726682007807075174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662be7ac27211b930800000000000000
+      internalID: 4157124215272551014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1729c656825805f0800000000000000
+      internalID: -790290997668403430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_7
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b9a496d3ee0b450800000000000000
+      internalID: 6102639442613934932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_8
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dc572cd7370f270800000000000000
+      internalID: 8282246698704948631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_9
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0222385aefc6dc0800000000000000
+      internalID: -3644258011626463027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_10
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77fa50cabcead3a0800000000000000
+      internalID: -6639734413769115781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ddb6cf4452957a0800000000000000
+      internalID: -6388033618225406701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f50018b022eb440800000000000000
+      internalID: 4953434072958394192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_14
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 592
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e0bf952eaf62f10800000000000000
+      internalID: 2244757314369949322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf66646aa008978e0800000000000000
+      internalID: -1695183001500621061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248adcb9fb7f25d40800000000000000
+      internalID: 5571788091335485506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_26
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fbf040f51191290800000000000000
+      internalID: -7919279369966600432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_27
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff983d9e4d0c9eb0800000000000000
+      internalID: -4711876478840037383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_28
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ac1ba1736443360800000000000000
+      internalID: 7148415711028824646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_29
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a372cbb0ee9bad50800000000000000
+      internalID: 6749663154604766117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_30
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb8fa8489ffca800800000000000000
+      internalID: 625155477817232353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_31
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7a6c94cb3c05650800000000000000
+      internalID: 6219686298857678800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_32
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138f773ff2d073b30800000000000000
+      internalID: 4266893671556184113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3d78564d6461500800000000000000
+      internalID: 366558297727685595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_34
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 560
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254fa4bd7b76f97c0800000000000000
+      internalID: -4062414299509099438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_49
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7e1d085b08cfa10800000000000000
+      internalID: 1944570656155887580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_50
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97868dd374a5a540800000000000000
+      internalID: 5018598177319061404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_51
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a52dcb5fbbc7660800000000000000
+      internalID: 7384984153090054717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_52
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553211ba7067e8460800000000000000
+      internalID: 7245858625792582485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c1928ce069923c0800000000000000
+      internalID: -4383807772036621253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_54
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18d797882db39890800000000000000
+      internalID: -7452404976596821985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_55
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb88bed7a740ee7e0800000000000000
+      internalID: -1734443882345953092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb46f7cc68a0fdfd0800000000000000
+      internalID: -2315120109372349252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_57
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 528
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576b573d91b754950800000000000000
+      internalID: 6432682993620727413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 497
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7131f4e80d3708f0800000000000000
+      internalID: -574423319056404101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_68
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 497
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371a60e80959605e0800000000000000
+      internalID: -1943701741073161869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_69
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 497
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c5cc372d2407bc0800000000000000
+      internalID: -3787453814965248893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_71
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a72a890794c588d0800000000000000
+      internalID: -2844651436635445337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_72
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfebc336e713b2710800000000000000
+      internalID: 1669482505771466492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_73
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359cbdd4090933f00800000000000000
+      internalID: 1095378083837102419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_74
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f97745d55f430a0800000000000000
+      internalID: -6902622547654238395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_75
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f299f7b8ed412510800000000000000
+      internalID: 1522583810942276343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_76
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa670cfb69ce29f90800000000000000
+      internalID: -6948231142872942929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_77
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fee56ba5ab69b610800000000000000
+      internalID: 1637458298815246073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7bf253018393f4e0800000000000000
+      internalID: -1949052031405458563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_79
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524ded4e8e6b77ad0800000000000000
+      internalID: -2704491939824217051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_80
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 496
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee99e2dd453600920800000000000000
+      internalID: 2954470571694266862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_84
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 465
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f283ec40a194deb0800000000000000
+      internalID: -4695968393769811210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_85
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 465
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad9fdd4883f37e30800000000000000
+      internalID: 4500208219420859815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_86
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 465
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5868e347113d5b0800000000000000
+      internalID: -5344909141795764751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_88
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 464
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebd9ada11934aa00800000000000000
+      internalID: 766800584650644462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_89
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 464
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df23bf8be4bde5cd0800000000000000
+      internalID: -2567373606397201667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_90
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 464
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c90a28db7338a60800000000000000
+      internalID: 7675039477049367692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_91
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 464
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6a99901836c7ca0800000000000000
+      internalID: -6017825596210829627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_92
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 464
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c223b3bae1045ee0800000000000000
+      internalID: -1273390687090171196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_93
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 464
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52f20074a7fff060800000000000000
+      internalID: 6989577432328237660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_94
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 464
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd47d47ca90bc61d0800000000000000
+      internalID: -3356113443482667813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_95
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 433
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bdf95d6432919e0800000000000000
+      internalID: -1650249001315869850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_96
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 433
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f6472a0c1def530800000000000000
+      internalID: 3890777753384152932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_97
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 433
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea31cc9999cd1d10800000000000000
+      internalID: 2098054663021607652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_99
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 432
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a3a054d76dee860800000000000000
+      internalID: 7561216657919195752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_100
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 432
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8f1c98327b5cc70800000000000000
+      internalID: 8990793594377992434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_101
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 432
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c908c93ccadd0770800000000000000
+      internalID: 8578753435888257473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_116
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 368
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a95dc29f74126230800000000000000
+      internalID: 3630486787770374566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_117
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 368
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd0dc6cce94c7110800000000000000
+      internalID: 1259963277053332940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_118
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 368
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0900a82390dfa8210800000000000000
+      internalID: 1336158455413211280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_119
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 368
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f35f756c51aecd0800000000000000
+      internalID: -2528184299191714025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_120
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 368
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bdf276c14ef2970800000000000000
+      internalID: 8732449013136087924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_121
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 368
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a9b61ff84721090800000000000000
+      internalID: -8065255821087630709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_122
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 370
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf6037f30e688130800000000000000
+      internalID: 3569223668002222047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_123
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 370
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ff69aa715b0aeb0800000000000000
+      internalID: -4710566096978640997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_135
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543e44c54faf49050800000000000000
+      internalID: 5806541747014394693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_136
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a390b72c91ebece70800000000000000
+      internalID: 9137449711827618106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_137
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc52807b7c21e0e0800000000000000
+      internalID: -2242462230773605158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_138
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b107a26bf85d7b0800000000000000
+      internalID: -5200092182170559648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_139
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7075c287864c2f110800000000000000
+      internalID: 1293311995980568327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_140
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 336
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9300fc29cafd3f940800000000000000
+      internalID: 5328848716399837241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_142
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 338
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bb1242154d608a0800000000000000
+      internalID: -6339145980513764537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_143
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 338
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320375ac77eddcdd0800000000000000
+      internalID: -2464068815024607197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_158
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 304
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6feea7f4206443e0800000000000000
+      internalID: -2070424216793059475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_159
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 304
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdb3646adfdd2420800000000000000
+      internalID: 2606985888397508046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_160
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 304
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f24d2090a1b9960800000000000000
+      internalID: 7609704621377072917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_161
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 304
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2eb026fead836f0800000000000000
+      internalID: -704572620006497556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_162
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 304
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af62dd55098778000800000000000000
+      internalID: 38131683167119098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_163
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 304
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3035fc78bde6fd3d0800000000000000
+      internalID: -3179700922744876285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_165
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 306
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282138a8049307df0800000000000000
+      internalID: -184584635357654398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_166
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 306
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad3adc2e381914550800000000000000
+      internalID: 6143351362341938138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_180
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 274
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd704279b629180b0800000000000000
+      internalID: -5728136260243683363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_181
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 274
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1c52ab0aef04a70800000000000000
+      internalID: 8809320837407949308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_199
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 227
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d80b21d9eb071b0800000000000000
+      internalID: -5660815149772010130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_200
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 227
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f6e625b1d086530800000000000000
+      internalID: 3848340292586336015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_201
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 227
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de53c55f7787b8e0800000000000000
+      internalID: -1677723355202756909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_202
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 242
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7ccb9ad62076cd0800000000000000
+      internalID: -2565078792741795850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_203
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 242
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a012c7f38c220b0800000000000000
+      internalID: -5754817198835037658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_217
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37335874965381c50800000000000000
+      internalID: 6636112777218175859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_218
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130b36fbfc3605650800000000000000
+      internalID: 6219580829319016497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_219
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5037ad662fab5e0800000000000000
+      internalID: -1892934169790315024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_221
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaa7382a461534e0800000000000000
+      internalID: -2002669951538189638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_222
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4095e93944b35c50800000000000000
+      internalID: 6652859301153312844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_223
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7da5b8e1c27082f0800000000000000
+      internalID: -972651342353552004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_224
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 210
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4add41d0c067b3a0800000000000000
+      internalID: -6649739943527720373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_225
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 210
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83e4c34d8824b590800000000000000
+      internalID: -7659452479057894515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_239
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaa267c1aaf8ff10800000000000000
+      internalID: 2303866782141819578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_240
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c5e8ed1e4ac5970800000000000000
+      internalID: 8745045866455129147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_241
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67332929cda502290800000000000000
+      internalID: -7917228241518972042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_243
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 163
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211e938baa17ef740800000000000000
+      internalID: 5187708798826570002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_244
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 163
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03c30927430a0480800000000000000
+      internalID: -8932323306770283765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_245
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 163
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0e1c433b06bee30800000000000000
+      internalID: 4533823772679069912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_258
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8572ab775d6bcdf60800000000000000
+      internalID: 8060518461039322968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_259
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf31786839fd2dcf0800000000000000
+      internalID: -228874806332288005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_260
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04399b3914057c450800000000000000
+      internalID: 6108939662132876096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TILE_SHEET_V10_303
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd459d1edf1cb260800000000000000
+      internalID: 7114596550178065849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

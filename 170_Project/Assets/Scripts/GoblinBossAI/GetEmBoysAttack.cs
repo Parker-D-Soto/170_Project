@@ -12,8 +12,9 @@ public class GetEmBoysAttack : MonoBehaviour
     private Vector2 position;       //player's position
     public GameObject target;       //target to spawn around (a.k.a. player)
     public int howManyGobbos;       //number of goblins to spawn
-    
-    
+    private float[] boundaries = { -90, 1000, -120, 300 };
+
+
     public void SummonCircleOfGobbos()
     {
         //GameObject.Find("Boss_Attack_Canvas/Next_Attack").GetComponent<Text>().text = "Get Em Boys!";
@@ -42,6 +43,15 @@ public class GetEmBoysAttack : MonoBehaviour
         pos.x = center.x + radius * Mathf.Sin(ang * Mathf.Deg2Rad);
 
         pos.y = center.y + radius * Mathf.Cos(ang * Mathf.Deg2Rad);
+
+        if (pos.x < boundaries[0] || pos.x > boundaries[1])
+        {
+            pos.x = center.x + radius * -1 * Mathf.Sin(ang * Mathf.Deg2Rad);
+        }
+        if (pos.y < boundaries[2] || pos.y > boundaries[3])
+        {
+            pos.y = center.y + radius * -1 * Mathf.Cos(ang * Mathf.Deg2Rad);
+        }
 
         return pos;
     }

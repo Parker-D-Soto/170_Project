@@ -25,7 +25,7 @@ public class PortalSceneScript : MonoBehaviour
             Debug.Log("move to the next room");
             Destroy(saver.gameObject);
             // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); move to the tree boss
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2); // move to main menu
+            SceneManager.LoadScene(0); // move to main menu
             
         }
     }

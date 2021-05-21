@@ -86,7 +86,7 @@ public class BossDialogueParser : MonoBehaviour
         foreach (var choice in choices)
         {
             var button = Instantiate(currentButton, buttonContainer);
-            button.GetComponentInChildren<Text>().text = ProcessProperties(choice.PortName);
+            button.GetComponentInChildren<TextMeshProUGUI>().text = ProcessProperties(choice.PortName);
             button.onClick.AddListener(() => ProceedToNarrative(choice.TargetNodeGuid));
 
 
