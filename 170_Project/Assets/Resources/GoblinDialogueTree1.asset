@@ -16,6 +16,21 @@ MonoBehaviour:
   - BaseNodeGuid: c0221981-d116-4ff8-b0aa-45f15681f023
     PortName: Next
     TargetNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+    PortName: Whoa whoa, I don't mean any harm.  I'm just trying to get to my assigned
+      work station.
+    TargetNodeGuid: 63a1c075-1087-47d6-97de-b90e533f8d9d
+  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+    PortName: '*Bluff* Let me pass or I will leak the secret mines to the necromancer.'
+    TargetNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
+  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+    PortName: Relax... I'm not here to intrude. I just happen to come across your
+      territory.
+    TargetNodeGuid: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
+  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+    PortName: Sorry! I'm lost and am just trying to get back to my assigned station
+      from Daceo.
+    TargetNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
   - BaseNodeGuid: fbdba3f1-25a2-4e34-80a2-ed4670ce36e4
     PortName: Start Fight
     TargetNodeGuid: 7a3da313-c192-4e44-907f-7b2a88081401
@@ -30,25 +45,24 @@ MonoBehaviour:
       me escape???
     TargetNodeGuid: 2aa1f034-1d05-42e2-9df9-1a6636c3ba8b
   - BaseNodeGuid: 65de62ca-9a51-407b-ab97-4e867a8611d6
-    PortName: Oh this? Nah it can't even break wood
+    PortName: Oh this? *holds up tools* Nah, this can't even break wood.
     TargetNodeGuid: ded22bca-d2c1-48f9-a931-6dcc1deb86c5
   - BaseNodeGuid: af481201-d326-4576-a4a3-dd9309997425
     PortName: Start Fight
     TargetNodeGuid: 5335a77d-2e50-4f8b-8ec2-c9942a7f3dbb
   - BaseNodeGuid: ded22bca-d2c1-48f9-a931-6dcc1deb86c5
-    PortName: Uh wait please! I don't want to break my new tool!
+    PortName: Wait please!!!  I don't want to break my brand new tool!
     TargetNodeGuid: af481201-d326-4576-a4a3-dd9309997425
-  - BaseNodeGuid: 63a1c075-1087-47d6-97de-b90e533f8d9d
-    PortName: Yea the boss ain't treating us right.
-    TargetNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
   - BaseNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
-    PortName: Uhhh actually DaCeo wanted me to go run an errand.
+    PortName: '*Bluff* Uhhh,  actually DaCeo wanted me to go run an errand. Can''t
+      really argue with the boss.'
     TargetNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
   - BaseNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
-    PortName: Hey man I don't have time for this.
+    PortName: Hey man, I don't have time for this. I'm on a time crunch here.
     TargetNodeGuid: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
   - BaseNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
-    PortName: I think you guys got it. I need to get going.
+    PortName: '*Motion to the 30 workers in the station* I think you guys got it
+      handled. I need to get going.'
     TargetNodeGuid: 65de62ca-9a51-407b-ab97-4e867a8611d6
   - BaseNodeGuid: 2aa1f034-1d05-42e2-9df9-1a6636c3ba8b
     PortName: Start Fight
@@ -57,25 +71,72 @@ MonoBehaviour:
     PortName: Many have tried?
     TargetNodeGuid: a8bc399f-9013-4aae-a6e6-d31ff32831bb
   - BaseNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
-    PortName: Top Secret you can't know. The boss would kill me if he found out I
+    PortName: Top secret you can't know. The boss would kill me if he found out I
       told someone like you.
     TargetNodeGuid: fbdba3f1-25a2-4e34-80a2-ed4670ce36e4
   - BaseNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
-    PortName: Uhhh I actually came here to get a tool for the errand.
+    PortName: Uhhh...  *looks at tools*  I actually came here to fetch something
+      for DaCeo
     TargetNodeGuid: 3e10cf21-8287-428f-9096-0ee2890d2697
+  - BaseNodeGuid: 63a1c075-1087-47d6-97de-b90e533f8d9d
+    PortName: Yeah, you're right. The manager of my station ain't treating us right.
+    TargetNodeGuid: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
+  - BaseNodeGuid: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
+    PortName: I'm sick of it here... being trapped and following the orders of the
+      necromancer. Aren't you sick of it? Being a puppet to someone else.
+    TargetNodeGuid: 9851aba0-082d-410e-ad71-a1103220f2b7
+  - BaseNodeGuid: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
+    PortName: I do fear the consequences... However, I cannot stand it here anymore.
+      I'm willing to face those consequences if necessary.
+    TargetNodeGuid: a7e2e833-f406-4d3b-97d2-985eb45431ef
+  - BaseNodeGuid: 9851aba0-082d-410e-ad71-a1103220f2b7
+    PortName: I'm just saying that you are nothing compared to the necromancer. You
+      were merely hired with meaningless gold to him.
+    TargetNodeGuid: 6e20b74f-8a9d-428c-a204-9896d44ea84c
+  - BaseNodeGuid: 9851aba0-082d-410e-ad71-a1103220f2b7
+    PortName: You don't serve for free? How about a deal? You goblins do enjoy making
+      deals that are in your favor.
+    TargetNodeGuid: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
+  - BaseNodeGuid: a7e2e833-f406-4d3b-97d2-985eb45431ef
+    PortName: That gold is meaningless to him. He is only using you. If anything
+      he benefits more from that deal than you.
+    TargetNodeGuid: 951efe8c-dbd5-4466-bcf5-535dba125b6f
+  - BaseNodeGuid: a7e2e833-f406-4d3b-97d2-985eb45431ef
+    PortName: What if I can make you an even better offer?
+    TargetNodeGuid: 06ad6c22-975b-4bdf-a55a-e8c38c303045
+  - BaseNodeGuid: 951efe8c-dbd5-4466-bcf5-535dba125b6f
+    PortName: What's the point of gold if you can't even use it. We've been stuck
+      here forever, not knowing what's in the outside world.
+    TargetNodeGuid: e8231505-efb6-4da0-9446-f7974df3fc87
+  - BaseNodeGuid: e8231505-efb6-4da0-9446-f7974df3fc87
+    PortName: Start Fight
+    TargetNodeGuid: 02acddc0-319f-4da7-ad03-aa67bfd5a130
+  - BaseNodeGuid: 06ad6c22-975b-4bdf-a55a-e8c38c303045
+    PortName: How about a challenge?
+    TargetNodeGuid: 7bb49ca5-b448-4aaf-8ec5-78539c88da8b
+  - BaseNodeGuid: 06ad6c22-975b-4bdf-a55a-e8c38c303045
+    PortName: You see... I hear outside this world you can seek many fortunes, way
+      more than you could possibly earn here.
+    TargetNodeGuid: 8d8b39d6-67e4-4735-95e7-1c74bd77c224
+  - BaseNodeGuid: 7bb49ca5-b448-4aaf-8ec5-78539c88da8b
+    PortName: Start Fight
+    TargetNodeGuid: acf01d03-ed39-4d7e-a3c9-57c3dbe74f1e
+  - BaseNodeGuid: 8d8b39d6-67e4-4735-95e7-1c74bd77c224
+    PortName: You think I would dare attempt to fool someone like you?
+    TargetNodeGuid: 4c504c51-976d-4351-a8ae-a4f48028dfc3
+  - BaseNodeGuid: 8d8b39d6-67e4-4735-95e7-1c74bd77c224
+    PortName: I am not fooling you....  You could even say there are mountains of
+      gold out there just waiting to be found.
+    TargetNodeGuid: a5c2ad59-f6fe-4f49-a47a-edc8c9c05ca6
+  - BaseNodeGuid: 4c504c51-976d-4351-a8ae-a4f48028dfc3
+    PortName: Start Fight
+    TargetNodeGuid: f9954303-224d-460b-9fd6-0f7dfa6def36
+  - BaseNodeGuid: a5c2ad59-f6fe-4f49-a47a-edc8c9c05ca6
+    PortName: Start Fight
+    TargetNodeGuid: 7a8c8deb-f292-4ad2-8ceb-a5b3bb1a23eb
   - BaseNodeGuid: 290cae0c-f385-44c8-bb33-5384c3e1f761
-    PortName: ...
+    PortName: Start Fight
     TargetNodeGuid: 73d20750-7bce-4a72-a3fd-e3d21d1e9cb7
-  - BaseNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
-    PortName: You don't need to know. Let me escape and none of this information
-      will be leaked.
-    TargetNodeGuid: c6c6c973-0da5-42ec-8a56-8a0934632723
-  - BaseNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
-    PortName: I'm not just any skeleton. I'm running an errand personally for DaCeo.
-    TargetNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
-  - BaseNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
-    PortName: Let me escape.
-    TargetNodeGuid: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
   - BaseNodeGuid: c6c6c973-0da5-42ec-8a56-8a0934632723
     PortName: '*Agree and form a temporary pact*'
     TargetNodeGuid: a00d1e03-e61a-4948-bc70-9548e2fcc353
@@ -89,59 +150,21 @@ MonoBehaviour:
     PortName: ...
     TargetNodeGuid: 0f4f20ff-0a04-47a5-b981-4a2b113ec974
   - BaseNodeGuid: 597b2f95-b0e7-437b-8e56-e024ce3381a4
-    PortName: ...
+    PortName: Start Fight
     TargetNodeGuid: d76a635c-b94f-415b-bbce-a821d9a1fbc4
   - BaseNodeGuid: 6cbe4dd9-bfe0-4116-a2bf-35880fe8fe5c
     PortName: '*Stare nonchalantly at him*'
     TargetNodeGuid: b4dafaa6-e936-4cde-84f1-ee6456887408
   - BaseNodeGuid: 6cbe4dd9-bfe0-4116-a2bf-35880fe8fe5c
-    PortName: Surely you know I have a complex network of spies. Me revealing my
-      sources would not reveal all of them.
+    PortName: Surely you know I have a complex network of spies. Revealing my sources
+      would not reveal even a fraction of my spies.
     TargetNodeGuid: 597b2f95-b0e7-437b-8e56-e024ce3381a4
   - BaseNodeGuid: b4dafaa6-e936-4cde-84f1-ee6456887408
-    PortName: ...
-    TargetNodeGuid: 3440710e-8bf6-4470-bdd0-7d7bec79e61d
-  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
-    PortName: Whoa whoa I don't mean no harm. I'm just trying to leave Monopolis.
-    TargetNodeGuid: 63a1c075-1087-47d6-97de-b90e533f8d9d
-  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
-    PortName: ' I''ve had enough of this bullshit, let me pass or I will leak the
-      secret mines to the necromancer.'
-    TargetNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
-  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
-    PortName: Relax... I'm not here to intrude. I just happen to come across your
-      territory.
-    TargetNodeGuid: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
-  - BaseNodeGuid: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
-    PortName: Sorry! I'm lost and am just trying to get back to my station.
-    TargetNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
-  - BaseNodeGuid: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
-    PortName: I'm sick of it here... being trapped and following the orders of the
-      necromancer. Aren't you sick of it? Being a puppet to someone else.
-    TargetNodeGuid: 9851aba0-082d-410e-ad71-a1103220f2b7
-  - BaseNodeGuid: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
-    PortName: I do fear the consequences... However, I cannot stand it here anymore.
-    TargetNodeGuid: a7e2e833-f406-4d3b-97d2-985eb45431ef
-  - BaseNodeGuid: 9851aba0-082d-410e-ad71-a1103220f2b7
-    PortName: I'm just saying you are nothing like the necromancer. You were only
-      hired with meaningless gold to him.
-    TargetNodeGuid: 6e20b74f-8a9d-428c-a204-9896d44ea84c
-  - BaseNodeGuid: 9851aba0-082d-410e-ad71-a1103220f2b7
-    PortName: You don't serve for free? How about a deal? You goblins do enjoy making
-      deals that are in your favor.
-    TargetNodeGuid: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
-  - BaseNodeGuid: a7e2e833-f406-4d3b-97d2-985eb45431ef
-    PortName: That gold is meaningless to him. He is only using you. If anything
-      he benefits more from that deal than you.
-    TargetNodeGuid: 951efe8c-dbd5-4466-bcf5-535dba125b6f
-  - BaseNodeGuid: e8231505-efb6-4da0-9446-f7974df3fc87
     PortName: Start Fight
-    TargetNodeGuid: 02acddc0-319f-4da7-ad03-aa67bfd5a130
-  - BaseNodeGuid: 6e20b74f-8a9d-428c-a204-9896d44ea84c
-    PortName: Power? How about you show me what type of power gold can give you.
-    TargetNodeGuid: 205372f0-ee13-4f1c-a82a-99b11c511dda
+    TargetNodeGuid: 3440710e-8bf6-4470-bdd0-7d7bec79e61d
   - BaseNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
-    PortName: '*Stare confidently into the goblin''s eyes and just wait*'
+    PortName: '*Stare confidently into the goblin''s eyes and just wait, attempting
+      to elude him by your confidence *'
     TargetNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
   - BaseNodeGuid: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
     PortName: While mining, I stole some gold and bribed one of your friends for
@@ -151,12 +174,20 @@ MonoBehaviour:
     PortName: I have my sources and it would be dumb for me to reveal them. Now let
       me pass.
     TargetNodeGuid: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
-  - BaseNodeGuid: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
-    PortName: You see... While mining, I stole some gold and bribed one of your friends
-      for some information.
-    TargetNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+  - BaseNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+    PortName: '*Straight Faced* You don''t need to know. Let me escape and none of
+      this information will be leaked.'
+    TargetNodeGuid: c6c6c973-0da5-42ec-8a56-8a0934632723
+  - BaseNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+    PortName: '*Smile Cheekily* I''m not just any skeleton. I''m running an errand
+      personally for the necromancer.'
+    TargetNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
+  - BaseNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+    PortName: '*Smile Confidently* Let me escape.'
+    TargetNodeGuid: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
   - BaseNodeGuid: beaccc72-e5bd-40a4-800a-318490cc672a
-    PortName: I didn't mean to offend you! I just didn't want you to get in trouble.
+    PortName: '*apologetically* I didn''t mean to offend you! I just didn''t want
+      you to get in trouble!'
     TargetNodeGuid: fe9222bb-a5a1-4e5e-8375-bfc7c073f327
   - BaseNodeGuid: beaccc72-e5bd-40a4-800a-318490cc672a
     PortName: But wouldn't it be rude not to ask?
@@ -171,273 +202,82 @@ MonoBehaviour:
     PortName: Start Fight
     TargetNodeGuid: 909eeaf0-c2f7-4337-8bc1-3b55e4f70316
   - BaseNodeGuid: 41e981e5-54f1-485c-bb08-3b5a34a2c325
-    PortName: Sir, I think you should reconsider! I'm super weak!
+    PortName: '*starts sweating* Sir, I think you should reconsider! I''m super weak
+      and incapable!'
     TargetNodeGuid: 76a92e2a-148b-4bc5-b7da-e70cda7ddf33
   - BaseNodeGuid: 41e981e5-54f1-485c-bb08-3b5a34a2c325
-    PortName: I can not work for you. Please understand.
+    PortName: '*Bluff* I can not work for you. Please understand, I''m on an errand
+      for Daceo.'
     TargetNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
   - BaseNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
-    PortName: I don't think the skeleton boss would like that.
+    PortName: '*nervously* I don''t think the necromancer would approve of that.'
     TargetNodeGuid: beaccc72-e5bd-40a4-800a-318490cc672a
   - BaseNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
     PortName: I don't think I will be a good fit for you.
     TargetNodeGuid: 41e981e5-54f1-485c-bb08-3b5a34a2c325
-  - BaseNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
-    PortName: Uhhh actually DaCeo wanted me to go run an errand.
-    TargetNodeGuid: 050039a5-3c64-4adb-b437-83dc17cbea92
-  - BaseNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
-    PortName: ' Hey man I don''t have time for this.'
-    TargetNodeGuid: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
-  - BaseNodeGuid: e35fbfd9-2cdd-468a-9fda-e8b521113aee
-    PortName: I think you guys got it. I need to get going.
-    TargetNodeGuid: 65de62ca-9a51-407b-ab97-4e867a8611d6
-  - BaseNodeGuid: 951efe8c-dbd5-4466-bcf5-535dba125b6f
-    PortName: What's the point of gold if you can't use it. We've been stuck here
-      forever... not knowing what's in the outside world.
-    TargetNodeGuid: e8231505-efb6-4da0-9446-f7974df3fc87
-  - BaseNodeGuid: a7e2e833-f406-4d3b-97d2-985eb45431ef
-    PortName: What if I can make you an even better offer?
-    TargetNodeGuid: 06ad6c22-975b-4bdf-a55a-e8c38c303045
-  - BaseNodeGuid: 06ad6c22-975b-4bdf-a55a-e8c38c303045
-    PortName: How about a challenge?
-    TargetNodeGuid: 7bb49ca5-b448-4aaf-8ec5-78539c88da8b
-  - BaseNodeGuid: 7bb49ca5-b448-4aaf-8ec5-78539c88da8b
-    PortName: Start Fight
-    TargetNodeGuid: acf01d03-ed39-4d7e-a3c9-57c3dbe74f1e
-  - BaseNodeGuid: 06ad6c22-975b-4bdf-a55a-e8c38c303045
-    PortName: You see... I hear outside this world you can seek many fortunes, double
-      of what you are earning.
-    TargetNodeGuid: 8d8b39d6-67e4-4735-95e7-1c74bd77c224
-  - BaseNodeGuid: 8d8b39d6-67e4-4735-95e7-1c74bd77c224
-    PortName: You think I would dare fool someone like you?
-    TargetNodeGuid: 4c504c51-976d-4351-a8ae-a4f48028dfc3
-  - BaseNodeGuid: 8d8b39d6-67e4-4735-95e7-1c74bd77c224
-    PortName: I am not fooling you.... I hear double, and you can even say there
-      are mountains of gold.
-    TargetNodeGuid: a5c2ad59-f6fe-4f49-a47a-edc8c9c05ca6
-  - BaseNodeGuid: a5c2ad59-f6fe-4f49-a47a-edc8c9c05ca6
-    PortName: Start Fight
-    TargetNodeGuid: 7a8c8deb-f292-4ad2-8ceb-a5b3bb1a23eb
-  - BaseNodeGuid: 4c504c51-976d-4351-a8ae-a4f48028dfc3
-    PortName: Start Fight
-    TargetNodeGuid: f9954303-224d-460b-9fd6-0f7dfa6def36
+  - BaseNodeGuid: 6e20b74f-8a9d-428c-a204-9896d44ea84c
+    PortName: Power? How about you show me what type of power gold can give you.
+    TargetNodeGuid: 205372f0-ee13-4f1c-a82a-99b11c511dda
+  - BaseNodeGuid: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
+    PortName: You see...
+    TargetNodeGuid: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
   - BaseNodeGuid: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
     PortName: A challenge... if I am able to beat you, you must let me pass.
     TargetNodeGuid: d11ef5eb-3b19-49ad-b106-9ba5fe2c953f
   - BaseNodeGuid: d11ef5eb-3b19-49ad-b106-9ba5fe2c953f
-    PortName: 'Weak Indeed... However, if I shall lose I would serve in your territory.
-      Should benefit you right?  '
+    PortName: I may be weak Indeed... but if I lose I would serve you. This should
+      be a good deal right?
     TargetNodeGuid: 5d4bd460-679f-4d82-a91e-2358e0a36e2c
   - BaseNodeGuid: 5d4bd460-679f-4d82-a91e-2358e0a36e2c
     PortName: Start Fight
     TargetNodeGuid: e3af403b-44c1-4c5c-97d2-4e6375daeb45
+  - BaseNodeGuid: 951efe8c-dbd5-4466-bcf5-535dba125b6f
+    PortName: You are blinded by greed. Anyone here can see that you are easy to
+      control when it comes to gold.
+    TargetNodeGuid: 14df70a0-7ac3-4919-8500-8374ba37cbcf
   DialogueNodeData:
-  - GUID: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
-    DialogueText: What the fuck are you doing here? Get back to work before I brew
-      you in a pot of gold!
-    Position: {x: 352, y: -413}
-    Mutation: none
-    ExitPoint: 0
   - GUID: 7a3da313-c192-4e44-907f-7b2a88081401
     DialogueText: Dialogue Node
     Position: {x: 5595, y: 1199}
     Mutation: none
     ExitPoint: 1
-  - GUID: fbdba3f1-25a2-4e34-80a2-ed4670ce36e4
-    DialogueText: WHAT?!? WE GATHER THE RESOURCES TO MAKE ALL THE WEAPONS YOU PUNY
-      HENCHMEN USE! BOYS CAPTURE THAT SKELETON!!!
-    Position: {x: 3997, y: 1198}
-    Mutation: 'surroundEm: enable'
-    ExitPoint: 0
-  - GUID: c097fe63-b1fa-4d91-8614-2e89becad53a
-    DialogueText: Fine well then if you don't want to work for it then FIGHT FOR
-      IT! CHARGE!!
-    Position: {x: 5188, y: 1431}
-    Mutation: 'goblinCharge: enable'
-    ExitPoint: 0
-  - GUID: 3e10cf21-8287-428f-9096-0ee2890d2697
-    DialogueText: Oh well why didn't you say so to begin with! Pick up that tool
-      it should speed up our production.
-    Position: {x: 4140, y: 1450}
-    Mutation: 'cooldown: -500'
-    ExitPoint: 0
   - GUID: 3fe15fcf-33b0-4a5b-bba7-a4ef9ea8094f
     DialogueText: Dialogue Node
     Position: {x: 5880, y: 1423}
     Mutation: none
     ExitPoint: 1
-  - GUID: a8bc399f-9013-4aae-a6e6-d31ff32831bb
-    DialogueText: Yes... Look I don't have time to explain all this. Hurry up while
-      we still have energy.
-    Position: {x: 3838, y: 1630}
-    Mutation: 'health: +20'
-    ExitPoint: 0
   - GUID: 04ac8cb1-242a-4b44-b386-f2baa054b3f5
     DialogueText: Dialogue Node
     Position: {x: 5811, y: 1626}
     Mutation: none
     ExitPoint: 1
-  - GUID: 65de62ca-9a51-407b-ab97-4e867a8611d6
-    DialogueText: Actually we don't. In fact that thing your holding I'm sure can
-      get a lot done.
-    Position: {x: 3005, y: 1856}
-    Mutation: none
-    ExitPoint: 0
-  - GUID: af481201-d326-4576-a4a3-dd9309997425
-    DialogueText: Alright you refusing to help us increase production with your tool,
-      has cost me a lot of profit! GET EM BOYS!!!
-    Position: {x: 4697, y: 1852}
-    Mutation: 'getEmBoys: enable'
-    ExitPoint: 0
-  - GUID: 5335a77d-2e50-4f8b-8ec2-c9942a7f3dbb
-    DialogueText: Dialogue Node
-    Position: {x: 6071, y: 1852}
-    Mutation: none
-    ExitPoint: 1
-  - GUID: ded22bca-d2c1-48f9-a931-6dcc1deb86c5
-    DialogueText: Prove it! Show me it can't!
-    Position: {x: 3939, y: 1854}
-    Mutation: 'goblinCharge: enable'
-    ExitPoint: 0
-  - GUID: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
-    DialogueText: Well before you leave come help me and the boys meet our quota
-      for today.
-    Position: {x: 2120, y: 1468}
-    Mutation: none
-    ExitPoint: 0
   - GUID: 2aa1f034-1d05-42e2-9df9-1a6636c3ba8b
-    DialogueText: Alright look I'll tell you more about what I know, IF you can prove
-      to me you are capable to complete such a harsh journey.
+    DialogueText: Alright look, I'll tell you more about what I know, If and only
+      if you can prove to me that you are capable to complete such a harsh journey.
+      <b>*picks ups a large pickaxe*</b>
     Position: {x: 4779, y: 1634}
     Mutation: 'startup: +2000'
-    ExitPoint: 0
-  - GUID: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
-    DialogueText: Look you're not going to be able to escape many have tried. Just
-      give up and be useful.
-    Position: {x: 2982, y: 1633}
-    Mutation: 'health: +20'
-    ExitPoint: 0
-  - GUID: 050039a5-3c64-4adb-b437-83dc17cbea92
-    DialogueText: Oh really and what errand does he got you doing that makes you
-      come through here?
-    Position: {x: 3070, y: 1346}
-    Mutation: 'getEmBoys: enable'
-    ExitPoint: 0
-  - GUID: 63a1c075-1087-47d6-97de-b90e533f8d9d
-    DialogueText: Whoa not one step closer! Let me get this straight. You're trying
-      to leave Monopolis?
-    Position: {x: 1399, y: 1483}
-    Mutation: 'steadyAimFire: enable'
-    ExitPoint: 0
-  - GUID: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
-    DialogueText: Why would a weak skeleton like you leave your post? Do you not
-      fear the consequences of abandoning your territory?
-    Position: {x: 1307, y: 248}
-    Mutation: 'steadyAimFire: enable'
-    ExitPoint: 0
-  - GUID: 9851aba0-082d-410e-ad71-a1103220f2b7
-    DialogueText: Puppet?!?! I'm no puppet. We goblins do not serve anyone for free.
-    Position: {x: 2441, y: 70}
-    Mutation: 'health: +10'
-    ExitPoint: 0
-  - GUID: a7e2e833-f406-4d3b-97d2-985eb45431ef
-    DialogueText: Disobeying the orders of the necromancer... fearless of you. However,
-      the necromancer pays us goblins a valuable fortune to run his errands. And
-      that would be... to kill anyone who leaves their territory.
-    Position: {x: 2400, y: 436}
-    Mutation: 'getEmBoys: enable'
     ExitPoint: 0
   - GUID: 02acddc0-319f-4da7-ad03-aa67bfd5a130
     DialogueText: Dialogue Node
     Position: {x: 6365, y: 549}
     Mutation: none
     ExitPoint: 1
-  - GUID: 951efe8c-dbd5-4466-bcf5-535dba125b6f
-    DialogueText: "You fool! \u2026 When it comes to obtaining gold, we goblins benefit
-      more than everyone. A weakling like you would never understand the satisfaction
-      of gold."
-    Position: {x: 3972, y: 522}
-    Mutation: 'goblinCharge: enable'
-    ExitPoint: 0
-  - GUID: e8231505-efb6-4da0-9446-f7974df3fc87
-    DialogueText: You fool... you won't understand. Let me show you the glory of
-      gold.
-    Position: {x: 5315, y: 522}
-    Mutation: 'health: +10'
-    ExitPoint: 0
-  - GUID: 06ad6c22-975b-4bdf-a55a-e8c38c303045
-    DialogueText: And what does a weak skeleton like you have to offer for me?
-    Position: {x: 3938, y: 323}
-    Mutation: none
-    ExitPoint: 0
-  - GUID: 7bb49ca5-b448-4aaf-8ec5-78539c88da8b
-    DialogueText: A challenge you say? So it seems like you have chosen your death.
-      GET EM BOYS!
-    Position: {x: 4946, y: 329}
-    Mutation: none
-    ExitPoint: 0
   - GUID: acf01d03-ed39-4d7e-a3c9-57c3dbe74f1e
     DialogueText: Dialogue Node
     Position: {x: 5784, y: 337}
     Mutation: none
     ExitPoint: 1
-  - GUID: 8d8b39d6-67e4-4735-95e7-1c74bd77c224
-    DialogueText: Double you say? Speak... I shall listen to your offer. However,
-      if you try to fool me I will ensure you won't ever be leaving this place.
-    Position: {x: 4795, y: 71}
-    Mutation: 'health: +10'
-    ExitPoint: 0
   - GUID: f9954303-224d-460b-9fd6-0f7dfa6def36
     DialogueText: Dialogue Node
     Position: {x: 6917, y: 95}
     Mutation: none
     ExitPoint: 1
-  - GUID: 4c504c51-976d-4351-a8ae-a4f48028dfc3
-    DialogueText: That is indeed true... However strength is knowledge let me see
-      your power.
-    Position: {x: 6157, y: 122}
-    Mutation: none
-    ExitPoint: 0
-  - GUID: a5c2ad59-f6fe-4f49-a47a-edc8c9c05ca6
-    DialogueText: Mountains of gold... quite tempting. However, I cannot let you
-      leave so easily. How about a fight... since you seem quite weak I shall take
-      it easy on you.
-    Position: {x: 5860, y: -199}
-    Mutation: none
-    ExitPoint: 0
-  - GUID: 7a8c8deb-f292-4ad2-8ceb-a5b3bb1a23eb
-    DialogueText: Dialogue Node
-    Position: {x: 7201, y: -175}
-    Mutation: none
-    ExitPoint: 1
-  - GUID: 290cae0c-f385-44c8-bb33-5384c3e1f761
-    DialogueText: I've caught your bluff,  if I had secret mines I would not be so
-      foolish to reveal the location to others.
-    Position: {x: 2099, y: -2660}
-    Mutation: 'goblinCharge: enable'
-    ExitPoint: 0
   - GUID: 73d20750-7bce-4a72-a3fd-e3d21d1e9cb7
     DialogueText: Dialogue Node
     Position: {x: 3212, y: -2664}
     Mutation: none
     ExitPoint: 1
-  - GUID: c6c6c973-0da5-42ec-8a56-8a0934632723
-    DialogueText: Form a temporary blood pact with me and swear on it.
-    Position: {x: 3370, y: -3368}
-    Mutation: 'goblinCharge: enable'
-    ExitPoint: 0
-  - GUID: a00d1e03-e61a-4948-bc70-9548e2fcc353
-    DialogueText: Do you swear that you will not reveal my info to the necromancer
-      if you escape?
-    Position: {x: 4072, y: -3468}
-    Mutation: none
-    ExitPoint: 0
-  - GUID: 0f539c98-d219-48da-86e3-823c4d93c194
-    DialogueText: Surely you are bluffing then. Your bluff will be your undoing,
-      you mere skeleton.
-    Position: {x: 4076, y: -3119}
-    Mutation: 'getEmBoys: enable'
-    ExitPoint: 0
   - GUID: 0f4f20ff-0a04-47a5-b981-4a2b113ec974
     DialogueText: Dialogue Node
     Position: {x: 4954, y: -3122}
@@ -449,112 +289,18 @@ MonoBehaviour:
     Position: {x: 6367, y: -3318}
     Mutation: 'surroundEm: enable'
     ExitPoint: 0
-  - GUID: 6cbe4dd9-bfe0-4116-a2bf-35880fe8fe5c
-    DialogueText: I see you are telling the truth. But surely you know I now must
-      torture you and make you reveal everything.
-    Position: {x: 5018, y: -3465}
-    Mutation: 'getEmBoys: disable'
-    ExitPoint: 0
-  - GUID: b4dafaa6-e936-4cde-84f1-ee6456887408
-    DialogueText: A smart man you are. Surely you've come prepared. I'd let you pass,
-      but I can't make it seem like I didn't at least try to stop you.
-    Position: {x: 6352, y: -3530}
-    Mutation: 'getEmBoys: disable'
-    ExitPoint: 0
-  - GUID: 3440710e-8bf6-4470-bdd0-7d7bec79e61d
-    DialogueText: Dialogue Node
-    Position: {x: 7535, y: -3536}
-    Mutation: none
-    ExitPoint: 1
-  - GUID: d76a635c-b94f-415b-bbce-a821d9a1fbc4
-    DialogueText: Dialogue Node
-    Position: {x: 7527, y: -3324}
-    Mutation: none
-    ExitPoint: 1
-  - GUID: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
-    DialogueText: Secret mines you say? How would you know about something that doesn't
-      exist?
-    Position: {x: 1127, y: -3348}
-    Mutation: 'steadyAimFire: enable'
-    ExitPoint: 0
-  - GUID: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
-    DialogueText: Who else knows?
-    Position: {x: 2127, y: -3364}
-    Mutation: 'pickaxeThrow: enable'
-    ExitPoint: 0
-  - GUID: beaccc72-e5bd-40a4-800a-318490cc672a
-    DialogueText: WHAT? DO I LOOK LIKE I CARE ABOUT WHAT HE THINKS?
-    Position: {x: 2764, y: -1891}
-    Mutation: 'health: +10'
-    ExitPoint: 0
-  - GUID: fe9222bb-a5a1-4e5e-8375-bfc7c073f327
-    DialogueText: DO YOU THINK THAT YOU'RE THAT IMPORTANT FOR TWO BOSSES TO FIGHT
-      OVER YOU? PATHETIC! YOU CAN DIE!
-    Position: {x: 3840, y: -1914}
-    Mutation: 'getEmBoys: enable'
-    ExitPoint: 0
   - GUID: 09427df7-f8fa-4d71-b666-263233e0974a
     DialogueText: Dialogue Node
     Position: {x: 5078, y: -1999}
     Mutation: none
     ExitPoint: 1
-  - GUID: fb26ecd7-32b1-4392-ac99-e76d9e1a2e11
-    DialogueText: Dialogue Node
-    Position: {x: 5663, y: -1803}
-    Mutation: none
-    ExitPoint: 1
-  - GUID: 771f7609-e251-42c8-b4a4-c875421a9eb5
-    DialogueText: Do you think people ask to die when they get into a fight? NO!
-      PERMISSION DOESNT EXIST IN MY DICTIONARY! LET ME SHOW YOU WHAT I MEAN!
-    Position: {x: 4108, y: -1692}
-    Mutation: 'surroundEm: enable'
-    ExitPoint: 0
-  - GUID: 76a92e2a-148b-4bc5-b7da-e70cda7ddf33
-    DialogueText: You say you're weak eh? well lets see your skills. If you are weak
-      then you can die, but if you can survive then you will work for me!
-    Position: {x: 4085, y: -1542}
-    Mutation: 'getEmBoys: enable'
-    ExitPoint: 0
-  - GUID: 41e981e5-54f1-485c-bb08-3b5a34a2c325
-    DialogueText: Haha, at least you know your place. I like you! I've decided! you
-      will now work for me.
-    Position: {x: 2773, y: -1506}
-    Mutation: 'health: -10'
-    ExitPoint: 0
   - GUID: 909eeaf0-c2f7-4337-8bc1-3b55e4f70316
     DialogueText: Dialogue Node
     Position: {x: 5258, y: -1523}
     Mutation: none
     ExitPoint: 1
-  - GUID: e35fbfd9-2cdd-468a-9fda-e8b521113aee
-    DialogueText: Since you're here anyways, you might as well work for me instead.
-    Position: {x: 1814, y: -1723}
-    Mutation: 'steadyAimFire: enable'
-    ExitPoint: 0
-  - GUID: 6e20b74f-8a9d-428c-a204-9896d44ea84c
-    DialogueText: Meaningless...??? A weak little skeleton won't know what type of
-      power gold can give you.
-    Position: {x: 4072, y: -859}
-    Mutation: 'health: +10'
-    ExitPoint: 0
-  - GUID: 205372f0-ee13-4f1c-a82a-99b11c511dda
-    DialogueText: Dialogue Node
-    Position: {x: 4875, y: -856}
-    Mutation: none
-    ExitPoint: 1
-  - GUID: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
-    DialogueText: And what kind of deal would a weak skeleton like you have to offer?
-    Position: {x: 3550, y: -415}
-    Mutation: 'startup: +500'
-    ExitPoint: 0
-  - GUID: d11ef5eb-3b19-49ad-b106-9ba5fe2c953f
-    DialogueText: A challenge! A weak skeleton like you thinks he can be the likes
-      of the Goblin King?
-    Position: {x: 4424, y: -411}
-    Mutation: 'surroundEm: enable'
-    ExitPoint: 0
   - GUID: 5d4bd460-679f-4d82-a91e-2358e0a36e2c
-    DialogueText: Of course.. Let go.
+    DialogueText: Of course. This will be easy.
     Position: {x: 5239, y: -414}
     Mutation: none
     ExitPoint: 0
@@ -563,4 +309,280 @@ MonoBehaviour:
     Position: {x: 5577, y: -413}
     Mutation: none
     ExitPoint: 1
+  - GUID: 4ad2b212-21fb-4b03-848d-9fcac4bdbd1c
+    DialogueText: Secret mines you say? How would you know about something that doesn't
+      exist? <b>*goblins pop up from tunnels with their crossbows pointed at you*</b>
+    Position: {x: 873, y: -3378}
+    Mutation: 'steadyAimFire: enable'
+    ExitPoint: 0
+  - GUID: 6a1cf42c-7f9d-477a-bf2a-1fc4137c8335
+    DialogueText: '*Looks nervously at you with his beady eyes*  Who else knows?'
+    Position: {x: 2127, y: -3364}
+    Mutation: 'pickaxeThrow: enable'
+    ExitPoint: 0
+  - GUID: c6c6c973-0da5-42ec-8a56-8a0934632723
+    DialogueText: Form a temporary blood pact with me and swear on it. <b>*Goblins
+      pop up from other tunnels as if they're ready to charge at you*</b>
+    Position: {x: 3015, y: -3363}
+    Mutation: 'goblinCharge: enable'
+    ExitPoint: 0
+  - GUID: a00d1e03-e61a-4948-bc70-9548e2fcc353
+    DialogueText: '*Forms pact* Do you swear that you will not reveal information
+      to the necromancer if you escape?'
+    Position: {x: 4072, y: -3468}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 0f539c98-d219-48da-86e3-823c4d93c194
+    DialogueText: Surely you are bluffing then. Your bluff will be your undoing,
+      you mere skeleton. <b>*Buff Goblins appear in the room*</b>
+    Position: {x: 3983, y: -3114}
+    Mutation: 'getEmBoys: enable'
+    ExitPoint: 0
+  - GUID: 6cbe4dd9-bfe0-4116-a2bf-35880fe8fe5c
+    DialogueText: <b>*Snaps and buff goblins enter the room*</b> I see you are telling
+      the truth. But surely you know I now must torture you and make you reveal everything.
+    Position: {x: 5018, y: -3465}
+    Mutation: 'getEmBoys: disable'
+    ExitPoint: 0
+  - GUID: b4dafaa6-e936-4cde-84f1-ee6456887408
+    DialogueText: A smart man you are. Surely you've come prepared. I'd let you pass,
+      but I can't make it seem like I didn't at least try to stop you. <b>*Snaps,
+      and the buff goblins exit the room*</b>
+    Position: {x: 6352, y: -3530}
+    Mutation: 'getEmBoys: disable'
+    ExitPoint: 0
+  - GUID: fb26ecd7-32b1-4392-ac99-e76d9e1a2e11
+    DialogueText: Dialogue Node
+    Position: {x: 5663, y: -1803}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: d76a635c-b94f-415b-bbce-a821d9a1fbc4
+    DialogueText: Dialogue Node
+    Position: {x: 7593, y: -3299}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 7a8c8deb-f292-4ad2-8ceb-a5b3bb1a23eb
+    DialogueText: Dialogue Node
+    Position: {x: 7201, y: -175}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 3440710e-8bf6-4470-bdd0-7d7bec79e61d
+    DialogueText: Dialogue Node
+    Position: {x: 7632, y: -3633}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 290cae0c-f385-44c8-bb33-5384c3e1f761
+    DialogueText: '*Smiles viciously*  I''ve caught your bluff,  if I had secret
+      mines I would not be so foolish to reveal the location to others. <b>Goblins,
+      charge at him!</b>'
+    Position: {x: 2099, y: -2660}
+    Mutation: 'goblinCharge: enable'
+    ExitPoint: 0
+  - GUID: e35fbfd9-2cdd-468a-9fda-e8b521113aee
+    DialogueText: Well since you're here anyways, you might as well work for me instead.
+    Position: {x: 1814, y: -1723}
+    Mutation: 'steadyAimFire: enable'
+    ExitPoint: 0
+  - GUID: beaccc72-e5bd-40a4-800a-318490cc672a
+    DialogueText: <b>*Stands up straight*</b> WHAT? DO I LOOK LIKE I CARE ABOUT WHAT
+      HE THINKS?
+    Position: {x: 2764, y: -1891}
+    Mutation: 'health: +10'
+    ExitPoint: 0
+  - GUID: fe9222bb-a5a1-4e5e-8375-bfc7c073f327
+    DialogueText: DO YOU THINK THAT YOU'RE THAT IMPORTANT FOR TWO BOSSES TO FIGHT
+      OVER YOU? PATHETIC! YOU CAN GO DIE. <b>*Buff Goblins enter the room*</b>
+    Position: {x: 3840, y: -1914}
+    Mutation: 'getEmBoys: enable'
+    ExitPoint: 0
+  - GUID: 41e981e5-54f1-485c-bb08-3b5a34a2c325
+    DialogueText: <b>*loosens his shoulders*</b> Haha, at least you know your place.
+      I've grown quite fond of you. I've decided! You will now work for me.
+    Position: {x: 2773, y: -1506}
+    Mutation: 'health: -10'
+    ExitPoint: 0
+  - GUID: 76a92e2a-148b-4bc5-b7da-e70cda7ddf33
+    DialogueText: You say you're weak, eh? Well let's see your skills. If you are
+      weak, then you can die. But if you survive, you will then work for me. <b>Goblins,
+      surround him!</b>
+    Position: {x: 4085, y: -1542}
+    Mutation: 'getEmBoys: enable'
+    ExitPoint: 0
+  - GUID: fbaafd2f-b6a9-4046-bc8d-ebf2460b8fdc
+    DialogueText: What are you doing here? Get back to work before I brew you in
+      a pot of gold!
+    Position: {x: 351, y: -413}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 9851aba0-082d-410e-ad71-a1103220f2b7
+    DialogueText: '*straightens up his posture* Puppet?!?! I am no puppet. We goblins
+      do not serve anyone for free.'
+    Position: {x: 2441, y: 70}
+    Mutation: 'health: +10'
+    ExitPoint: 0
+  - GUID: 6e20b74f-8a9d-428c-a204-9896d44ea84c
+    DialogueText: Meaningless...??? A weak little skeleton won't know what type of
+      power gold can give you. <b>Goblins, Surround him!</b>
+    Position: {x: 4072, y: -859}
+    Mutation: 'health: +10'
+    ExitPoint: 0
+  - GUID: 205372f0-ee13-4f1c-a82a-99b11c511dda
+    DialogueText: Dialogue Node
+    Position: {x: 5048, y: -859}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: 1e135f0a-03b9-4e04-9560-2c2618d18e8b
+    DialogueText: <b>*Loosens his shoulders*</b> And what kind of deal would a weak
+      skeleton like you have to offer?
+    Position: {x: 3550, y: -415}
+    Mutation: 'startup: +500'
+    ExitPoint: 0
+  - GUID: d11ef5eb-3b19-49ad-b106-9ba5fe2c953f
+    DialogueText: A challenge! You make me laugh! A weak skeleton like you thinks
+      he can beat the likes of the Goblin King?
+    Position: {x: 4424, y: -411}
+    Mutation: 'surroundEm: enable'
+    ExitPoint: 0
+  - GUID: e73d2c24-b289-41d8-955b-9da0ae0fd1ca
+    DialogueText: Why would a weak skeleton like you leave your post? Do you not
+      fear the consequences of abandoning your territory? <b>*almost instantaneously,
+      goblins pop up from tunnels around and point their crossbows at you*</b>
+    Position: {x: 942, y: 230}
+    Mutation: 'steadyAimFire: enable'
+    ExitPoint: 0
+  - GUID: 06ad6c22-975b-4bdf-a55a-e8c38c303045
+    DialogueText: And what does a weak skeleton like you have to offer for me?
+    Position: {x: 3938, y: 323}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: 8d8b39d6-67e4-4735-95e7-1c74bd77c224
+    DialogueText: Earn more you say?  I shall listen to your offer. However, if you
+      try to fool me, I will ensure you won't ever be leaving this place. <b>*lots
+      of goblins come and surround you*</b>
+    Position: {x: 4795, y: 71}
+    Mutation: 'health: +10'
+    ExitPoint: 0
+  - GUID: 7bb49ca5-b448-4aaf-8ec5-78539c88da8b
+    DialogueText: A challenge you say? So it seems like you have chosen your death.
+      <b>GET EM BOYS!</b>
+    Position: {x: 4946, y: 329}
+    Mutation: 'health: +10'
+    ExitPoint: 0
+  - GUID: 771f7609-e251-42c8-b4a4-c875421a9eb5
+    DialogueText: Do you think people ask to die when they get into a fight? NO!
+      PERMISSION DOESN'T EXIST IN MY DICTIONARY! LET ME SHOW YOU WHAT I MEAN! <b>GOBLINS,
+      SURROUND HIM!</b>
+    Position: {x: 4108, y: -1692}
+    Mutation: 'surroundEm: enable'
+    ExitPoint: 0
+  - GUID: 63a1c075-1087-47d6-97de-b90e533f8d9d
+    DialogueText: Whoa not one step closer! You're nowhere near your assigned station.
+      It appears you're trying to escape. <b>*Goblins pop up from tunnels with crossbows
+      pointed at you*</b>
+    Position: {x: 876, y: 1580}
+    Mutation: 'steadyAimFire: enable'
+    ExitPoint: 0
+  - GUID: d6c6ba1d-b522-4b48-b577-070ab6b3e41d
+    DialogueText: Well before you leave, come help me and the boys meet our quota
+      for today. Our station is over here.
+    Position: {x: 2120, y: 1468}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: fbdba3f1-25a2-4e34-80a2-ed4670ce36e4
+    DialogueText: WHAT?!? WE GATHER THE RESOURCES TO MAKE ALL THE WEAPONS YOU PUNY
+      HENCHMEN USE! <b>BOYS, SURROUND AND CAPTURE THAT SKELETON!!!</b>
+    Position: {x: 3997, y: 1198}
+    Mutation: 'surroundEm: enable'
+    ExitPoint: 0
+  - GUID: 3e10cf21-8287-428f-9096-0ee2890d2697
+    DialogueText: '*stares nonchalantly* Oh, why didn''t you say so to begin with?
+      Use those tools and it should speed up our production.'
+    Position: {x: 4140, y: 1450}
+    Mutation: 'cooldown: -500'
+    ExitPoint: 0
+  - GUID: c097fe63-b1fa-4d91-8614-2e89becad53a
+    DialogueText: Fine. If you don't want to work, then FIGHT!  <b>GOBLILNS, CHAAAARGE!!</b>
+    Position: {x: 5188, y: 1431}
+    Mutation: 'goblinCharge: enable'
+    ExitPoint: 0
+  - GUID: 9a705e16-814a-4e4a-8616-c3abe4ff54f0
+    DialogueText: <b>*Straightens up with a stern face*</b> Look here, I'm not going
+      to let you pass. Many have tried.  Just give up and be useful around here.
+    Position: {x: 2782, y: 1646}
+    Mutation: 'health: +20'
+    ExitPoint: 0
+  - GUID: a8bc399f-9013-4aae-a6e6-d31ff32831bb
+    DialogueText: Yes... Look I don't have time to explain all this. Hurry up and
+      get to  work.
+    Position: {x: 3838, y: 1630}
+    Mutation: 'health: +20'
+    ExitPoint: 0
+  - GUID: 050039a5-3c64-4adb-b437-83dc17cbea92
+    DialogueText: Oh really? How come I haven't heard about it? What's the errand?
+      *Buff Goblins enter the room*
+    Position: {x: 3074, y: 1358}
+    Mutation: 'getEmBoys: enable'
+    ExitPoint: 0
+  - GUID: 65de62ca-9a51-407b-ab97-4e867a8611d6
+    DialogueText: Actually we don't.  *looks at players weapon*    In fact, with
+      that thing you're holding I'm sure we can get a lot done.
+    Position: {x: 2840, y: 1876}
+    Mutation: 'health: +80'
+    ExitPoint: 0
+  - GUID: 4c504c51-976d-4351-a8ae-a4f48028dfc3
+    DialogueText: That is indeed true... However, knowledge is strength. Let me gauge
+      your power against my minions!
+    Position: {x: 6157, y: 122}
+    Mutation: none
+    ExitPoint: 0
+  - GUID: a5c2ad59-f6fe-4f49-a47a-edc8c9c05ca6
+    DialogueText: Mountains of gold... Quite tempting. However, I cannot let you
+      leave so easily. How about a quick skirmish? Since you appear quite weak I
+      shall take it easy on you.
+    Position: {x: 5860, y: -199}
+    Mutation: 'health: +10'
+    ExitPoint: 0
+  - GUID: e8231505-efb6-4da0-9446-f7974df3fc87
+    DialogueText: You fool... you won't understand. Let me show you the glory of
+      gold.
+    Position: {x: 5315, y: 522}
+    Mutation: 'health: +200'
+    ExitPoint: 0
+  - GUID: 14df70a0-7ac3-4919-8500-8374ba37cbcf
+    DialogueText: You must think you can easily escape. <b>Surround them boys!</b>
+      Let's show this weakling what our proud race is made of!
+    Position: {x: 4914, y: 806}
+    Mutation: 'surroundEm: enable'
+    ExitPoint: 1
+  - GUID: 951efe8c-dbd5-4466-bcf5-535dba125b6f
+    DialogueText: You fool!  When it comes to obtaining gold, we goblins benefit
+      more than everyone. A weakling like you would never understand the value of
+      gold.
+    Position: {x: 4091, y: 576}
+    Mutation: 'goblinCharge: enable'
+    ExitPoint: 0
+  - GUID: a7e2e833-f406-4d3b-97d2-985eb45431ef
+    DialogueText: Disobeying the orders of the necromancer... fearless of you. However,
+      the necromancer pays us goblins a valuable fortune to run his errands. And
+      that is... to kill anyone who leaves their station.
+    Position: {x: 2543, y: 509}
+    Mutation: 'getEmBoys: enable'
+    ExitPoint: 0
+  - GUID: 5335a77d-2e50-4f8b-8ec2-c9942a7f3dbb
+    DialogueText: Dialogue Node
+    Position: {x: 6071, y: 1852}
+    Mutation: none
+    ExitPoint: 1
+  - GUID: af481201-d326-4576-a4a3-dd9309997425
+    DialogueText: Alright, you refusing to help us increase production with your
+      tool, has cost me a lot of profit! GET EM BOYS!!! <b>*Buff Goblins enter the
+      room*</b>
+    Position: {x: 4697, y: 1852}
+    Mutation: 'getEmBoys: enable'
+    ExitPoint: 0
+  - GUID: ded22bca-d2c1-48f9-a931-6dcc1deb86c5
+    DialogueText: Prove it! Show me it can't! <b>Goblins, ready battle positions!</b>
+    Position: {x: 3939, y: 1854}
+    Mutation: 'health: +150'
+    ExitPoint: 0
   ExposedProperties: []
