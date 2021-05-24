@@ -25,7 +25,11 @@ public class SetVolume : MonoBehaviour
        //SoundManagerScript.SetVolValue(0.3f);
        PlayerPrefs.SetFloat("volFloat",sliderValue);
        Debug.Log("PlayerPrefab = " + PlayerPrefs.GetFloat("volFloat"));
-       SoundManagerScript.PlaySound("Crystal");
+       
+       //if(Input.GetMouseButtonUp(0)){
+           SoundManagerScript.PlaySound("Smack");
+       //}
+       
        
        
     }
