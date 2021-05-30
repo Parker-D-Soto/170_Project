@@ -13,6 +13,8 @@ public class GrappleProj : MonoBehaviour
     public float bulletForce = 20f;
     public float hookBulletForce = 20f;
 
+    private GameObject wallDestination;
+
     public GameObject newProjectiles;
     public GameObject bulletSpawn;
     public bool findProjectile;
@@ -39,6 +41,8 @@ public class GrappleProj : MonoBehaviour
         //findProjectile = false;   
         holdobject = false;
         //grappleToSpeed = (1.0f * grappleToSpeed) * Time.deltaTime;
+
+        wallDestination = gameObject;
 
         lPoints.Add(transform);
         lc.SetPoints(lPoints);
@@ -124,7 +128,31 @@ public class GrappleProj : MonoBehaviour
     {
         //Debug.Log("I'm FREEE BABY");
 
+        if (hitInfo.gameObject.tag == "Wall" || hitInfo.gameObject.tag == "grapple") 
+        {
+            //Debug.Log("I'm FREEE BABY");
+            if (player.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
+            {
+                player.GetComponent<Updated_Player_Stats>().Deactivate_Grapple();
+                if(hitInfo.gameObject.tag == "Wall")
+                {
+                    wallDestination = hitInfo.gameObject;
+                }
+            }
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D hitInfo)
+    {
         if (hitInfo.gameObject.tag == "Wall")
+        {
+            wallDestination = gameObject;
+        }
+    }
+
+    /*private void OnCollisionStay2D(Collision2D hitInfo)
+    {
+        if (hitInfo.gameObject.tag == "Wall" || hitInfo.gameObject.tag == "grapple")
         {
             //Debug.Log("I'm FREEE BABY");
             if (player.GetComponent<Updated_Player_Stats>().Check_Grapple_Status())
@@ -132,7 +160,7 @@ public class GrappleProj : MonoBehaviour
                 player.GetComponent<Updated_Player_Stats>().Deactivate_Grapple();
             }
         }
-    }
+    }*/
 
     public bool changeStatus(bool changeStatus)
     {
@@ -149,6 +177,11 @@ public class GrappleProj : MonoBehaviour
 
         }
         return true;
+    }
+
+    public GameObject getWallDestination()
+    {
+        return wallDestination;
     }
 }
 

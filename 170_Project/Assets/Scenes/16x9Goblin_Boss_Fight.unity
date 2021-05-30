@@ -38412,12 +38412,12 @@ PrefabInstance:
     - target: {fileID: 7801039865262587587, guid: 7c9076940b3a70b4a864ee674a680590,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 360
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 7801039865262587587, guid: 7c9076940b3a70b4a864ee674a680590,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 360
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 7801039865262587587, guid: 7c9076940b3a70b4a864ee674a680590,
         type: 3}
@@ -48753,6 +48753,11 @@ PrefabInstance:
         type: 3}
       propertyPath: hookBulletForce
       value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986715814104373243, guid: 4f27ba490e4a4f1459fa6df55e8939d5,
+        type: 3}
+      propertyPath: grappleToSpeed
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 2477615904511623312, guid: 4f27ba490e4a4f1459fa6df55e8939d5,
         type: 3}
