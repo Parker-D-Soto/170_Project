@@ -48,10 +48,14 @@ public class GrappleProjObject : MonoBehaviour
             else if (hitInfo.tag == "Wall")
             {
                 //Destroy(gameObject);
-                Debug.Log("AWAY I GOOOOO");
+                //Debug.Log("AWAY I GOOOOO");
                 grapHook.grappleToObject = hitInfo.gameObject;
-                grapHook.player.GetComponent<Updated_Player_Stats>().Activate_Grapple();
-                grapHook.direction = (gameObject.transform.position - grapHook.player.transform.position).normalized;
+                if(grapHook.grappleToObject != grapHook.getWallDestination())
+                {
+                    grapHook.player.GetComponent<Updated_Player_Stats>().Activate_Grapple();
+                    grapHook.direction = (gameObject.transform.position - grapHook.player.transform.position).normalized;
+                }
+                
                 Destroy(gameObject);
             }
         }

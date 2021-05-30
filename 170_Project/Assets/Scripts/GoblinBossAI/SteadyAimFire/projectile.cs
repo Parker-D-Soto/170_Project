@@ -6,9 +6,13 @@ public class projectile : MonoBehaviour
 {
     // Start is called before the first frame update
     public float speed;
+    public float time = 5;
 
     private Transform player;
     private Vector2 target;
+    private Vector2 current;
+    private Vector2 direction;
+    //private bool destroy;
 
     void Start()
     {
@@ -16,7 +20,12 @@ public class projectile : MonoBehaviour
         {
             player = GameObject.FindGameObjectWithTag("Player").transform;
 
-            target = new Vector2(player.position.x, player.position.y);
+            target = player.position;
+            current = transform.position;
+            direction = (target - current);
+
+            var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
         }
 
     }
@@ -26,9 +35,11 @@ public class projectile : MonoBehaviour
     {
         if(target != null)
         {
-            transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+            current = transform.position;
 
-            if (transform.position.x == target.x && transform.position.y == target.y)
+            transform.position = current + (direction * speed * Time.deltaTime);
+            time = time - Time.deltaTime;
+            if(time < 0)
             {
                 DestroyProjectile();
             }
