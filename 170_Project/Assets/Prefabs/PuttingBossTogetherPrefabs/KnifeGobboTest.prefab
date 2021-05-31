@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8360676015912863732}
   - component: {fileID: 7486829431018761257}
   - component: {fileID: -6694724016578635633}
+  - component: {fileID: 3290964899890114653}
   m_Layer: 0
   m_Name: KnifeGobboTest
   m_TagString: EnemyTag
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 8524592497140671621, guid: 85258da11c86ab54785b0e229f312dfb,
     type: 3}
-  m_Color: {r: 0.16464934, g: 0.9433962, b: 0.27987137, a: 1}
+  m_Color: {r: 0.16470589, g: 0.94509804, b: 0.2784314, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -147,6 +148,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 100
   damage: 1
+  digTime: 1
+  anim: {fileID: 3290964899890114653}
 --- !u!114 &-6694724016578635633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,3 +163,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+--- !u!95 &3290964899890114653
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360676015912863739}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1e124f50338e48c4ba86e0c8fc8e11df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
