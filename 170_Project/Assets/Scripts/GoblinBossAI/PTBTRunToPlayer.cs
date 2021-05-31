@@ -12,9 +12,17 @@ public class PTBTRunToPlayer : MonoBehaviour
     private Vector2 runDirection;                           //direction goblins run in
     public float runSpeed;                                  //speed goblins run at
     public int damage = 1;
+    public float digTime = 1;
+
+    public Animator anim;
     // Start is called before the first frame update
+    private void Awake()
+    {
+        anim.SetBool("Digging", true);
+    }
     void Start()
     {
+        
         //Find player's position
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         goblin = gameObject;
@@ -29,20 +37,27 @@ public class PTBTRunToPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        digTime -= Time.deltaTime;
+        if(digTime < 0)
+        {
+            anim.SetBool("Digging", false);
+            //visible.color = new Color(42, 241, 71);
+            Move();
+            if (tf.position.y >= 310)
+            {
+                visible.color = Color.clear;
+            }
+            else if (tf.position.x <= -85)
+            {
+                visible.color = Color.clear;
+            }
+            else if (tf.position.x >= 1000)
+            {
+                visible.color = Color.clear;
+            }
+        }
         //for movement
-        Move();
-        if (tf.position.y >= 310)
-        {
-            visible.color = Color.clear;
-        }
-        else if (tf.position.x <= -85)
-        {
-            visible.color = Color.clear;
-        }
-        else if (tf.position.x >= 1000)
-        {
-            visible.color = Color.clear;
-        }
+        
 
         //hurt player if in contact
         /*Collider2D[] body = Physics2D.OverlapBoxAll(goblin.GetComponent<Transform>().position, goblin.GetComponent<BoxCollider2D>().size,0);
