@@ -14,15 +14,23 @@ public class BossDialogueParser : MonoBehaviour
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private Button currentButton;
     [SerializeField] private Transform buttonContainer;
+    public TextMeshProUGUI showingEffects;
+    public RectTransform showPanel;
     //[SerializeField] private TextMeshProUGUI effectTest;
     //[SerializeField] private TextMeshProUGUI bossStats;
     //[SerializeField] private TextMeshProUGUI bossAttacks;
     public GameObject Boss;
     public BossHealthBar BossHealthBar;
+
+
     //public GameObject UI;
 
     private ProgressSaverMaster saver;
-
+    private bool changesMade;
+    private bool peacefulChange;
+    private RectTransform effects_start;
+    private Vector3 effect_trans;
+    private float changedPosition;
     Regex rxName = new Regex(@"^\b((?<name>\w+))\b", RegexOptions.IgnoreCase);
     Regex rxQuantity = new Regex(@"(?<quantity>(-|\+)\d*)\s*$", RegexOptions.IgnoreCase);
     Regex rxEnabled = new Regex(@"(?<enabled>(dis|en)(able))\s*$", RegexOptions.IgnoreCase);
@@ -31,6 +39,9 @@ public class BossDialogueParser : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        changedPosition = 0;
+        effects_start = showingEffects.rectTransform;
+        effect_trans = showingEffects.rectTransform.localPosition;
         saver = GameObject.FindGameObjectWithTag("Saver").GetComponent<ProgressSaverMaster>();
         if (saver.startWithDialogue)
         {
@@ -48,9 +59,39 @@ public class BossDialogueParser : MonoBehaviour
             Boss.GetComponent<Updated_Boss_Stats>().speed = saver.goblinSpeed;
             GoToNextScene();
         }
+
         
     }
-
+    void Update()
+    {
+        if (changesMade)
+        {
+            if (peacefulChange)
+            {
+                if(showingEffects.color != Color.green)
+                {
+                    showingEffects.color = Color.green;
+                }
+                effect_trans.y += 50 * Time.deltaTime;
+            }
+            else
+            {
+                if (showingEffects.color != Color.red)
+                {
+                    showingEffects.color = Color.red;
+                }
+                effect_trans.y -= 50 * Time.deltaTime;
+            }
+            
+            if(Mathf.Abs(effect_trans.y) > 75)
+            {
+                showingEffects.color = Color.clear;
+                effect_trans.y = 0;
+                changesMade = false;
+            }
+            showingEffects.rectTransform.localPosition = effect_trans;
+        }
+    }
     private void ProceedToNarrative(string narrativeDataGUID)
     {
         if (dialogue.DialogueNodeData.Find(x => x.GUID == narrativeDataGUID).ExitPoint)
@@ -133,20 +174,86 @@ public class BossDialogueParser : MonoBehaviour
             {
                 case "health":
                     Boss.GetComponent<Updated_Boss_Stats>().Modify_Health(number);
+                    if(number > 0)
+                    {
+                        showingEffects.color = Color.red;
+                        showingEffects.text = "Health Increased";
+                        peacefulChange = false;
+                    }
+                    else
+                    {
+                        showingEffects.color = Color.green;
+                        showingEffects.text = "Health Decreased";
+                        peacefulChange = true;
+                    }
+                    changesMade = true;
                     break;
                 case "cooldown":
                     Boss.GetComponent<Updated_Boss_Stats>().Modify_Cooldown(number);
+                    if (number < 0)
+                    {
+                        showingEffects.color = Color.red;
+                        showingEffects.text = "Cooldown Shortened";
+                        peacefulChange = false;
+                    }
+                    else
+                    {
+                        showingEffects.color = Color.green;
+                        showingEffects.text = "Cooldown Lengthened";
+                        peacefulChange = true;
+                    }
+                    changesMade = true;
                     break;
                 case "startup":
                     Boss.GetComponent<Updated_Boss_Stats>().Modify_Startup(number);
+                    if (number < 0)
+                    {
+                        showingEffects.color = Color.red;
+                        showingEffects.text = "Startup Shortened";
+                        peacefulChange = false;
+                    }
+                    else
+                    {
+                        showingEffects.color = Color.green;
+                        showingEffects.text = "Startup Lengthened";
+                        peacefulChange = true;
+                    }
+                    changesMade = true;
                     break;
                 case "speed":
                     Boss.GetComponent<Updated_Boss_Stats>().Modify_Speed(number);
+                    if (number > 0)
+                    {
+                        showingEffects.color = Color.red;
+                        showingEffects.text = "Speed Increased";
+                        peacefulChange = false;
+                    }
+                    else
+                    {
+                        showingEffects.color = Color.green;
+                        showingEffects.text = "Speed Decreased";
+                        peacefulChange = true;
+                    }
+                    changesMade = true;
                     break;
                 case "none":
+                    changesMade = false;
                     break;
                 default:
                     Boss.GetComponent<Updated_Boss_Stats>().SearchAttacks(category, isEnabled);
+                    if (isEnabled)
+                    {
+                        showingEffects.color = Color.red;
+                        showingEffects.text = category + " enabled";
+                        peacefulChange = false;
+                    }
+                    else
+                    {
+                        showingEffects.color = Color.green;
+                        showingEffects.text = category + " disabled";
+                        peacefulChange = true;
+                    }
+                    changesMade = true;
                     break;
             }
         }
