@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class SoundManagerScript : MonoBehaviour
 {
-    public static AudioClip DialogueBG, FightBG, CrystalSound, SmackSound;
+    public static AudioClip DialogueBG, FightBG, CrystalSound, SmackSound, MenuBG;
     public static AudioSource audioSrc;
     //public AudioMixer mixer;
     //public float vol;
@@ -16,16 +16,20 @@ public class SoundManagerScript : MonoBehaviour
     void Start()
     {
         //loading sounds from sound folder
-        FightBG = Resources.Load<AudioClip> ("oldversion-beat6");
-        DialogueBG = Resources.Load<AudioClip> ("beat3");
+        FightBG = Resources.Load<AudioClip> ("Fight Scene");
+        DialogueBG = Resources.Load<AudioClip> ("Dialogue Scene");
         CrystalSound = Resources.Load<AudioClip>("crystalFinishGrowth");
         SmackSound = Resources.Load<AudioClip>("bossSmack");
+        MenuBG = Resources.Load<AudioClip>("Menu Scene");
         
         
         audioSrc = GetComponent<AudioSource> ();
+        audioSrc.loop = true;
         //mixer.GetFloat("MusicVol", out value);
 
         //slider.value = PlayerPrefs.GetFloat("volFloat");
+
+        
     }
 
     // Update is called once per frame
@@ -46,17 +50,33 @@ public class SoundManagerScript : MonoBehaviour
     public static void PlaySound (string clip){
         switch(clip){
             case "Fight":
-                //audioSrc.AudioClip("oldverison-beat6");
-                audioSrc.PlayOneShot(FightBG);
+                //audioSrc.PlayOneShot(FightBG);
+                if(audioSrc.clip != null){
+                    audioSrc.Stop(); //stop previous audio clip from playing so only one clip plays at a time
+                }
+                audioSrc.clip = FightBG;
+                audioSrc.Play();
                 break;
             case "Dialogue":
-                audioSrc.PlayOneShot(DialogueBG);
+                //audioSrc.PlayOneShot(DialogueBG);
+                if(audioSrc.clip != null){
+                    audioSrc.Stop(); //stop previous audio clip from playing so only one clip plays at a time
+                }
+                audioSrc.clip = DialogueBG;
+                audioSrc.Play();
                 break;
             case "Crystal":
                 audioSrc.PlayOneShot(CrystalSound);
                 break;
             case "Smack":
                 audioSrc.PlayOneShot(SmackSound);
+                break;
+            case "Menu":
+                if(audioSrc.clip != null){
+                    audioSrc.Stop(); //stop previous audio clip from playing so only one clip plays at a time
+                }
+                audioSrc.clip = MenuBG;
+                audioSrc.Play();
                 break;
         }
     }
@@ -68,6 +88,9 @@ public class SoundManagerScript : MonoBehaviour
                 audioSrc.Stop();
                 break;
             case "Dialogue":
+                audioSrc.Stop();
+                break;
+            case "Menu":
                 audioSrc.Stop();
                 break;
         } 

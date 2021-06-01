@@ -5,9 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+  void Start(){
+    //SoundManagerScript.PlaySound("Menu");
+    
+
+
+  }
+
   public void PlayGame()
     {
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //SoundManagerScript.StopSound("Menu");
         SceneManager.LoadScene("IntroTextScene");
     }
 

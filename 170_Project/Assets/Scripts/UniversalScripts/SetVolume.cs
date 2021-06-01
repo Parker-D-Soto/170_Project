@@ -11,7 +11,7 @@ public class SetVolume : MonoBehaviour
 
     void Start()
     {
-        
+        //SoundManagerScript.PlaySound("Menu");
         slider.value = PlayerPrefs.GetFloat("volFloat");
     }
 
@@ -27,7 +27,7 @@ public class SetVolume : MonoBehaviour
        Debug.Log("PlayerPrefab = " + PlayerPrefs.GetFloat("volFloat"));
        
        //if(Input.GetMouseButtonUp(0)){
-           SoundManagerScript.PlaySound("Smack");
+           //SoundManagerScript.PlaySound("Smack");
        //}
        
        
