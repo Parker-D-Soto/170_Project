@@ -8,6 +8,7 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
     public GameObject volumeMenuUI;
+    bool inSetting = false;
 
     private ProgressSaverMaster saver;
 
@@ -20,12 +21,17 @@ public class PauseMenu : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape)) {
-            if(GameIsPaused) {
-                Resume();
-            } else {
-                Pause();
+            if(inSetting){
+                Back();
+            }else{
+                if(GameIsPaused) {
+                    Resume();
+                } else {
+                    Pause();
+                }
             }
         }
+
     }
 
     public void Resume() {
@@ -53,15 +59,17 @@ public class PauseMenu : MonoBehaviour
 
     public void Settings() {
         pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        GameIsPaused = true;
         volumeMenuUI.SetActive(true);
+        inSetting = true;
+        Time.timeScale = 0f;
+        GameIsPaused = true;
     }
 
     public void Back(){
         volumeMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        GameIsPaused = true;
         pauseMenuUI.SetActive(true);
+        inSetting = false;
+        Time.timeScale = 0f;
+        GameIsPaused = true;
     }
 }
