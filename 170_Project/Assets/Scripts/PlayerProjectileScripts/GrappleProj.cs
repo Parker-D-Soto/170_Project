@@ -85,6 +85,7 @@ public class GrappleProj : MonoBehaviour
     public void DetectObject()
     {
         firing = true;
+        SoundManagerScript.PlaySound("Shoot");
         //Debug.Log(grapple.name +"current object");
         bulletSpawn = Instantiate(grapple, firePoint.position, firePoint.rotation);
         lPoints.Add(bulletSpawn.transform);
