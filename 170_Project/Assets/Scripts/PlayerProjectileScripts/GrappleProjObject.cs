@@ -27,6 +27,7 @@ public class GrappleProjObject : MonoBehaviour
                 //Debug.Log("Collide Getting Called");
 
                 grapHook.firing = false;
+                SoundManagerScript.PlaySound("Grab");
                 Destroy(gameObject);
                 grapHook.holdobject = true;
                 // Debug.Log(hitInfo.name);

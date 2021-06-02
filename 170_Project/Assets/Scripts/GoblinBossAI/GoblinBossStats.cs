@@ -16,6 +16,11 @@ public class GoblinBossStats : Updated_Boss_Stats
         }
     }
 
+    private void makeNoise(string clip)
+    {
+        SoundManagerScript.PlaySound(clip);
+    }
+
     //Behavior Tree Board Checking Tasks Start
     //Check if specific attack is enabled
     [Task]
@@ -34,6 +39,7 @@ public class GoblinBossStats : Updated_Boss_Stats
     [Task]
     public void PickaxeThrow()
     {
+        makeNoise("BossThrow");
         gameObject.GetComponent<PTBTGoblinPickaxeThrow>().ThrowPickaxe();
         Task.current.Succeed();
     }
