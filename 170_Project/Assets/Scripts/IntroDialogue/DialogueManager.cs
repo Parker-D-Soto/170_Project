@@ -11,21 +11,23 @@ public class DialogueManager : MonoBehaviour
     public Text dialogueText;
     public Animator animator;
     public Button contButton;
-    private GameObject start;
+    //private GameObject start;
     public List<GameObject> scenes;
-    private bool typing = false;
+    public Dialogue dialogue;
+    private bool typing;
     private Queue<string> sentences;
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
-        start = GameObject.FindGameObjectWithTag("boss");
+        StartDialogue(dialogue);
+        //start = GameObject.FindGameObjectWithTag("boss");
     }
 
     public void StartDialogue (Dialogue dialogue) {
-        start.GetComponent<Button>().interactable = false;
-        start.GetComponent<Image>().color = Color.clear;
-        start.GetComponentInChildren<TextMeshProUGUI>().color = Color.clear;
+        //start.GetComponent<Button>().interactable = false;
+        //start.GetComponent<Image>().color = Color.clear;
+        //start.GetComponentInChildren<TextMeshProUGUI>().color = Color.clear;
         animator.SetBool("isOpen", true);
         Debug.Log("Starting Conversation with " + dialogue.name);
         nameText.text = dialogue.name;
@@ -34,19 +36,11 @@ public class DialogueManager : MonoBehaviour
         foreach (string sentence in dialogue.sentences) {
             sentences.Enqueue(sentence);
         }
-
         DisplayNextSentence();
     }
 
     public void DisplayNextSentence () {
-        if (typing)
-        {
-            contButton.interactable = false;
-        }
-        else
-        {
-            contButton.interactable = true;
-        }
+        contButton.interactable = false;
         if(sentences.Count == 0) {
             EndDialogue();
             return;
@@ -99,12 +93,15 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeSentence (string sentence) {
         typing = true;
+        int length = sentence.Length;
+        int count = 0;
         dialogueText.text = "";
         foreach (char letter in sentence.ToCharArray()) {
+            count++;
             dialogueText.text += letter;
             yield return null;
-            typing = false;
         }
+        contButton.interactable = true;
     }
     void EndDialogue() {
         Debug.Log("End Of Introduction");
