@@ -46,7 +46,7 @@ public class SoundManagerScript : MonoBehaviour
         }*/
         
         SetVolValue(PlayerPrefs.GetFloat("volFloat"));
-        Debug.Log("PlayerPrefab = " + PlayerPrefs.GetFloat("volFloat"));
+        //Debug.Log("PlayerPrefab = " + PlayerPrefs.GetFloat("volFloat"));
 
     }
 
@@ -110,7 +110,7 @@ public class SoundManagerScript : MonoBehaviour
 
     public static void SetVolValue(float sliderValue){
         audioSrc.volume = sliderValue; //0-1 value
-        Debug.Log("volume changed to: " + sliderValue);
+        //Debug.Log("volume changed to: " + sliderValue);
     }
 
 }

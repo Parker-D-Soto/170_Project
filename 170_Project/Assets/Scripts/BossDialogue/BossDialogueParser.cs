@@ -28,20 +28,20 @@ public class BossDialogueParser : MonoBehaviour
     private ProgressSaverMaster saver;
     private bool changesMade;
     private bool peacefulChange;
-    private RectTransform effects_start;
+    private float effects_start;
     private Vector3 effect_trans;
     private float changedPosition;
     Regex rxName = new Regex(@"^\b((?<name>\w+))\b", RegexOptions.IgnoreCase);
     Regex rxQuantity = new Regex(@"(?<quantity>(-|\+)\d*)\s*$", RegexOptions.IgnoreCase);
     Regex rxEnabled = new Regex(@"(?<enabled>(dis|en)(able))\s*$", RegexOptions.IgnoreCase);
-
+    
 
     // Start is called before the first frame update
     void Start()
     {
         changedPosition = 0;
-        effects_start = showingEffects.rectTransform;
-        effect_trans = showingEffects.rectTransform.localPosition;
+        effects_start = showingEffects.rectTransform.position.y;
+        effect_trans = showingEffects.rectTransform.position;
         saver = GameObject.FindGameObjectWithTag("Saver").GetComponent<ProgressSaverMaster>();
         if (saver.startWithDialogue)
         {
@@ -72,7 +72,7 @@ public class BossDialogueParser : MonoBehaviour
                 {
                     showingEffects.color = Color.green;
                 }
-                effect_trans.y += 50 * Time.deltaTime;
+                effect_trans.y += 30 * Time.deltaTime;
             }
             else
             {
@@ -80,16 +80,21 @@ public class BossDialogueParser : MonoBehaviour
                 {
                     showingEffects.color = Color.red;
                 }
-                effect_trans.y -= 50 * Time.deltaTime;
+                effect_trans.y -= 30 * Time.deltaTime;
             }
-            
-            if(Mathf.Abs(effect_trans.y) > 75)
-            {
-                showingEffects.color = Color.clear;
-                effect_trans.y = 0;
-                changesMade = false;
-            }
-            showingEffects.rectTransform.localPosition = effect_trans;
+            showingEffects.rectTransform.position = effect_trans;
+        }
+        else
+        {
+            showingEffects.color = Color.clear;
+            effect_trans.y = effects_start;
+        }
+
+        if (Mathf.Abs(effect_trans.y-effects_start) > 40)
+        {
+            showingEffects.color = Color.clear;
+            effect_trans.y = effects_start;
+            changesMade = false;
         }
     }
     private void ProceedToNarrative(string narrativeDataGUID)
@@ -169,7 +174,8 @@ public class BossDialogueParser : MonoBehaviour
                 }
 
             }
-
+            Debug.Log(mutation);
+            Debug.Log(category);
             switch (category)
             {
                 case "health":
@@ -241,16 +247,81 @@ public class BossDialogueParser : MonoBehaviour
                     break;
                 default:
                     Boss.GetComponent<Updated_Boss_Stats>().SearchAttacks(category, isEnabled);
+                    Debug.Log(isEnabled);
                     if (isEnabled)
                     {
+                        peacefulChange = false;
                         showingEffects.color = Color.red;
-                        showingEffects.text = category + " enabled";
+                        switch (category)
+                        {
+                            case "steadyAimFire":
+                                changesMade = true;
+                                showingEffects.text = "Steady, Aim, FIRE!";
+                                showingEffects.color = Color.red;
+                                Debug.Log(showingEffects.text);
+                                Debug.Log(showingEffects.color);
+                                break;
+                            case "getEmBoys":
+                                changesMade = true;
+                                showingEffects.text = "Get 'em Boys!";
+                                showingEffects.color = Color.red;
+                                break;
+                            case "surroundEm":
+                                changesMade = true;
+                                showingEffects.text = "Surround 'Em!";
+                                showingEffects.color = Color.red;
+                                break;
+                            case "goblinCharge":
+                                changesMade = true;
+                                showingEffects.text = "CHARGE!";
+                                showingEffects.color = Color.red;
+                                break;
+                            case "pickaxeThrow":
+                                changesMade = true;
+                                showingEffects.text = "Have a Pickaxe!";
+                                showingEffects.color = Color.red;
+                                break;
+                            default:
+                                changesMade = false;
+                                showingEffects.text = category;
+                                showingEffects.color = Color.black;
+                                break;
+                        }
+
                         peacefulChange = false;
                     }
                     else
                     {
+                        peacefulChange = true;
                         showingEffects.color = Color.green;
-                        showingEffects.text = category + " disabled";
+                        switch (category)
+                        {
+                            case "steadyAimFire":
+                                changesMade = true;
+                                showingEffects.text = "Steady, Aim, FIRE!";
+                                break;
+                            case "getEmBoys":
+                                changesMade = true;
+                                showingEffects.text = "Get 'em Boys!";
+                                break;
+                            case "surroundEm":
+                                changesMade = true;
+                                showingEffects.text = "Surround 'Em!";
+                                break;
+                            case "goblinCharge":
+                                changesMade = true;
+                                showingEffects.text = "CHARGE!";
+                                break;
+                            case "pickaxeThrow":
+                                changesMade = true;
+                                showingEffects.text = "Have a Pickaxe!";
+                                break;
+                            default:
+                                changesMade = false;
+                                showingEffects.text = category;
+                                showingEffects.color = Color.black;
+                                break;
+                        }
                         peacefulChange = true;
                     }
                     changesMade = true;
