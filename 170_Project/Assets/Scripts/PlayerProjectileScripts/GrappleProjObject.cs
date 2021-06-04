@@ -21,7 +21,7 @@ public class GrappleProjObject : MonoBehaviour
     {
         if (grapHook.gameObject.GetComponent<Updated_Player_Stats>().checkAlive())
         {
-            Debug.Log("Trigger : " + hitInfo.tag);
+            //Debug.Log("Trigger : " + hitInfo.tag);
             if (hitInfo.tag == "grapple")
             {
                 //Debug.Log("Collide Getting Called");
@@ -70,7 +70,7 @@ public class GrappleProjObject : MonoBehaviour
             //Debug.Log("Player Hook died");
             grapHook.firing = false;
 
-            Debug.Log(gameObject.name);
+            //Debug.Log(gameObject.name);
             grapHook.lPoints.Remove(transform);
             grapHook.lc.SetPoints(grapHook.lPoints);
         }

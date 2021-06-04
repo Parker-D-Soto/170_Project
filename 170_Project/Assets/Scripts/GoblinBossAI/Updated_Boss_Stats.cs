@@ -46,6 +46,8 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     protected bool inDialogue = true;
 
+    private bool waiting = false;
+
     public Dictionary<string, bool> attacks = new Dictionary<string, bool>(StringComparer.OrdinalIgnoreCase) {
         //{"melee", true},
         {"pickaxeThrow", true},
@@ -54,6 +56,8 @@ public class Updated_Boss_Stats : MonoBehaviour
         {"surroundEm", false },
         {"getEmBoys", false }
     };
+
+    public Dictionary<string, bool> phases;
 
     private List<string> starterAttacks = new List<string>();
 
@@ -70,13 +74,14 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     void Awake()
     {
+        phases = new Dictionary<string, bool>(attacks);
         soundEffects = SoundEffects.GetComponents<AudioSource>();
         hitSound = soundEffects[0];
         deathSound = soundEffects[1];
 
         sprite = GetComponent<SpriteRenderer>();
 
-        foreach(KeyValuePair<string, bool> allAttacks in attacks)
+        foreach(KeyValuePair<string, bool> allAttacks in phases)
         {
             if (allAttacks.Value)
             {
@@ -147,7 +152,12 @@ public class Updated_Boss_Stats : MonoBehaviour
 
     public void Die()
     {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("EnemyTag");
         deathSound.Play();
+        foreach (GameObject enemy in enemies)
+        {
+            Destroy(enemy);
+        }
         Destroy(gameObject);
     }
 
@@ -181,7 +191,7 @@ public class Updated_Boss_Stats : MonoBehaviour
                 if (health <= waveActivationThresholds[0])
                 {
                     //Debug.Log("Wave Threshold Met");
-                    attacks[waveAttacks[0]] = true;
+                    phases[waveAttacks[0]] = true;
                     waveActivationThresholds.RemoveAt(0);
                     waveAttacks.RemoveAt(0);
                 }
@@ -198,11 +208,20 @@ public class Updated_Boss_Stats : MonoBehaviour
     public void Toggle_Dialogue_Status()
     {
         inDialogue = !inDialogue;
+        if (!inDialogue)
+        {
+            waiting = true;
+        }
     }
+
 
     public void SetUpWaves()
     {
-        foreach(KeyValuePair<string, bool> potentialAttack in attacks)
+        foreach (KeyValuePair<string,bool> item in attacks)
+        {
+            phases[item.Key] = item.Value;
+        }
+        foreach(KeyValuePair<string, bool> potentialAttack in phases)
         {
             if (advancedAttacks.Contains(potentialAttack.Key))
             {
@@ -216,14 +235,15 @@ public class Updated_Boss_Stats : MonoBehaviour
 
         foreach(string turnOffAttack in waveAttacks)
         {
-            attacks[turnOffAttack] = false;
+            phases[turnOffAttack] = false;
+            //Debug.Log("Turned off: " + turnOffAttack);
         }
 
         //Debug.Log("waveAttacks count" + waveAttacks.Count);
 
         int healthDivider = health / (waveAttacks.Count + 1);
 
-        //Debug.Log("Health Divider" + healthDivider);
+        //Debug.Log("Health Divider: " + healthDivider);
 
         //Debug.Log("Boss Health" + health);
 
@@ -342,6 +362,25 @@ public class Updated_Boss_Stats : MonoBehaviour
         {
             Task.current.Succeed();
         }
+    }
+
+    [Task]
+    public void CheckWaitingStatus()
+    {
+        if (waiting)
+        {
+            Task.current.Succeed();
+        }
+        else
+        {
+            Task.current.Fail();
+        }
+    }
+
+    [Task]
+    public void ToggleWaitingStatus()
+    {
+        waiting = !waiting;
     }
 
     //Checks to see if the boss is Alive

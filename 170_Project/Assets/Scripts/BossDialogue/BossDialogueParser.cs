@@ -52,12 +52,21 @@ public class BossDialogueParser : MonoBehaviour
         else
         {
             SoundManagerScript.PlaySound("Dialogue");
-            Boss.GetComponent<Updated_Boss_Stats>().attacks = saver.goblinAttacks; 
+            foreach (var attack in saver.goblinAttacks)
+            {
+                Debug.Log("Saver: " + attack.Key + ", " + attack.Value);
+            }
+            Boss.GetComponent<Updated_Boss_Stats>().attacks = saver.goblinAttacks;
+            foreach (var attack in Boss.GetComponent<Updated_Boss_Stats>().attacks)
+            {
+                Debug.Log("attacks: " + attack.Key + ", " + attack.Value);
+            }
             Boss.GetComponent<Updated_Boss_Stats>().health = saver.goblinStartHealth;
             Boss.GetComponent<Updated_Boss_Stats>().cooldown = saver.goblinCooldown;
             Boss.GetComponent<Updated_Boss_Stats>().startup = saver.goblinStartup;
             Boss.GetComponent<Updated_Boss_Stats>().speed = saver.goblinSpeed;
-            GoToNextScene();
+            Debug.Log("Restart");
+            GoToNextScene(false);
         }
 
         
@@ -102,7 +111,7 @@ public class BossDialogueParser : MonoBehaviour
         if (dialogue.DialogueNodeData.Find(x => x.GUID == narrativeDataGUID).ExitPoint)
         {
             //go to next scene
-            GoToNextScene();
+            GoToNextScene(true);
         }
         var text = dialogue.DialogueNodeData.Find(x => x.GUID == narrativeDataGUID).DialogueText;
         var choices = dialogue.NodeLinks.Where(x => x.BaseNodeGuid == narrativeDataGUID);
@@ -174,8 +183,8 @@ public class BossDialogueParser : MonoBehaviour
                 }
 
             }
-            Debug.Log(mutation);
-            Debug.Log(category);
+            //Debug.Log(mutation);
+            //Debug.Log(category);
             switch (category)
             {
                 case "health":
@@ -247,7 +256,7 @@ public class BossDialogueParser : MonoBehaviour
                     break;
                 default:
                     Boss.GetComponent<Updated_Boss_Stats>().SearchAttacks(category, isEnabled);
-                    Debug.Log(isEnabled);
+                    //Debug.Log(isEnabled);
                     if (isEnabled)
                     {
                         peacefulChange = false;
@@ -258,8 +267,8 @@ public class BossDialogueParser : MonoBehaviour
                                 changesMade = true;
                                 showingEffects.text = "Steady, Aim, FIRE!";
                                 showingEffects.color = Color.red;
-                                Debug.Log(showingEffects.text);
-                                Debug.Log(showingEffects.color);
+                                //Debug.Log(showingEffects.text);
+                                //Debug.Log(showingEffects.color);
                                 break;
                             case "getEmBoys":
                                 changesMade = true;
@@ -331,14 +340,18 @@ public class BossDialogueParser : MonoBehaviour
     }
 
 
-    private void GoToNextScene()
+    private void GoToNextScene(bool saveStats)
     {
         //Debug.Log("GOBLIN BOSS HEALTH IS " + Boss.GetComponent<Updated_Boss_Stats>().health);
         if (saver.startWithDialogue)
         {
-            saver.SaveStats();
+            saver.SaveStats(saveStats);
         }
         //saver.SaveStats();
+        foreach (var attack in Boss.GetComponent<Updated_Boss_Stats>().attacks)
+        {
+            Debug.Log(attack.Key + ": " + attack.Value);
+        }
         GameObject.FindGameObjectWithTag("Player").GetComponent<Updated_Player_Stats>().Toggle_Dialogue_Status();
         Boss.GetComponent<Updated_Boss_Stats>().Toggle_Dialogue_Status();
         Boss.GetComponent<Updated_Boss_Stats>().SetUpWaves();

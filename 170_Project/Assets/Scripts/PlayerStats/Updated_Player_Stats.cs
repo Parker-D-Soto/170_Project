@@ -24,6 +24,7 @@ public class Updated_Player_Stats : MonoBehaviour
 
     public AudioSource hitSound;
     public AudioSource deathSound;
+    public GameObject Boss;
     private AudioSource[] soundEffects;
 
     //Variables for damgage state
@@ -51,12 +52,13 @@ public class Updated_Player_Stats : MonoBehaviour
     {
         if (alive && health <= 0)
         {
-            Debug.Log("What comes first");
+            //Debug.Log("What comes first");
             alive = false;
             deathSound.Play();
             gP.lPoints.Remove(transform);
             lc.SetPoints(gP.lPoints);
             gameOverCanvas.SetActive(true);
+            Boss.GetComponent<Updated_Boss_Stats>().Toggle_Dialogue_Status();
             Destroy(gameObject);
         }
 

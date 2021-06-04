@@ -43,7 +43,7 @@ public class PTBTChargeGobboSpawn : MonoBehaviour
     //dies with one shot if hit by player
     void OnTriggerEnter2D(Collider2D collider){
         if(collider.gameObject.tag == "Player"){
-            Debug.Log("die from one hit");
+            //Debug.Log("die from one hit");
             Object.Destroy(this.gameObject);
         }
     

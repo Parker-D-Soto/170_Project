@@ -22,16 +22,16 @@ public class MainMenu : MonoBehaviour
 
   public void QuitGame()
     {
-        Debug.Log("You have Quit the Game!");
+        //Debug.Log("You have Quit the Game!");
         Application.Quit();
     }
 
   public void Sound() {
-    Debug.Log("moving to sound settings");
+    //Debug.Log("moving to sound settings");
     SceneManager.LoadScene("volume-control");
   }
 
   public void Menu() {
-    SceneManager.LoadScene("Main Menu");
+    //SceneManager.LoadScene("Main Menu");
   }
 }

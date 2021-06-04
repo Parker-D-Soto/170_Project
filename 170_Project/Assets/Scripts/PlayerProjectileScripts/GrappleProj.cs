@@ -57,7 +57,7 @@ public class GrappleProj : MonoBehaviour
                 //Debug.Log("ready");
                 if (Input.GetButtonDown("Fire1"))
                 {
-                    Debug.Log("you are clicking me");
+                    //Debug.Log("you are clicking me");
                     DetectObject();
 
                 }
