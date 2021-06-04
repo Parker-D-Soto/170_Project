@@ -49255,6 +49255,11 @@ PrefabInstance:
       propertyPath: gameOverCanvas
       value: 
       objectReference: {fileID: 259146683}
+    - target: {fileID: 4595148120600646203, guid: 4f27ba490e4a4f1459fa6df55e8939d5,
+        type: 3}
+      propertyPath: Boss
+      value: 
+      objectReference: {fileID: 1830936717}
     - target: {fileID: 5629674241769625993, guid: 4f27ba490e4a4f1459fa6df55e8939d5,
         type: 3}
       propertyPath: cam
