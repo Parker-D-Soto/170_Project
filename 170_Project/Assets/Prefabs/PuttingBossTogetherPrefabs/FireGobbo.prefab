@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -5365872393467003148}
   m_Layer: 0
   m_Name: FireGobbo
-  m_TagString: Untagged
+  m_TagString: EnemyTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
