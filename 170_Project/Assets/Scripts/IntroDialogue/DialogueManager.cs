@@ -29,7 +29,7 @@ public class DialogueManager : MonoBehaviour
         //start.GetComponent<Image>().color = Color.clear;
         //start.GetComponentInChildren<TextMeshProUGUI>().color = Color.clear;
         animator.SetBool("isOpen", true);
-        Debug.Log("Starting Conversation with " + dialogue.name);
+        //Debug.Log("Starting Conversation with " + dialogue.name);
         nameText.text = dialogue.name;
         sentences.Clear();
 
@@ -88,7 +88,7 @@ public class DialogueManager : MonoBehaviour
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
-        Debug.Log(sentence);
+        //Debug.Log(sentence);
     }
 
     IEnumerator TypeSentence (string sentence) {
@@ -104,7 +104,7 @@ public class DialogueManager : MonoBehaviour
         contButton.interactable = true;
     }
     void EndDialogue() {
-        Debug.Log("End Of Introduction");
+        //Debug.Log("End Of Introduction");
         animator.SetBool("isOpen", false);
         SceneManager.LoadScene(1);
 

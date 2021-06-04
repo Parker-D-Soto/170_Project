@@ -1,14 +1,19 @@
 tree("Root")
 	while IsAlive
 		while CheckDialogueStatus
-			while IsCooldownOver
-				random
-					//tree("Melee")
-					tree("SteadyAimFire")
-					tree("GetEmBoys")
-					tree("SurroundEm")
-					tree("PickaxeThrow")
-					tree("GoblinCharge")
+			fallback
+				while CheckWaitingStatus
+					sequence
+						Wait 3.0
+						ToggleWaitingStatus
+				while IsCooldownOver
+					random
+						//tree("Melee")
+						tree("SteadyAimFire")
+						tree("GetEmBoys")
+						tree("SurroundEm")
+						tree("PickaxeThrow")
+						tree("GoblinCharge")
 
 tree("SurroundEm")
 	sequence

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -35,21 +36,39 @@ public class ProgressSaverMaster : MonoBehaviour
     private void Start()
     {
         bossSaves = GameObject.FindGameObjectWithTag("boss").GetComponent<GoblinBossStats>();
-        goblinAttacks = bossSaves.attacks;
         goblinStartHealth = bossSaves.health;
         goblinCooldown = bossSaves.cooldown;
         goblinStartup = bossSaves.startup;
         goblinSpeed = bossSaves.speed;
     }
 
-    public void SaveStats()
+    public void SaveStats(bool saving)
     {
         //Debug.Log("SAVING SAVING SAVING");
         startWithDialogue = false;
-        goblinAttacks = bossSaves.attacks;
-        goblinStartHealth = bossSaves.health;
-        goblinCooldown = bossSaves.cooldown;
-        goblinStartup = bossSaves.startup;
-        goblinSpeed = bossSaves.speed;
+        if (saving)
+        {
+            Debug.Log("Saving");
+            /*foreach (KeyValuePair<string, bool> attack in bossSaves.attacks)
+            {
+                string attackName = attack.Key;
+                bool enabled;
+                if (attack.Value)
+                {
+                    enabled = true;
+                }
+                else
+                {
+                    enabled = false;
+                }
+                goblinAttacks.Add(attackName, enabled);
+            }*/
+            goblinAttacks = new Dictionary<string, bool>(bossSaves.attacks);
+            goblinStartHealth = bossSaves.health;
+            goblinCooldown = bossSaves.cooldown;
+            goblinStartup = bossSaves.startup;
+            goblinSpeed = bossSaves.speed;
+        }
+        
     }
 }

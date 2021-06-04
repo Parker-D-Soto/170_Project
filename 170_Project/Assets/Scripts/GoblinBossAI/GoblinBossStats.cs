@@ -6,14 +6,16 @@ using UnityEngine.UI;
 using Panda;
 public class GoblinBossStats : Updated_Boss_Stats
 {
-
     //Attack Enable/Disable Function
     public override void SearchAttacks(string potentialAttack, bool isEnabled)
     {
+        //Debug.Log("Potential Attack: " + potentialAttack + ", isEnabled: " + isEnabled);
         if (attacks.ContainsKey(potentialAttack))
         {
             attacks[potentialAttack] = isEnabled;
+            phases[potentialAttack] = isEnabled;
         }
+        //Debug.Log("Potential Attack: " + potentialAttack + ", isEnabled: " + attacks[potentialAttack]);
     }
 
     private void makeNoise(string clip)
@@ -26,7 +28,8 @@ public class GoblinBossStats : Updated_Boss_Stats
     [Task]
     public void CheckAttacks(string checkedAttack)
     {
-        if (attacks[checkedAttack] == true)
+        //Debug.Log("Attack: " + checkedAttack + ", Enabled: " + attacks[checkedAttack]);
+        if (phases[checkedAttack] == true)
         {
             Task.current.Succeed();
         }

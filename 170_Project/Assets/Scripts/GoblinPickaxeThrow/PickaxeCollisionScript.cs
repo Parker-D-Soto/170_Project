@@ -29,7 +29,7 @@ public class PickaxeCollisionScript : MonoBehaviour
     {
         if (hitInfo.gameObject.name.Equals("Player"))
         {
-            Debug.Log("The player has been hit");
+            //Debug.Log("The player has been hit");
             Destroy(gameObject);
         }
     }

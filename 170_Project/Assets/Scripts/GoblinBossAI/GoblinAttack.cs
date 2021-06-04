@@ -52,7 +52,7 @@ public class GoblinAttack : MonoBehaviour
                 }
                 if (Time.time > lastTimeAttack + attackTimeDelay)
                 {
-                    Debug.Log("Attempted Damage");
+                    //Debug.Log("Attempted Damage");
                     target.GetComponent<Updated_Player_Stats>().gotHit(damage);
                     lastTimeAttack = Time.time;
                     Attacking = false;

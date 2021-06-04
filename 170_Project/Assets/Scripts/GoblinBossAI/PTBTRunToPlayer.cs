@@ -31,7 +31,7 @@ public class PTBTRunToPlayer : MonoBehaviour
 
         //Find direction to run in
         runDirection = new Vector2(target.position.x - goblin.GetComponent<Transform>().position.x, target.position.y - goblin.GetComponent<Transform>().position.y).normalized;
-        Debug.Log(goblin.GetComponent<BoxCollider2D>().size);
+        //Debug.Log(goblin.GetComponent<BoxCollider2D>().size);
     }
 
     // Update is called once per frame

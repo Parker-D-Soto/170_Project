@@ -14,7 +14,7 @@ public class BossDamage : MonoBehaviour
         if (hitInfo.tag == "clone")
         {
             gameObject.GetComponent<Updated_Boss_Stats>().Modify_Health(-1*damage);
-            Debug.Log("boss takes damage");
+            //Debug.Log("boss takes damage");
             Destroy(hitInfo.gameObject);
         }
     }

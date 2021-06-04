@@ -25,7 +25,7 @@ public class ingameVolControl : MonoBehaviour
 
     public void SetgameLevel(float sliderValue){
         PlayerPrefs.SetFloat("volFloat",sliderValue);
-        Debug.Log("PlayerPrefab = " + PlayerPrefs.GetFloat("volFloat"));
+        //Debug.Log("PlayerPrefab = " + PlayerPrefs.GetFloat("volFloat"));
     }
 
     /*public static void SetVolValue(float sliderValue){
