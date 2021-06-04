@@ -41,7 +41,7 @@ public class PTBTEnemy_Charge : MonoBehaviour
     {
         Move();
 
-        if (tf.position.y >= 310)
+        if (tf.position.y >= 315)
         {
             visible.color = Color.clear;
         }
