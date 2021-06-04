@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroTextScene.unity
     guid: 2de14decc5f04e140b300a26e1cc1aab
+  - enabled: 1
+    path: Assets/Scenes/volume-control.unity
+    guid: 0be3d665f0de91045b35a019c336eb19
   m_configObjects: {}
