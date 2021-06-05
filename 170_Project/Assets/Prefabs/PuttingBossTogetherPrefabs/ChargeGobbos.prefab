@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7855484180759994483}
   - component: {fileID: 7855484180759994494}
   - component: {fileID: 2790305228742779680}
+  - component: {fileID: 8078452093480155081}
   m_Layer: 0
   m_Name: ChargeGobbos
   m_TagString: EnemyTag
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 8524592497140671621, guid: 85258da11c86ab54785b0e229f312dfb,
     type: 3}
-  m_Color: {r: 0, g: 0.15447235, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -98,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   runSpeed: 280
+  anim: {fileID: 8078452093480155081}
 --- !u!61 &2790305228742779680
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -124,3 +126,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 70.28044, y: 65.697685}
   m_EdgeRadius: 0
+--- !u!95 &8078452093480155081
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7855484180759994495}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 92c958ce7dfbd0a4ca10fd08305c646e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
