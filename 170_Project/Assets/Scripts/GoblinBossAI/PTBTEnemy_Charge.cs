@@ -13,6 +13,8 @@ public class PTBTEnemy_Charge : MonoBehaviour
     public float runSpeed;
     private Vector3 runDirection;
 
+    public Animator anim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class PTBTEnemy_Charge : MonoBehaviour
         visible = GetComponent<SpriteRenderer>();
         if(tf.position.y < 300)
         {
+            anim.SetBool("Side", true);
             if (tf.position.x < 0)
             {
                 runDirection = new Vector3(1, 0, 0) * runSpeed * Time.deltaTime;
@@ -27,6 +30,9 @@ public class PTBTEnemy_Charge : MonoBehaviour
             else
             {
                 runDirection = new Vector3(-1, 0, 0) * runSpeed * Time.deltaTime;
+                Vector3 theScale = transform.localScale;
+                theScale.x *= -1;
+                transform.localScale = theScale;
             }
         }
         else

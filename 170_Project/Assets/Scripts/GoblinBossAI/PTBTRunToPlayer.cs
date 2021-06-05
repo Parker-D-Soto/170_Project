@@ -31,6 +31,31 @@ public class PTBTRunToPlayer : MonoBehaviour
 
         //Find direction to run in
         runDirection = new Vector2(target.position.x - goblin.GetComponent<Transform>().position.x, target.position.y - goblin.GetComponent<Transform>().position.y).normalized;
+
+        Vector2 directionHelp = new Vector2(target.position.x - goblin.GetComponent<Transform>().position.x, target.position.y - goblin.GetComponent<Transform>().position.y);
+
+        if(Mathf.Abs(directionHelp.x) > Mathf.Abs(directionHelp.y))
+        {
+            anim.SetBool("Side", true);
+            if(directionHelp.x < 0)
+            {
+                Vector3 theScale = transform.localScale;
+                theScale.x *= -1;
+                transform.localScale = theScale;
+            }
+        }
+        else
+        {
+            if(directionHelp.y < 0)
+            {
+                anim.SetBool("Down", true);
+            }
+            else
+            {
+                anim.SetBool("Up", true);
+            }
+        }
+
         Debug.Log(goblin.GetComponent<BoxCollider2D>().size);
     }
 
