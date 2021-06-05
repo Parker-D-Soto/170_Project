@@ -58,27 +58,14 @@ public class PTBTChargeGobboSpawn : MonoBehaviour
     //WILL PROBABLY CHANGE THIS WHEN NEW SPRITES ARE IN
     private void Spawnner()
     {
+        foreach (GameObject eye in eyeLocations)
+        {
+            Destroy(eye);
+        }
+
         foreach (Vector3 point in positions)
         {
-            foreach (GameObject eye in eyeLocations)
-            {
-                Destroy(eye);
-            }
-
-            if(point.y >= 303)
-            {
-                Instantiate(fireSquad, point, Quaternion.identity);
-                
-            }
-            else if(point.x < 0)
-            {
-                Instantiate(fireSquad, point, Quaternion.AngleAxis(90, new Vector3(0, 0, 1)));
-            }
-            else
-            {
-                Instantiate(fireSquad, point, Quaternion.AngleAxis(90, new Vector3(0, 0, 1)));
-            }
-            
+            Instantiate(fireSquad, point, Quaternion.identity);
         }
         
     }
