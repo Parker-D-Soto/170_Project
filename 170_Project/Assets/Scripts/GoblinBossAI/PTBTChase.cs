@@ -9,6 +9,7 @@ public class PTBTChase : MonoBehaviour
     //Speed of goblin
     public float speed;
     public GoblinAttack dmg;
+    public Animator anim;
 
     //Actual vector locations of Skelly and the Goblin
     private Vector2 skelly_loc;
@@ -31,13 +32,44 @@ public class PTBTChase : MonoBehaviour
     {
         if (!dmg.Attacking)
         {
+            anim.SetBool("Up", false);
+            anim.SetBool("Left", false);
+            anim.SetBool("Down", false);
+            anim.SetBool("Right", false);
             float goblin_move = speed * Time.deltaTime;
+
 
             //moving goblin towards player
             transform.position = Vector2.MoveTowards(transform.position, skelly_loc, goblin_move);
             if (GameObject.FindGameObjectWithTag("Player") != null)
             {
                 skelly_loc = GameObject.FindGameObjectWithTag("Player").transform.position;
+            }
+
+            Vector2 directionHelp = new Vector2(skelly_loc.x - transform.position.x, skelly_loc.y - transform.position.y);
+
+            if (Mathf.Abs(directionHelp.x) > Mathf.Abs(directionHelp.y))
+            {
+                anim.SetBool("Side", true);
+                if (directionHelp.x < 0)
+                {
+                    anim.SetBool("Left", true);
+                }
+                else
+                {
+                    anim.SetBool("Right", true);
+                }
+            }
+            else
+            {
+                if (directionHelp.y < 0)
+                {
+                    anim.SetBool("Down", true);
+                }
+                else
+                {
+                    anim.SetBool("Up", true);
+                }
             }
         }
         

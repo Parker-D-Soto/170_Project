@@ -143,6 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 106
   dmg: {fileID: 8325574984326348418}
+  anim: {fileID: 8267585290360425125}
 --- !u!114 &9085514689618142274
 MonoBehaviour:
   m_ObjectHideFlags: 0
