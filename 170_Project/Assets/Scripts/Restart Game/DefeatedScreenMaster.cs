@@ -24,4 +24,10 @@ public class DefeatedScreenMaster : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void RestartConvo()
+    {
+        Destroy(saver.gameObject);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
